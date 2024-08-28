@@ -38,7 +38,7 @@ print("'Secretos' cargados correctamente")
 # Modelo
 ################################
 
-model_name = "GPT-4o"
+model_name = "gpt-4o"
 
 model = ChatOpenAI(
     openai_api_key=OPENAI_API_KEY,
