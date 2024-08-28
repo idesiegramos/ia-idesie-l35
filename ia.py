@@ -1,7 +1,6 @@
 import streamlit as st
 import time
 import re
-import os
 import openai
 
 from openai import OpenAI
@@ -29,9 +28,8 @@ YOUTUBE_VIDEO_URL = "https://www.youtube.com/watch?v=dgZaIk3iFhc" # Clase MEP de
 # Secretos
 ################################
 
-load_dotenv()
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-PINECONE_API_KEY = os.getenv('PINECONE_API_KEY')
+OPENAI_API_KEY = st.secrets.api_openai
+PINECONE_API_KEY = st.secrets.api_pinecone
 print("'Secretos' cargados correctamente")
 
 
@@ -40,7 +38,7 @@ print("'Secretos' cargados correctamente")
 # Modelo
 ################################
 
-model_name = "gpt-3.5-turbo"
+model_name = "GPT-4o"
 
 model = ChatOpenAI(
     openai_api_key=OPENAI_API_KEY,
