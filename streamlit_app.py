@@ -12,7 +12,6 @@ import pytube
 # Secretos
 ################################
 
-load_dotenv()
 OPENAI_API_KEY = st.secrets.api_openai
 PINECONE_API_KEY = st.secrets.api_pinecone
 print("'Secretos' cargados correctamente")
