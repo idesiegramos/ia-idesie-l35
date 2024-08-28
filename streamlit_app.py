@@ -24,7 +24,7 @@ print("'Secretos' cargados correctamente")
 YOUTUBE_VIDEO_URL = "https://www.youtube.com/watch?v=dgZaIk3iFhc" # Clase MEP de IDESIE
 # YOUTUBE_VIDEO_URL = "https://www.youtube.com/watch?v=ROax8vdhuEQ"
 
-LOGO_URL_LARGE = "/img/logo.png"
+LOGO_URL_LARGE = "img/logo.png"
 
 
 
