@@ -2,7 +2,7 @@ import streamlit as st
 # import pandas as pd
 # import math
 # from pathlib import Path
-import tiktoken
+# import tiktoken
 import openai
 import pytube
 import re
