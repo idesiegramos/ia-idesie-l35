@@ -2,7 +2,7 @@ import streamlit as st
 
 
 
-st.image("OIP.png")
+st.image("img/OIP.png")
 
 st.title("IDE-IA")
 st.write("Bienvenido a la Inteligencia Artificial de IDESIE")
