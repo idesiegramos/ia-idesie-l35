@@ -174,23 +174,23 @@ option = st.selectbox(
 
 
 # Inicializar el historial de chat
-if "messages" not in st.session_state:
-    st.session_state.messages = []
+#if "messages" not in st.session_state:
+#    st.session_state.messages = []
 
 # Mostrar los mensajes de chat del histórico al recargar la aplicación
-for message in st.session_state.messages:
-    with st.chat_message(message["role"]):
-        st.markdown(message["content"])
+#for message in st.session_state.messages:
+#    with st.chat_message(message["role"]):
+#        st.markdown(message["content"])
 
 # Reaccionar a los mensajes del usuario
-if prompt := st.chat_input("Escribe tu pregunta"):
+#if prompt := st.chat_input("Escribe tu pregunta"):
     
     # Añadir el mensaje al histórico de chat
-    st.session_state.messages.append({"role": "user", "content": prompt})
+#    st.session_state.messages.append({"role": "user", "content": prompt})
     
     # Mostrar el mensaje del usuario en el contenedor del chat
-    with st.chat_message("user"):
-        st.markdown(prompt)
+#    with st.chat_message("user"):
+#        st.markdown(prompt)
 
 
 # Mostrar la respuesta del asistente en el contenedor de chat
