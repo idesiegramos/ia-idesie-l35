@@ -46,11 +46,12 @@ client = OpenAI(api_key=OPENAI_API_KEY,)
 
 model = client.chat.completions.create(
     model=model_name,
-    temperature=0,
-    max_tokens=1000,
-    #top_p=1,
-    #frequency_penalty=0,
-    #presence_penalty=0.6
+    messages=[
+        {
+            "role": "user",
+            "content": "Dile al usuario que haga preguntas sobre el máster BIM de IDESIE",
+        }
+    ],
 )
 print(f"Modelo '{model_name}' cargado correctamente")
 
