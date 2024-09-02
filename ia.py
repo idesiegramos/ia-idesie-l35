@@ -121,6 +121,10 @@ with open("./transcripts/transcription_y.txt", "w", encoding="utf-8") as file:
 
 
 ########################################################################
+########################################################################
+# A partir de aquí se diseña la página web
+########################################################################
+########################################################################
 
 # Título y descripción
 
@@ -150,12 +154,13 @@ option = st.selectbox(
 
 
 
-################
+################################
 # Pruebas sacadas de https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps#build-a-bot-that-mirrors-your-input
+#
 
 # Ventana de texto
-with st.chat_message("assistant"):
-    st.write("¡Hola!")
+#with st.chat_message("assistant"):
+#    st.write("¡Hola!")
 
 #prompt = st.chat_input("Escribe tu pregunta sobre el máster BIM de IDESIE")
 
@@ -169,7 +174,7 @@ for message in st.session_state.messages:
         st.markdown(message["content"])
 
 # Reaccionar a los mensajes del usuario
-if prompt := st.chat_input(""):
+if prompt := st.chat_input(f"Escribe tu pregunta. {OPENAI_API_KEY}"):
     # Mostrar el mensaje del usuario en el contenedor del chat
     with st.chat_message("user"):
         st.markdown(prompt)
@@ -177,7 +182,13 @@ if prompt := st.chat_input(""):
     st.session_state.messages.append({"role": "user", "content": prompt})
 
 
-###############
+####
+client = OpenAI(api_key=OPENAI_API_KEY)
+
+
+#
+#
+###############################
 
 
 
