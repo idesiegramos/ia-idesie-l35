@@ -11,9 +11,9 @@ from tiktoken import encoding_for_model
 #from langchain_openai.chat_models import ChatOpenAI
 from pytube import YouTube
 from youtube_transcript_api import YouTubeTranscriptApi
-from langchain_openai.embeddings import OpenAIEmbeddings
-from langchain_community.vectorstores import DocArrayInMemorySearch
-from langchain_core.runnables import RunnableParallel, RunnablePassthrough
+#from langchain_openai.embeddings import OpenAIEmbeddings
+#from langchain_community.vectorstores import DocArrayInMemorySearch
+#from langchain_core.runnables import RunnableParallel, RunnablePassthrough
 # from pinecone import Pinecone, ServerlessSpec
 
 
