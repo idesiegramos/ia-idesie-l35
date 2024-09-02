@@ -152,8 +152,8 @@ with st.status("Loading video..."):
 
 ################
 
-#with st.chat_message("user"):
-#    st.write("Hola")
+with st.chat_message("user"):
+    st.write("Hola")
 
 # Inicializar el historial de chat
 if "messages" not in st.session_state:
@@ -165,7 +165,7 @@ for message in st.session_state.messages:
         st.markdown(message["content"])
 
 # Reaccionar a los mensajes del usuario
-if prompt := st.chat_input(""):
+#if prompt := st.chat_input(""):
 
 
 ###############
