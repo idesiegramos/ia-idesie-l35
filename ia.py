@@ -42,11 +42,12 @@ print("'Secretos' cargados correctamente")
 
 model_name = "gpt-4o"
 
-model = openai.ChatCompletion.create(
-    openai_api_key=OPENAI_API_KEY,
+client = OpenAI(api_key=OPENAI_API_KEY,)
+
+model = client.chat.completions.create(
     model=model_name,
     temperature=0,
-    max_tokens=1000
+    max_tokens=1000,
     #top_p=1,
     #frequency_penalty=0,
     #presence_penalty=0.6
