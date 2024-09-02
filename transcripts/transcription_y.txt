@@ -1,0 +1,5395 @@
+la
+[Música]
+primera
+fenomenal quién falta nos faltan todavía
+no do 5 dos
+[Música]
+faltan habis tenido con Jorge clase no Y
+qué tal
+[Música]
+bien Cuántos me dijisteis que controlaba
+o tenéis alguna idea de
+revit yo tengo idea pero idea idea o
+mucha
+idea o sea os pongo a hacer un proyecto
+capaces o
+no fenomenal y de También muy bien
+fenomenal Buenas qué tal una cosita
+chicos podéis meter a la videollamada
+porque si no es que se cancela la
+grabación
+[Música]
+en el calendario tenéis elink
+al O sea que al menos uno tiene que
+estar
+metido Vale pues si alguno de vosotros
+podéis conectaros Vale y lo dejáis
+durante la
+clase
+gracias a ver creo que tengo que admitir
+ahora
+alegre gracias Bueno yo la asignatura
+que os voy a impartir como bien sabéis
+es la de ritm y la idea un poco es que
+seáis unos expertos en el tema de de
+modelado vale en la parte de me Yo Soy
+ingeniero industrial mi especialidad
+estoy más especializado en la parte de
+instalaciones
+y Y bueno pues en intentaré de alguna
+forma los que no tenéis tantos
+conocimientos en instalaciones intentar
+explicaros a medida que vayamos
+avanzando en el curso los diferentes
+sistemas y las diferentes disciplinas
+para que no se no consista esto Solo en
+un modelado sino que entendáis qué es lo
+que estáis modelando vale porque a la
+postre cuando trabajéis en proyectos
+tenéis que saber un poco qué es lo que
+estáis haciendo vale
+eh ahora mismo ya trabajamos mucho con
+mucho más que antes con con revit Y por
+supuesto tenemos que preparar cierta
+documentación es decir ya nos exigen ya
+no solo hacer modelos bim sino nos
+exigen ya preparar documentación para
+entregas vale entrega cliente entrega a
+los diferentes proveedores entregas para
+licitación y esto nos exige que la
+documentación que preparemos tiene que
+estar eh bastante bastante detallada Por
+qué digo detallada porque a la hora de
+preparar planos como habréis visto
+algunos que manej ya revit pues cuando
+yo genero una vista Yo sé que tengo
+todos los componentes que necesito para
+mi edificio pero a la hora de exportar o
+de presentar planos 2D la representación
+No es la misma es decir yo tengo que
+identificar dentro del plan de la vista
+2D tengo que ser capaz de identificar
+los diferentes elementos con los que
+estoy trabajando por poneros es un
+ejemplo yo puedo tener una compuerta de
+regulación de un sistema de
+climatización que si no le pongo una
+leyenda que diga que eso es una
+compuerta en los planos no lo voy a ver
+vale porque yo cuando entregué planos en
+wlg el cliente no tiene posibilidad como
+en revid de seleccionarlo y saber qué
+información es la que trae Vale entonces
+al final Tendremos que acostumbrarnos
+que todos los componentes que vayamos
+desarrollando dentro de la de la
+disciplina de instalaciones tenemos que
+generarle un símbolo o tenemos que ver
+cómo vamos a representar ese elemento en
+dos dim iones por eso a lo mejor en 3D
+lo tenemos perfectamente identificado
+pero a lo mejor en 2D no tiene nada que
+ver a lo mejor es un símbolo en lugar de
+un objeto Vale entonces tenemos que ser
+capaces en cada una de las disciplinas
+irlo
+haciendo diferencias entre lo que antes
+hacíamos y lo que se hace ahora
+abismales o sea ahora mismo estamos
+colaborando con un proyecto con un
+estudio de arquitectura y la ingeniería
+que está trabajando con nosotros pues
+ellos han desarrollado un proyecto muy
+completo pero a la hora de trasladar ese
+ese proyecto que está en Cat trasladarlo
+a revit Pues la verdad es que la
+diferencia es abismal Y por supuesto el
+trabajo que que requiere o sea cuando
+afront proyectos de estos os vais a dar
+cuenta que no consiste solo en modelar
+una tubería sino que además esa tubería
+la tienes que coordinar con otras
+disciplinas Entonces ya no es lo mismo y
+además antes en en Cat Vale cualquier
+cosa yo pongo una línea la conecto aquí
+y luego ya que llegue el instalador y
+que resuelva ahora ya no ahora es decir
+ahora tengo que dar hacer un modelo que
+sea constructivo Y si una conexión a una
+bajante tiene que ser así tiene que ser
+así no puede ser de cualquier forma Vale
+entonces vamos a intentar manejar un
+poco poco a poco la disciplina para que
+cuando termine mi parte de asignatura
+Pues tengáis un manejo importante vale
+eh vamos a ir viendo un poco lo que es
+la interfaz de revit vale la que es la
+parte de instalaciones ya Jorge os ha
+explicado el tema de que con para
+trabajar con revit requerimos una
+plantilla vale para los que no tenéis
+mucho manejo requerimos siempre
+plantillas de trabajo Es decir las
+plantillas lo que hacen Al fin y al cabo
+es ahorrarnos tiempo en lugar de estar
+configurando las cosas 200 veces la
+configuramos una vez y esa configuración
+nos sirve para otros proyectos en
+instalaciones pasa lo mismo es decir
+instalaciones Quizá lo que necesitamos
+antes de empezar a modelar es primero
+tener muy claro que es lo que queremos
+hacer y segundo tener todo bien
+configurado eso nos lo trae por ejemplo
+la plantilla una plantilla que esté bien
+hecha Pues nos va a traer todo mucho muy
+para que nosotros prácticamente con poco
+empecemos a modelar pero si no tenemos
+nada tenemos que crear los elementos que
+vamos a modelar si estamos hablando de
+tuberías Tendremos que crear nuestros
+tipos de tuberías si estamos hablando de
+conductos nuestros tipos de conductos y
+además en los proyectos hay diferentes
+tipos de conductos diferentes tipos de
+tuberías lo cual Antes tenemos que crear
+todos los componentes de que vamos a
+utilizar mi consejo es que cuando vayáis
+a modelar tengáis todo antes bien
+definido y bien preparado Porque si yo
+estoy modelando y de repente digo es que
+es que me falta ahora una válvula Ah es
+que me falta una compuerta pues es
+volver parar generar esa compuerta
+Buscar la compuerta y volver a modelar
+Entonces es mucho más eficiente y más
+rápido es decir vamos a ver cuántos
+componentes tengo en mi en mi proyecto
+voy a identificar todos esos componentes
+voy a generar o crear esas familias o
+voy a descargar esas familias de mis
+proveedores y cuando ya tenga todo
+organizado me pongo a modelar porque eso
+ya es mucho más rápido Vale entonces
+tenéis todos revit 2024 vale Pues bueno
+Pues abrimos por ejemplo yo voy a abrir
+un un proyecto nuevo con una plantilla
+que venga por defecto de revit voy a
+ plantilla Bueno sabéis un poco el
+tema de las plantillas plantilla de
+sistemas revita las instalaciones lo
+llama sistemas Vale entonces sistemas es
+como la plantilla más completa tenemos
+plantilla eléctrica tenemos plantilla de
+fontanería mecánica referido más a temas
+de de de climatización
+y poco más vale Pero al final Al fin y
+al cabo estas plantillas vienen por
+defecto de revit y nosotros ya iremos
+creando poco a poco nuestras plantillas
+cogemos la de sistema que es la digamos
+la más completa
+vale vamos a crear un nuevo proyecto Si
+fuéramos a crear una plantilla que nos
+va a servir para otros proyectos le
+daríamos a plantilla pero vamos a
+proyecto Y si queremos como os hab ha
+dicho Jorge ya una plantilla
+nuestra Pues daríamos a examinar y
+buscamos en aquel en aquel archivo
+carpeta que tengamos dentro de nuestro
+ordenador o en el servidor con el que
+trabajemos
+donde accederemos a la plantilla
+que vamos a utilizar para ese proyecto
+vale damos a aceptar y listo Yo voy a
+ser un poco repetitivo en muchas cosas
+porque lo que quiero es que los que no
+tengáis tanto tanto manejo que vayáis
+cogiendo los conceptos vale porque los
+que ya trabajéis con revit hay cosas que
+Ya las tenéis por sabidas Pero los que
+no esta primera parte suele costar un
+poquito vale revit tenemos en la parte
+de instalaciones la pestaña con la que
+trabajamos
+principalmente la que nos aporta las
+herramientas de modelado es la de
+sistemas vale pero es cierto que luego
+trabajamos con otras pestañas anotar es
+para temas de etiquetas cotas todo lo
+que tiene que ver con elementos de
+modelo 2D vale que van a salir en la que
+vamos a tener identificados en las
+vistas 2D analizar va a ser una una de
+las pestañas que vamos a utilizar sobre
+todo cuando creemos espacios la parte de
+espacios es muy importante la parte de
+instalaciones vale
+espacios me sirve para identificar
+vosotros sabéis que en revit trabajamos
+con elementos de referencia es decir
+nuestros nuestros componentes o
+elementos de modelo están referenciados
+a algo están referenciados a niveles
+están referenciados a rejillas o están
+referenciados a planos de referencia
+vale
+Pero a pesar de que estén referenciados
+a un nivel A lo mejor dentro de esa
+planta me interesa referenciarlo a un
+espacio concreto Entonces si yo tengo un
+edificio de 5000 m cu por planta y a mí
+a lo mejor no es suficiente que decirme
+Es que este extintor está en la planta
+primera A lo mejor Necesito saber que
+está en la planta primera en el despacho
+de contabilidad entonces para eso
+utilizamos los espacios son una especie
+de volúmenes que generamos dentro del
+modelo esos volúmenes están asociados a
+las habitaciones es decir una vez que
+hemos creado las habitaciones a partir
+de las habitaciones que tenemos del
+modelo podemos crear los espacios
+asociándolo el mismo nombre que esas
+habitaciones y ese espacio pues como
+tiene volumen pues al final todos los
+elementos o componentes que estén en ese
+volumen que nosotros hemos definido
+estarán identificados en ese espacio
+Entonces de esa forma cuando yo quiera
+saber Oye dónde está esta máquina pues
+está en la planta primera en el espacio
+tal Entonces ya lo tengo de una forma
+mucho más identificado vale Y cuando
+trabajemos con bases de datos que eso
+será mucho más adelante pues toda esta
+información que vamos generando en revit
+tenemos que exportarla en otros sistemas
+Entonces al final para identificar bien
+esos datos tenemos que facilitarles ese
+camino Vale entonces si yo exporto un
+extintor pero no lo estoy diciendo al
+sistema De dónde viene ese extintor pues
+no tiene mucho sentido no porque para
+eso me cojo un Excel y listo todos los
+extintores que tengo un edificio y con
+eso me sirve pero a mí me interesa saber
+porque quiero saber cuántos Y dónde
+están Y si esos dónde están todos los
+que están están revisados no están
+revisados Qué problemas tienen queé
+problemas no tienen entonces es una
+forma de de tener identificado cada uno
+de los componentes que hay en el modelo
+vale eh dentro de analizar tenemos más
+herramientas tenemos herramientas de
+análisis de de energéticos tenemos
+herramientas de para para darles
+ubicación Bueno hay una serie de de
+tenemos una pestaña que es relativamente
+nueva que es la análisis eléctrico
+revit Calcula ciertas disciplinas vale
+utiliza la norma de asra que es la norma
+americana pero aquí en España trabajamos
+con el código técnico trabajamos con el
+rite y no tenemos revid adaptado a las
+condiciones que exige la Norma española
+entonces podemos calcular cargas
+térmicas Sí pero tendríamos que revisar
+si cumple o no cumple con los las normas
+y reglamentos que tenemos aquí como
+pasaría en cualquiera de los países en
+los que estáis Entonces al final sirve
+para calcular sí me puede hacer una
+estimación de cargas Interesante pero no
+va a ser un cálculo fiable adaptado a la
+normativa local vale a nivel de de
+fontanería lo que es hidráulica sí que
+te Calcula también vale o sea te aplica
+una serie de de fórmulas que son las que
+veréis más adelante
+que pueden ser más o menos fiables vale
+lo que a día de hoy hacen las
+ingenierías siguen calculando método
+tradicional y modelan lo ideal sería que
+este tipo de herramientas te calcular al
+mismo tiempo que vas diseñando es decir
+si yo soy capaz y entiendo de
+instalaciones y me pongo a diseñar lo
+ideal sería que me fuera calculando lo
+que yo voy diseñando sería lo lo óptimo
+vale Pero a día de hoy revit va un poco
+a lo mejor dirigido a ese cálculo pero
+yo creo nos ha dedicado todavía la
+suficiente inversión para que para que
+ese potencial que tiene revit se pueda
+desarrollar o se pueda utilizar por
+todas las ingenierías vale
+eh otra de las pestañas que utilizaremos
+es la de colaborar colaborar es la parte
+donde vamos a trabajar con modelos
+centrales no sé si os ha hablado Jorge
+de lo que es un modelo central me
+imagino que todavía no O a lo mejor sí
+pero para trabajar en colaborativo
+Tendremos que trabajar con modelos
+centrales y esta pestaña es la que me
+permite crear modelos centrales Y a
+partir de esos modelos centrales
+trabajar también con subproyectos que es
+otra de las herramientas que aporta
+revit que son muy interesantes vale eh
+habéis oído Jorge ahora explicado lo que
+Pues un poco Cómo se estructura revit
+Cómo se estructura su información cómo
+se clasifican o se agrupan los
+diferentes componentes que os hab dicho
+agrupan por categorías Pues otra forma
+ya sabéis que una forma de apagar en una
+vista una categoría es desde el UV dais
+a vv visibilidad gráficos y desde
+categorías de modelo
+apagamos muros apagamos puertas Pues
+otra forma de apagar puede ser con
+subproyectos es decir si yo voy
+agrupando ciertos componentes que pueden
+ser de diferentes categorías pero yo
+digo por ejemplo fontanería fontanería
+tiene equipos mecánicos tuberías uniones
+de tubería o sea tiene una serie de
+categorías que están dentro de la
+disciplina fontanería Pero si yo todos
+esos componentes los meto en el
+subproyecto fontanería yo puedo Apagar
+fontanería y todos esas categorías que
+están dentro de ese subproyecto se
+apagan vale Y entonces nos sirve nos
+sirve para agrupar y para trabajar y nos
+sirve también para las temas de
+visibilidad en las pistas que vamos a
+crear Vale entonces esta pestaña es muy
+importante
+eh la de vista que también la vamos a
+utilizar al igual que en la arquitectura
+que nos va a servir Pues para todo lo
+que necesitamos visualizar todo lo que
+necesitemos a nivel de planos crear todo
+lo que temos a nivel de vistas crear
+vale Pero bueno ya habéis visto ya
+habéis descubierto que revit siempre
+tiene como dos caminos no tiene varios
+caminos para hacer lo mismo entonces
+iremos descubriendo un poco esa parte
+gestionar vale gestionar es pues temas
+de configuración de revit temas de
+información eh temas de limpiar
+elementos no utilizados esta herramienta
+Es útil de Cara a que como os habrán
+explicado ya o o empecéis a recibir
+información que los modelos tienen que
+ser ligeros hay que descargar los
+modelos a conseguir que sean ligeros que
+podamos trabajar bien porque yo tengo
+este ordenador que es potente pero el
+que tenga un ordenador menos potente le
+va a costar mover los modelos que yo
+muevo Entonces al final cuanto menos
+pesen y más sencillo sean mejor también
+los subproyectos al poder trabajar yo
+por ejemplo con una disciplina que es
+electricidad el resto lo tengo en
+subproyectos apagados pues me sirve para
+que mi modelo sea más ligero si yo tengo
+todo encendido Me va a costar mucho
+moverlo vale otra cosa que contaré es
+decir Como revit calcula cuando ya
+tengamos modelos grandes cuando yo mueva
+una tubería
+automáticamente revit recalcula todo
+entonces vuelve a pasar lo mismo es
+decir como tengamos ordenadores que no
+sean muy potentes va a empezar la
+ruedecita a pensar a pensar y pasarán 2
+minutos tres y tú dirás bueno Esto se va
+a acabar ya o o espero 2 minutos para
+ver si se acaba y pasa media hora y
+dices esto no se acaba nunca Entonces
+está recalculando recalculando
+recalculando entonces lo suyo es en
+algunos casos cuando ya tengáis la
+instalación más o menos modelada es
+Desactivar ese cálculo es decir voy a
+quitar Eh el cálculo de la hidráulica
+para que no lo haga y así me evito estos
+problemas entonces son truquitos que
+iréis viendo de Cara a decir pues cuando
+trabajéis con módulos que pesen Pues que
+seáis capaces de trabajar con ellos sin
+ningún tipo de problema vale porque al
+final estas herramientas son
+maravillosas pero si cada vez que hago
+una operación se me bloquea tengo que
+volver a arrancar Y entonces me tiro así
+200 veces nos ha pasado un proyectos de
+para avanzar una parte del proyecto nos
+ha costado horas y si esto funciona
+comoo tiene que funcionar habría sido
+muchísimo más rápido pues por eso tenéis
+que tener cuidado este tipo de cosas
+vale Y luego la pestaña modificar que es
+clásica también que es muy parecida a lo
+que habéis encontrado en Autocad vale
+que son herramientas más de pues eh
+útiles que llamamos pues para hacer
+diversas cosas mover copiar simetrías
+todo ese tipo de cosas vale que esto es
+un poco lo que ya os habéis encontrado
+en en revit esto es muy importante o sea
+el el bloquear y desbloquear vale lo que
+lo que decimos siempre la chincheta
+chincheta chincheto todo esto sirve para
+bloquear Entonces todos los objetos o
+elementos que estén bloqueados me sirve
+para que nadie los elimine o o para que
+nadie los mueva cuando yo esté
+trabajando con documentación de
+referencia y la tengan las vistas de
+revit pues como se me mueva esa
+referencia y siga modelando encima la he
+liado Vale entonces tengo que tener
+mucho cuidado de eso por eso la ubico en
+su posición y la chincheto la bloqueo
+vale Y luego ya si no quiero porque
+cuando cuando paséis el ratón por encima
+se empieza a seleccionar de todo pues
+digo Oye no quiero seleccionar los
+elementos bloqueados ya sabéis dónde
+está esa herramienta
+no no pues aquí abajo tenéis una
+herramienta que es la chinche tita que
+cuando no queráis que se seleccionen los
+elementos bloqueados la
+desactivándolas este de color doradito
+es decir cuando yo paso por encima del
+Ratón lo que tiene revid es que cuando
+yo paso por encima se preseleccion Y si
+clico ya lo selecciono pero esa
+preselección está todo el rato
+apareciendo azul no azul azul no azul
+Pues si quiero quitarme ese problema de
+no seleccionar aquellos elementos que no
+voy a seleccionar porque un vínculo lo
+tengo como referencia para qué quiero
+que estés seleccionando todo el rato
+pues cojo aquí donde está el lacito
+amarillo lo deseleccionar la x en color
+rojo ojito y ya sé que todos los
+vínculos que tenga aquí ya no los voy a
+poder ni preseleccionar ni
+seleccionar vale hay veces que no hace
+falta clicar los dos porque imaginar si
+yo tengo un vínculo con bloqueado Pues
+ya directamente no me hace falta podría
+tenerlo pero tampoco no O sea con que
+tengas solo el de bloqueos el de El de
+bloqueados me sirve vale pero de esa
+forma cuando trabajemos con Cat o
+trabajemos con vínculos veréis que es
+muy cómodo porque así no se no se
+preseleccion nada vale entonces Esas dos
+herramientas acordaros que son para eso
+vale esta del filtro es también es muy
+útil porque las del filtro que la
+tenemos aquí luego también en vista que
+nos sirve para todos aquellos elementos
+muchas veces digo quiero seleccionar las
+tres puertas que tengo aquí en la vista
+Pero como están miles de cosas una
+encima de la otra cómo lo selecciono
+pues buscando así seleccionándolos con
+cuidado o a lo mejor una está encima de
+otra y no me deja seleccionarla pues
+directamente hago una ventana como
+haríamos en Autocad se selecciona todo
+le doy doy directamente al filtro en el
+filtro me van a salir Cuántos elementos
+he seleccionado me salen las categorías
+porque lo que te seleccionas son
+categorías y dejo solo puertas digo pues
+dejo puertas le doy aceptar y ya las
+oculto o las elimino o las cambio por
+otra familia Vale entonces esa
+herramienta es es muy útil vale
+arquitectura es una es una pestaña que
+Vais a ver con Jorge estructuras también
+acero también prefabricado también y la
+que Vais a ver conmigo es esta la de
+sistemas insertar que no os lo he dicho
+que esta no esta la habéis visto ya con
+Jorge o no sí no pues insertar Bueno
+pues ya sabéis lo que es la diferencia
+de vincular e importar aquí hay cosas
+que yo voy a pasar muy por encima porque
+las tiene que dar Jorge pero si tenéis
+alguna duda me preguntáis o si voy
+demasiado rápido Marcos frena un poco
+por lo menos hoy Vale entonces que que
+levantéis la mano y que me y que me
+paréis entonces Bueno pues insertar
+sabéis que tenemos cada día tenemos más
+posibilidades porque
+año a año se van sumando con las nuevas
+versiones más tipos de archivos Vale y y
+bueno cuando hablamos de importar Cat
+esta importación de Cat Si queremos que
+las eh las medidas o las cotas que me
+vienen del PDF sean correctas ese PDF
+tiene que venir de un Cat si no viene de
+un Cat las medidas que nos aparezcan
+dentro de revit no son de alguna forma
+fiables vale puede haber cierto error o
+cierta diferencia entonces aseguraros
+que si es un Cat que viene de un o sea
+un PDF que viene de un Cat fenomenal si
+es un PDF que no viin de un Cat no no os
+la juguéis
+Vale entonces más o menos esto es un
+poco a nivel de de herramientas o de
+pestañas que vamos a utilizar vale la de
+propiedades ya seos explicado Jorge un
+poco lo que es una y lo que es otra vale
+ya sabéis todos que los elementos de
+modelo pues comparten ciertas ciertos
+parámetros o propiedades o tienen
+valores de de ciertos parámetros que son
+exclusivos de ese elemento no lo de
+ejemplar y lo de tipo de tipo son los
+parámetros que comparten todos los que
+son del mismo tipo y ejemplares
+exclusivo de cada uno vale los
+ejemplares siempre lo tenemos aquí en
+esta columna y los de tipo habría que
+irse a editar tipo vale para ver cuáles
+son los parámetros que comparten todos
+los elementos del mismo tipo
+vale visto Esto vale la parte de
+visualización ya os habrá explicado un
+poco Jorge lo que es Me imagino que ya
+habréis visto un poco todo esto la parte
+de lo que es el navegador de proyectos
+ya veremos Cómo organizar un navegador
+aquí la plantilla de este proyecto lo
+que me trae es esta organización Es
+decir me está organizando por
+disciplinas fontanería mecánica
+electricidad y por sus disciplinas que
+son iluminación potencia fontanería
+climatización revit a lo que es a nivel
+de disciplinas las disciplinas son Ya
+están creadas O sea no revit tiene una
+serie de disciplinas y son las que son
+vale si yo quiero otras disciplinas este
+parámetro no me sirve porque este
+parámetro es como un parámetro de
+sistema es un parámetro de revit Y si yo
+quiero meter en lugar de mecánica quiero
+meter no sé contraincendios tendría que
+crearme yo la disciplina contraincendios
+pero fuera de este parámetro tendría que
+crear otro parámetro que se llame
+también disciplina lo que sea y a ese y
+a ese parámetro que he creado nuevo
+asociado a las vistas le podré ir
+metiendo otras otras disciplinas vale
+pero en función de cómo lo quiera
+organizar sin embargo subdisciplinas
+vale que las tenemos aquí subdisciplina
+tenemos estas pero podemos crear otras
+vale si yo pongo aquí por ejemplo
+pci te deja crear vale te deja crear más
+subdisciplinas pero disciplinas no vale
+entonces iremos viendo más adelante Cómo
+organizar como la idea un poco es que
+conozcáis un poco que manej bien la
+herramienta y que luego ya nos metamos
+en todo tema de ISO procesos vale Pero
+lo importante primero que tengáis un
+cierto manejo de de herramienta Aunque
+tenemos horas su entes yo voy a intentar
+que se trabaje un poco en clase vale o
+sea intentaré dar parte de formación y
+parte que trabajéis en clase para que me
+podáis preguntar para que veáis dudas
+porque siempre surgen dudas cuando te
+pones a trabajar y a trastear es cuando
+te chocas y te pegas con todo entonces
+al final lo suyo es que parte de la
+clase estéis viendo teoría conmigo o sea
+viendo un poco el el el manejo y luego
+ya que lo desarrollé a nivel práctico
+Jorge os ha contado Qué proyecto vamos a
+hacer o no No bueno la idea o algo así
+comoo Bueno yo estoy yo estoy hablando
+con él porque el año pasado hicimos un
+colegio eh No es un colegio muy grande
+son son varias plantas tienen plantas de
+500 m cu pero es planta sótano baja y
+primera una cubierta plana Yo creo que
+es un modelo que puede ser manejable por
+vosotros vale Yo soy a veces muy
+ambicioso y quiero hacer cosas muy
+grandes pero para que lleguéis a hacer
+cosas grandes lo ideal sería que
+hicierais cosas a priori manejables lo
+que yo os vaya a explicar Vais a ser
+capaces de hacer cualquier tipo de
+modelo Vale entonces no os preocupéis
+por eso pero sí que vamos a trabajar
+primero con modelos más chiquititos para
+que toquéis un poco de todo y sobre todo
+que tengáis claros los conceptos vale es
+importante que los conceptos estén
+claros es decir es que cuando se trabaja
+con revit es 1 2s 3 cu y 5 pero no es el
+uno el cco el tres no no son una serie
+de procesos y de pasos que son iguales
+siempre y cuando trabajo con una
+herramienta siempre es repetitivo aunque
+sea una herramienta que sea para otra
+cosa pero siempre el proceso es
+exactamente el mismo Vale y siempre
+quedaros con esa copla es decir antes de
+empezar a trabajar vamos a organizar
+bien el proyecto hace años me decía un
+profesor que trabaja en Gil
+internacional que que casi a mitad de
+proyecto empezaron a trabajar en bim
+claro dicen Pues eso era un desastre
+porquees tú Imagínate que para que
+empezar a trabajar en bim en un proyecto
+ya iniciado pues claro se están
+definiendo procesos que esos procesos se
+tenían que haber hecho al inicio
+entonces claro solo les generaban un un
+problema de sincronización por decirlo
+alguna forma importante entonces claro
+trabajar en bim está muy bien pero para
+trabajar en bim antes hay que tener las
+reglas del juego si no tenemos claras
+las y definidas las reglas del juego la
+cosa va a salir mal seguro o va a costar
+mucho sacarlo Vale entonces cuando
+cuando alguien quiera Ser muy optimista
+en un proyecto de estos y os quiera
+vender la moto pues decirle Sí sí a ver
+Explícame primero si tienes claramente
+definido Cómo se va a hacer esto qué
+procesos están establecidos cómo vamos a
+codificar cómo vamos a trabar entre
+nosotros cómo nos vamos a comunicar Cómo
+van a ser las revisiones O sea hay
+tantas cosas cuando empecéis a trabajar
+en esto que vais a decir pues si es
+verdad que hay que tener un poco de
+orden no vale entonces importantísimo
+vale Bueno vamos a ver un poco en la
+parte de sistemas vamos a ver un poco
+herramienta herramienta vale Para qué
+sirve cada una para que tengáis un poco
+la idea al igual que Jorge os habrá
+explicado Dónde está la información del
+proyecto para Añadir o os lo dirá Dónde
+está la información del proyecto para
+meter autor del proyecto dirección del
+proyecto todos esos datos que se suelen
+meter a nivel de proyecto y que luego
+aparecen en el cajetín que llamamos
+nosotros aquí en España a nivel de
+planos no sé cómo lo llamáis
+fuera cómo lo llamáis fuera por ejemplo
+vosotros en Venezuela Cómo llamáis al
+cajetín de un proyecto lo llamáis
+también cajetín o no ahí es que no s no
+sé de qué otro país me dijeron que no
+tenía México alguno de estos que era que
+no se llamaba cajetín se llamaba de otra
+forma pero bueno bueno vamos a ver para
+primero la parte de configuración Dónde
+está la configuración nosotros podemos
+hacer instalaciones vamos a ver dos
+métodos una un poco automático y otra
+manual el automático no lo Vais a
+utilizar nunca yo no lo utilizo nunca
+vale porque el automático al final es
+para hacer cosas que no son reales
+porque al final para para unir no sé
+para unir el un conducto que una todos
+estos difusores que tenéis en la sala
+Pues sí lo puedo hacer de manera
+automático pero es que al final el
+conducto no va a ir por aquí va a ir por
+aquí va a cruzar por allí o sea no me va
+a servir vale si quiero quedar bien con
+el cliente y quiero hacer algo rápido
+pues sí cojo y os enseñaré Cómo se hace
+para que de manera automática haga las
+uniones pero por ejemplo un lababo un
+lababo o un un urinario sabéis lo que es
+un urinario un urinario normalmente
+tiene la entrada de agua en la parte de
+arriba si yo lo hago de manera
+automática Vais a ver una tubería que
+baja directamente del techo en
+vertical hasta el equipo Entonces tú vas
+a decir esto no en la tubería tiene que
+ir dentro del tabique y cuando llega a
+su a su altura sale con una llavecita y
+entra no Y sobre todo los que sois
+arquitectos diréis eso y nunca una
+tubería por ahí vista Vale entonces ese
+tipo de cosas son las que te lo hace
+automáticamente y manualmente no lo
+harías nunca vale eso por un lado por
+otro lado en la parte de coordinación o
+sea cuando cuando una un aspecto muy
+importante de trabajar con este tipo de
+herramientas es es la parte de
+coordinación es decir un proyecto y lo
+digo porque lo vivo todos los días
+cuando tienes un proyecto de Cat de un
+edificio de oficinas de 20.000 m cuad
+Pues tú ves los planos de Cat Y di Jo
+qué maravilla No qué bien está el
+proyecto Pues cuando empiezas a montar
+un Cat sobre otro es un desastre pero un
+desastre que empiezas a ver cosas que di
+o sea pero tú siendo ingeniero eres
+capaz de haber hecho esto porque al
+final también es cierto que los clientes
+te van metiendo prisa Y tú tienes que
+entregar cualquier cosa y ese cualquier
+cosa es que no está todo coordinado
+entonces cuando montas un plano sobre
+otro te das cuenta de la problemática
+Entonces al final revit Cómo qué
+herramienta Es la que tiene revit propia
+de coordinación porque cuando
+coordinemos vamos a utilizar otras
+herramientas revit te sirve un poco para
+ver cómo estás vale para no tener que
+abrir otro software y trabajar con otro
+software a mí me gusta mucho navis
+porque con navis Word puedes hacer un
+recorrido virtual entonces haces un
+recorrido como si fueras un técnico ent
+yo voy andando y de repente le digo Joe
+esta tubería que pasa por medio de la
+puerta pero sin embargo con revit me
+cuesta más trabajo identificar esa
+tubería Tendría que ir a la zona y
+revisar toda la zona y darle y saber
+porque yo desde una vista digo a ver
+está en el plano parece que está arriba
+en el techo no Pues a lo mejor está en
+el suelo entonces si yo puedo hacer un
+recorrido virtual con ese tipo de
+herramientas pues hago de técnico
+Entonces voy haciendo una visita por la
+obra y digo vale Esto está bien Esto
+está bien Oye esto y y la boca de
+incendio que está en medio de la puerta
+por poneros un ejemplo y hay veces que
+dices le pulsas a revit y revit te dice
+no no está perfecto no hay ninguna
+interferencia porque al final las
+interferencias que te localizas son el
+es elementos o componentes que ocupan el
+mismo espacio Entonces yo puedo tener a
+lo mejor una boca de incendio como os
+decía en medio de la puerta que no está
+tocando nada y no me está generando
+ninguna interferencia pero está mal
+entonces por eso os digo que revit tiene
+esa herramienta que nos ayuda a ver esas
+colecciones o interferencias de
+diferentes elementos pero no no me
+soluciona lo de la vía que está delante
+de la puerta o soy muy buen técnico y me
+preocupo de cada vez de lo que modelo lo
+dejo en su sitio o o tengo que utilizar
+otro tipo de herramientas para verificar
+que eso está bien o está mal y entonces
+navis Word Es una herramienta que
+utilizaré que está muy bien porque navis
+te genera informes y todo está
+relacionado o sea cuando yo genero un
+informe sobre algo ya hay una referencia
+y unos códigos que son de referencia los
+ids los gits ent ya tengo unos elementos
+de unos códigos de referencia que ya me
+pueden llevar directamente a revit a ese
+elemento para modificarlo y además
+guardo rastro es decir yo ya tengo un
+informe y ese informe lo voy
+eh marcando o o tiene una trazabilidad
+es decir ese informe empieza aquí y
+termina allí pero tengo una trazabilidad
+de toda esa información de lo que se
+está haciendo Y eso es muy importante
+cuando trabajéis con entornos con
+herramientas que son los los common Data
+environment que son los entornos comunes
+de colaboración Pues el pin 360 o el bim
+colaborate Pro pues son herramientas que
+además de permitirte trabajar en
+colaborativo con módelos bim te permite
+Pues trazabilidad de la información el
+eh codificación revisión o sea te
+permite tantas cosas que al final esas
+herramientas Por qué se dice que cuando
+trabajas conforme a la ISO necesitas
+trabajar con ese tipo de herramientas
+porque a día de hoy no tenemos
+herramientas que nos eh unan todos esos
+requisitos que nos piden en en el tema
+del bim porque al final tú dices vale
+Necesito una herramienta donde yo tenga
+la trazabilidad de la información yo
+donde yo tenga O sea fijaros que tiene
+que cumplirse simultáneamente
+trazabilidad de la información revisión
+de la información actualización archivo
+trabajo en en procesos hay una serie de
+cosas que tienen que ser síncronas es
+decir están Están todo todo Unido no me
+vale Sí yo tengo revisiones en una
+carpeta No yo tengo el otro en la otra
+carpeta No no es que tiene que estar
+todo relacionado vale porque al final la
+información es una y esa información no
+la podemos tener duplicada o triplicada
+en varios sitios vale porque si no nunca
+sabemos si esa información que tenemos
+en un sitio realmente es fiable o no
+vale Entonces primero configuración
+entonces dentro de las de la pestaña
+sistemas tenemos Si os fijáis los
+diferentes grupos climatización
+fabricación detalles me colaboración o
+sea aquí los las diferentes carpetas que
+tenemos las podéis colocar vale
+directamente vale las podéis correr
+mover de sitio las podéis ocultar si
+queréis vale Ya os diré Cómo se se
+ocultan Entonces tenemos una serie de
+grupos principalmente con las que
+trabajamos son climatización mecánica
+fontanería tuberías y electricidad a mí
+se me oculta porque tengo una pantalla
+pequeña pero los que tengáis pantalla
+grande tiene que extenderse como lo
+tenéis aquí vale luego tenemos en la de
+mecánica vale son herramientas que van
+apareciendo nuevas dispositivo de
+control mecánico vale estas herramientas
+son nuevas con las con la última versión
+vale equipos mecánicos pues ya os tiré
+lo que es un equipo mecánico y lo que es
+un terminal para tenerlo claramente
+identificado porque cuando trabajemos
+con equipos mecánicos que equipos
+mecánicos podemos tener en cualquiera de
+las disciplinas podemos tener un equipo
+mecánico en en fontanería podemos tener
+un equipo mecánico en climatización Pues
+cuando necesit quemos cargar un equipo
+mecánico lo tenemos que hacer desde aquí
+vale
+Eh entonces un poco es eso vale modelo
+componente pues aquellos aquellos
+elementos que no tenemos clasificados
+por categoría pues es como el cajón
+desastre no como el saco donde metemos
+todo bueno y todo lo demás dónde va aquí
+a componente Vale entonces iremos
+creando ciertos elementos dentro del
+modelo que no tenemos Claro dónde van
+ahí porque al final cuando tengamos que
+medir Vale cuando tengamos que sacar
+mediciones de todo esto porque es una de
+las partes eh difíciles bueno difíciles
+de las últimas que tenemos que ver que
+es extraer la medición de todo lo que
+hemos hecho pues eh tenemos que ser
+capaces de de clasificar y de medir todo
+lo que tengamos entonces si yo no tengo
+los ser componentes bien clasificados
+pues me van a aparecer componentes en
+categorías que no corresponden y voy a
+medir cosas que no tendría que medir O
+sea que tengo que tener cierto orden
+vale Entonces dime los paneles solares
+dónde entran buena pregunta Pues los
+paneles solares pueden ser como
+componentes vale Lo que pasa es que otra
+cosa que os vais a encontrar en
+instalaciones hay veces que vosotros
+diréis que vosotros digáis no esto es un
+equipo mecánico y tú dices y ya
+directamente vais con el lanzos a decir
+lo voy a cargar como equipo mecánico y
+lo cargá y de repente o revit te dice
+que no lo ha cargado O te lo carga y no
+tienes ni idea dónde está Porque vas a
+vas a la herramienta equipo mecánico y
+no está entonces Y dónde está y ponte a
+buscar no tienes mucho problema de media
+horita de buscarlo 15 minutos pero lo
+suyo el consejo que os doy yo cuando
+trabajéis con una familia que no es
+vuestra y no la tenéis controlada que la
+abráis primero como familia cuando la
+habréis como familia Ya sabéis qué
+categoría tiene asociada y ya sé cómo la
+tengo que subir vale que es un equipo
+mecánico la subo como equipo mecánico
+que es un terminal de aire la subo como
+terminal al aire que es una Unión de
+tubería como Unión de tubería también
+puede ser que os venga como con una
+categoría y tú digas no no la voy a
+subir como equipo mecánico porque es un
+equipo mecánico para mí este la ha
+nombrado otra cosa pero yo en mi
+proyecto La voy a subir como equipo
+mecánico pum le cambio la categorí y ya
+está Vale pero que sepáis que eso mi
+recomendación es cuando trabajéis con
+una familia que no es vuestra antes la
+abres miras qué categoría si quieres la
+cambias si no no la cambias pero cuando
+la cargues sabes dónde va
+vale Vamos a aprender a hacer familias
+yo os voy a enseñar la parte fácil M es
+más fácil las familias de instalaciones
+porque nos dedicamos más a temas de
+geometría y volumenes y poco más y
+conectores y Jorge será más el que vaya
+al detalle vale pero crear familias es
+muy importante en en instalaciones eh
+Cuando haces proyectos Pues ya hay
+muchos fabricantes que tienen sus
+familias es una maravilla porque yo
+tengo que colocar una una caja de
+incendios habéis visto ya estas cajas de
+incendios que tienen por un lado la vie
+por otro lado abajo los extintores y y
+en el medio los pulsadores o sea son
+como compactos que vienen con todo pues
+Jo pues te da El fabricante macrón por
+ejemplo que tiene ya las familias pues
+una maravilla porque es que te da la
+familia exacta con dibujitos y con todo
+y estéticamente queda muy bonito en el
+modelo o sea es una chorrada pero cuando
+vas a un cliente y el cliente dice ah
+pero esa es la vía que va a llevar mi
+edificio Sí exactamente la que va a
+llevar tu edificio pues ese tipo de
+cosas Aunque parezca una tontería molan
+Entonces al final que tu trabajo vaya en
+ese
+detalle está bien sin que te genere
+mucho trabajo volvemos a lo mismo o sea
+esto es según las horas que le dediques
+y y las horas que le dediques son las
+que te se supone que te va a pagar el
+cliente Si el cliente te va a pagar 10
+dedícale 10 Si tú le quieres dedicar 12
+porque esas dos horas de más pues te va
+a ayudar a fidelizar el cliente
+fenomenal Pero cuidado con lo que
+presupuest porque a lo mejor le habéis
+presupuestado una cosa que son 200 y le
+habéis pasado solo un costo de 20
+entonces ahí por eso en esto cada vez
+que hagáis una oferta económica tenéis
+que poner en papel exactamente lo que
+Vais a
+hacer exactamente porque el Bueno un lot
+300 por poneros un ejemplo que ahora ya
+no es lot 300 ya se ha Llama otra forma
+pero si yo te estoy diciendo eso
+esoe puede significar muchísimas
+cosas puede significar lo que cente
+quiera que signifique Y entonces como tú
+ya le has dicho eso pues at tragar at
+tragar y at tragar entonces no o sea
+definir exactamente Cuál es el alcance
+vale Pero el alcance con todo si voy a
+hacer familias si no voy a hacer
+familias Hasta qué nivel voy a hacer
+familias Cuál va a ser la información si
+voy a hacer Cuántas vistas se van a
+generar Cuántos planos voy a sacar de
+aquí o sea absolutamente todo porque
+pensar Oye me haces el modelo bim de
+estas instalaciones planos y tú dices Sí
+sí claro cuánto 3000 por poner un
+ejemplo y te dice el cliente no es que
+los planos que necesito son los 200 y
+pico que vienen en el proyecto de
+ejecución y tú pues si ya solo montar
+esos planos se me ha ido el presupuesto
+y antes Tengo que haber hecho el modelo
+lo veis entonces acotar acotar
+absolutamente todo vale entonces bueno
+seguimos dentro de los grupos que hemos
+dicho de disciplinas dime eh una
+consulta antes de nosotros modelar eh
+con x equipo mecánico o equipo eléctrico
+o cualquier equipo que tenga sus
+dimensiones el cliente nos da a nosotros
+las fichas
+técnicas no bueno el cliente en este
+caso si te pide modelar un proyecto de
+instalaciones es una ingeniería vale
+porque o tú estás trabajando en una
+ingeniería o una ingeniería te contrata
+para que le levantes el modelo del
+edificio de instalaciones Vale entonces
+las fichas técnicas siempre te las tiene
+que que aportar el ingeniero que ha
+desarrollado esas instalaciones siempre
+siempre vamos a tener entonces siempr
+por eso es importante Cuando tú vayas a
+hacer un proyecto dices vale Oye tengo
+el proyecto Pero dónde están las fichas
+técnicas de los equipos no me puedo
+inventar yo las unidades de evaporadoras
+no me puedo inventar yo los los
+extractores no me puedo inventar Yo nada
+Dame las fichas técnicas entonces
+volvemos a lo mismo te puedo decir no a
+mí me pasa un proyecto que hemos
+desarrollado durante el mes verano
+pasado y el ingeniero iba o sea era todo
+a matacaballo porque era una una una
+empresa inmobiliaria que a su vez
+subcontratado un estudio de arquitectura
+y ese estudio subcontratado la
+ingeniería a su vez su ingeniería se
+apoyaba nosotros para hacer el modelo
+bim entonces claro y todo eso iba Oye
+que es que tengo que licitar el proyecto
+el día 2 de septiembre y estamos el 15
+de agosto todavía con el proyecto y digo
+pero a ver si tú no has me has entregado
+los techos del edificio yo no puedo
+desarrollar la la la ventilación o la
+climatización de planta y tú no tienes
+la información para hacer el modelo de
+qué estamos hablando entonces al final
+necesitas la información Vale entonces
+primero lo que te decía primero pasis un
+presupuesto Pero antes de empezar yo
+siempre pongo antes de empezar me tenéis
+que facilitar esta información esta
+documentación si no tengo esa
+documentación el plazo no corre no corre
+hasta que no tengo todo el plazo no
+empieza Vale entonces es responsabilidad
+tuya que me des toda la información y
+luego ya familias ahora ya hay muchos
+fabricantes O sea imagínate que te toca
+máquinas de Mitsubishi pues Mitsubishi
+tiene ya Prácticamente todo todo en
+familias macron de incendios también
+Aguilera también que es una empresa de
+incendios también o sea hay muchos
+muchas empresas que ya tienen todas las
+familias Entonces si no tienes tiempo
+utilízalas si tienes tiempo intenta
+limpiarlas porque eso seguro que pesan
+mucho porque al final un fabricante le
+mete mucho detalle muchos parámetros
+mucha información a lo mejor tú
+necesitas Solo dos parámetros y
+necesitas solo el volumen de la caja y
+ciertas cosas o sea Vale entonces yo
+aquí en familias vamos a ver vamos a
+crearnos familias Vale y vamos a colocar
+conectores a esas familias que los
+conectores veréis que son elementos que
+se añaden a la geometría para poder con
+que un sistema esté conectado vale
+incluso ese conector ya me está dando
+información Cuál es cuál es el diámetro
+de salida Qué tipo de sistema es vale o
+sea me da una serie de información que
+puede ser interesante y también como os
+decía podría calcular le puedo meter
+datos para cálculo pérdidas de carga le
+puedo meter cosas para calcular pero a
+día de hoy no es el objetivo vale Aunque
+os enseñaré Cómo se calcula Entonces
+primero iríamos a configurar la
+instalación o sea vamos a ver vamos a
+empezar por fontanería y tuberías y
+vamos a ver a qué me refiero con la
+configuración entonces para ver la
+información de fontanería tuberías vale
+me voy me puedo ir a esta flechita lo
+veis que todas todos los grupos que os
+he dicho yo mecánica climatización
+fontanería y tuberías electricidad todas
+tienen esta flechita Pues esta flechita
+me lleva a la configuración de cada una
+de las disciplinas Entonces si me voy a
+fontanería tuberías Y le doy a la
+flechita me
+aparece su configuración vale su ventana
+de configuración como os decía esto lo
+encontramos por otro camino vale
+directamente vamos por la
+pestaña
+gestionar y lo veis ahí tenemos en
+configuración que es el grupo
+configuración Tenemos aquí configuración
+mep y dentro de configuración meb
+tenemos mecánica eléctrica fabricación
+clasificaciones de carga entonces
+iríamos a mecánica vale que si os fijáis
+es la misma la misma ventana que
+teníamos antes porque en esta ventana
+tenemos configuraciones tanto de
+climatización como de fontanería fijaros
+climatización tiene que ver con
+conductos fontanería tiene que ver con
+tuberías vale si vamos desde sistemas
+vamos desde climatización con la
+flechita lo veis que es la misma ventana
+y si vamos desde fontanería a la misma
+flechita lo veis que es lo mismo Vale
+entonces vamos a ver cuál es esta
+configuración que es importante vale es
+lo que os decía antes de empezar a
+modelar tengo que tener claro que está
+todo preparado vale vamos a ir a
+fontanería que es esta parte vale bueno
+primero esta que pone línea oculta pues
+son una serie de parámetros que yo puedo
+configurar que son más de representación
+vale Pero vamos a ir directamente a
+configuración de tuberías y dentro de
+configuración de tuberías tenemos pues
+una serie de
+configuraciones vale más de temas de
+anotación temas de escalas temas de
+representación y ya a nivel de elementos
+pues entramos en faena con el tema de
+ángulos todo esto que tenéis aquí lo
+tenéis en el manual que os voy a colgar
+yo todos los días cuando termine la
+clase os cuelgo un manual incluso os lo
+iré adelantando antes de empezar la
+clase para los que queráis verlo vale
+ent manuales explicativos que si seguís
+la clase normalmente y luego os apoyáis
+con el manual No vais a tener ningún
+problema Vale entonces tenéis el tema de
+ángulos vale a ver vosotros sabéis que
+en las instalaciones de fontanería pongo
+ejemplo de fontanería que es el que
+estamos trabajando pues cuando yo voy a
+una tienda de fontanería comprar piezas
+no tengo las piezas que me dé la gana es
+decir cuando tengo un codo puedo tener
+un codo de 45 o un codo de 90 pero no
+tengo un codo de de 57 no tengo un codo
+de 86 y revit sí te puedo hacer los
+codos que tú quieras entonces al final
+Yo quiero una de dos o Quiero un modelo
+rápido y luego ya afinar y le digo Oye
+no me des como no quiero que me generes
+problemas vamos a utilizar cualquier
+tipo de ángulo yo tendré cuidado cuando
+modele de intentar ir 45 90 pero le
+puedo limitar si le digo no solo puedo
+45 y 90 Pues cuando intente hacer otro
+tipo de ángulo me va a dar error o no me
+va a dejar hacerlo pero como quiero
+modelar y no quiero problemas y quiero
+tener un modelo rápido vamos a dejar
+cualquier ángulo como está ahora mismo
+lo veis Entonces si no quiero cualquier
+ángulo y quiero ángulos concretos
+tendría que decir ángulos concretos Y a
+partir de ahí solo seleccionar con los
+que tengo que trabajar hay uno por
+defecto que sí o s es de 90 y luego
+diría Pues mira quiero trabajar con el
+de 90 y con el de 45 y listo y a partir
+de entonces revid solo me va a dibujar
+me va a dejar modelar con esos dos
+ángulos visto Entonces yo ahora mismo
+como vamos a hacer ejemplos vamos a
+dejar de utilizar cualquier ángulo pero
+veis que eso es una configuración es
+decir si yo no quiero que me si yo
+quiero algo real voy a dejar utilizar
+ángulos concretos y voy a seleccionar
+los ángulos que necesito
+vale después nos vamos a
+conversión esto es más esta parte es más
+para el diseño que yo os decía
+automático es decir Quiero un diseño
+automático vamos a definir Cómo son las
+tuberías que van a tener Ese diseño A
+qué altura van a ir esas tuberías Y de
+esa forma cuando haga el diseño
+automático va a colocar las tuberías a
+una altura y van a ser de un tipo Vale
+entonces fijaros que Pone pone
+clasificación del sistema luego veremos
+lo que son los sistemas aquí puedo
+elegir Con qué sistema estamos
+trabajando tranquilos que ahora veremos
+esto pero tengo que seleccionarlo para
+cada sistema es decir si estoy
+trabajando con agua fría voy a
+configurar con agua fría porque la
+configuración que haga yo aquí en agua
+fría puede ser diferente al del agua
+caliente o puede ser diferente al de
+incendios o puede ser diferente al que
+sea entonces yo tendría que ir
+configurando para cada sistema Qué tipo
+de tubería y a qué altura va a ir Oye
+las de fontanería agua fría aguac
+caliente las voy a dejar a 260 y las de
+incendi las voy a dejar van a ser de
+acero las tuberías y van a ir a 230 por
+debajo de las otras Entonces yo puedo
+definir de manera automática Cómo van a
+generar o crearse esas tuberías en ese
+modelo Vale entonces esto es una parte
+que os digo que es que se podía hacer si
+lo hacemos automático que yo nunca lo
+utilizo vale es decir en la formación
+siempre lo doy para que sepáis que es
+esa herramienta está pero no no la uso
+yo no la uso nunca Vale entonces yo
+diría tipo de tubería Pues de los tipos
+de tubería que yo tengan mi proyecto
+selecciono el que tenga que ver con el
+de agua fría sanitaria diría la estándar
+y a qué altura la pongo Pues a 2 600
+porque aquí estamos trabajando ahora
+mismo en milímetros os enseñó a cambiar
+unidades
+no no todavía todavía no bueno os
+enseñará ahora os digo dónde está aunque
+Jorge y yo repitamos cosas es bueno
+porque al final os sirve para para ir
+cogiendo y entonces fijaros que pone
+principal y ramificación qué es eso de
+principal y
+ramificación quién sabe qué es eso de
+principal y
+ramificación los montantes y
+la y el reparto de por por los falsos
+hechos ahí o sea tiene que ver con eso
+pero ahí mezclado o sea el la
+distribución que has dicho tú por los
+techos la distribución sería la
+principal y la ramificación es la que va
+del principal al aparato Vale entonces
+qué pasa que yo por ejemplo puedo decir
+puedo decir eh yo quiero que la
+distribución vaya a una altura y luego
+la ramificación vaya a otra es absurdo
+porque Vais a hacer siempre Vais a hacer
+siempre la misma el mismo nivel en las
+dos pero es para que entendáis siempre
+que principales cuando yo salgo de la
+sala de máquinas la distribución hasta
+los aparatos y el ramificación es ya una
+vez que he llegado cómo voy a conectarme
+con el aparato entonces si yo por
+ejemplo voy directamente Pues voy por
+una distribución y voy saliendo a
+diferentes sitios vale Vale y voy a otro
+cuarto de baño pues ya aquí cuando esté
+a lo mejor todo esto es la principal
+pero cuando ya llego a un cuarto de baño
+por ejemplo aquí tengo un cuarto de baño
+pues ya cuando voy a distribuir pongo
+una t pongo una t y voy a distribuir a
+diferentes aparatos pues esto ya es la
+ramificación ramificación vale Y ya la
+ramificación sale a otra altura o sea
+Ahí te está diciendo material de de
+principal x altura x de ramificación lo
+mismo material y altura puede que yo
+toda la distribución la haga con un
+material y luego lo que es la
+ramificación la haga de otro una
+pregunta todas las ramificaciones no
+tienen que tener la misma altura Claro
+claro o sea eso es como tú lo quieras
+hacer vale es decir si yo tengo fijaros
+eh si yo tengo la principal que va a
+este nivel y ahora Quiero una o sea
+quiero salir a un a alimentar un inodoro
+pues si yo le doy la misma altura a la
+ramificación y a la principal saldría
+así y conecta Pero si yo quiero salir
+con diferente altura le digo no es que
+la ramificación sale a dos por debajo a
+250 este es 270 y la otra sala 250 pues
+primero en ese punto tiene que bajar a
+250 Y luego ya hace la
+conexión lo veis entonces si yo le estoy
+forzando le estoy diciendo no no Cuando
+vayas a conectar no sale y conectes no
+no tienes que B primero y después ya si
+quieres conectas vale entonces este tipo
+de conexion no lo Vais a ver o sea
+normalmente yo llevo una una tubería y
+luego Aquí ya saco el ramal a la misma
+altura saco un ramal y ya está Vale pero
+no bajo y luego me voy al aparato vale
+si necesitaras hacer eso en uno concreto
+podrías hacerlo solo en ese concreto
+claro eso es pero qué pasa que si lo
+estás haciendo de manera automático te
+lo va a hacer en
+todos te va a bajar en todos vale lo
+mismo veréis cuando veamos climatización
+pasa lo mismo imaginar que yo me hago un
+sistema automático y pongo una máquina y
+Pongo aquí diferentes terminales de aire
+y digo y le digo Conéctame los
+automáticamente pues si yo le dicho que
+el conducto principal que va a ser este
+vaya a una altura imaginar que lo tengo
+en Sección la máquina la tengo aquí vale
+con la boca aquí y yo tengo los
+difusores Aquí más o menos lo suyo sería
+que el conducto hiciera así y ya conecto
+a los difusores No pero si este
+imaginaros que esta máquina está a 270 y
+yo le he dicho de manera automática que
+el principal va a 250 Entonces qué es lo
+que va a hacer que justo cuando sale de
+aquí hace así pl y se coloca 250 y yo
+digo esto Esto no es así vale
+técnicamente no se hace así normalmente
+cuando tú sacas un conducto a no ser que
+sea o unas condiciones especiales
+Siempre sale recto vale Pero si yo le he
+puesto automático y me olvidado me va me
+puede dar error o me puedo hacer una
+forma rara que yo no me entere hasta que
+lo vea bien Entonces te hace pum se baja
+directamente a 250 Y si se baja 250 y se
+pone a hacer la distribución tengo
+prácticamente los difusores pegados a la
+altura del de la principal y me va a dar
+error al conectar porque me va a decir
+repit Oye no hay una pieza que te
+conecte Al mismo nivel El difusor con el
+conducto me entiendes Tengo que dejarle
+cierto espacio entonces por eso esta
+configuración
+pues volvemos a lo mismo o sea no la uso
+pero la usaremos para hacerlo de manera
+automática para que sepáis cómo funciona
+vale Seguimos entonces acordaros de
+principal y ramificación y habrá que
+configurarlo para cada tipo de sistema
+vale segmentos y tamaños importante
+vale fijaros segmento segmento se
+refiere al
+material vale Yo puedo tener puedo
+crearme una
+tubería pero esa a esa tubería le tengo
+que asignar un material Vale entonces
+siempre que queremos una tubería es
+tubería y esa tubería material y los
+materiales vienen aquí que lo llamamos
+segmentos yo despliego y aquí tengo una
+serie de segmentos por defecto el de PVC
+es este Vale tengo cobre diferentes
+tipos de cobre tengo el de PVC que es
+cloruro de polino rígido serie 40 o
+serie 80 tengo el de acero inoxidable
+tengo el hierro dúctil Vale tengo el
+acero carbono serie 40 que es el que
+solemos utilizar para las bocas de
+incendio o rociadores entonces aquí
+tengo ciertos materiales o segmentos
+puedo crear segmentos nuevos vale creo
+uno puedo
+eliminar puedo crear uno utilizando uno
+como referencia imaginar que quiero
+crear un tipo de cobre por por Pon un
+ejemplo y ese tipo de cobre da las o sea
+tengo la peculiaridad que sus diámetros
+coinciden con el de el otro que yo tengo
+ya aquí Entonces no voy a crearme un ir
+poniendo todo a uno a uno los diámetros
+sino voy a aprovechar este que lo tengo
+le cambio los cuatro o cinco cosas que
+le tenga que cambiar y aprovecho los
+diámetros que ya tiene hechos Vale
+entonces puedo utilizar unos de partida
+como referencia para crear nuevos Vale
+entonces yo cuando cree y luego también
+tenemos las tuberías de los propios
+fabricantes hay fabricantes ya que las
+tuberías las tienen ya hechas como
+familias Vale entonces sería cuestión de
+bajarse la familia del fabricante y
+cargarla
+ahora veremos qué tipo de familia son
+las tuberías vale porque ya sabéis
+distinguir entre una familia de sistema
+y una familia
+cargable Quién no sabe todavía qu es eso
+vale pues familia de sistema y familia
+cargable quedados con eso porque es el
+ABC familia de sistema es propia de
+revit es decir están como dentro de
+revit las genero dentro de revit las
+creo dentro de revit las modifico dentro
+de revit y familias cargables las hago
+fuera con una herramienta de revit pero
+las hago fuera las tengo en un en un
+archivo o en una carpeta y las voy
+cargando cuando las necesito o a lo
+mejor las dejo cargadas ya en una
+plantilla porque como siempre utilizo
+las mismas familias me he creado una
+plantilla de proyecto y esas familias ya
+están en esa plantilla vale pero las
+cargables son las que tengo fuera y se
+distinguen también por otra cosa porque
+las familias cargables son archivos
+externos con extensión rfa de
+familia y las que son de
+sistema no tienen
+extensión pero pensáis que se puede
+cargar otra forma una familia de
+sistema Cómo cargamos una familia de
+sistema que no está en nuestro proyecto
+y está en otro
+proyecto copiando
+copiando copiando a portapapeles no y
+pegando desde portapapeles es decir
+siempre que estemos en la misma sesión
+de revit sabéis lo que es la misma
+sesión no O sea cuando damos al icono de
+revit me abre revit y yo desde el mismo
+icono O sea desde el mis desde la misma
+sesión puedo abrir todos los proyectos
+que quiera pero la otra forma de si son
+sesiones distintas tengo que clicar
+tantas veces al icono como sesiones
+quiera tener distintas Entonces cuando
+son sesiones distintas no voy a poder
+copiar entonces si yo quiero copiar una
+tubería que es una familia de sistema de
+un proyecto a otro lo hago como has
+dicho copiar ap portapapeles me voy al
+otro proyecto pegar desde portapapeles Y
+además ya veréis que pone alineado con
+vista seleccionada es una maravilla si
+tenéis dos proyectos porque podéis
+trabajar cuando hablemos de colaboración
+podemos trabajar con el mismo proyecto
+yo me encargo de fontanería tú te cargas
+de climatización y cuando lleguemos
+copiamos pues ya veréis Cómo se copia
+alineado con la vista entonces estáis
+trabajando con la vista de nivel planta
+uno pues copia las cosas a la planta un
+y se queda todo en su sitio vale no es
+como Autocad que cuando cargamos
+archivos si hemos sido un poco
+cuidadosos las coordenadas son distintas
+Entonces cuando queremos alinear uno con
+el otro es complicado vale Pero esto
+Esto si trabajamos con coordenadas te lo
+alinea uno con el otro vale entonces la
+forma dime cons sobre las familias las
+familias que vienen de los propios
+fabricantes tienen que estar los los
+tamaños nominales tienen que estar
+también registrados acá No porque si no
+no no se puede modelar eso es el tamaño
+de la familia eso es ahora os enseñar
+Cómo crear tamaños porque por ejemplo
+aquí en España trabajamos con la
+dimensión de PVC de 110 y fuera de
+España se trabaja con otras dimensiones
+pero aquí 110 es básica entonces hay que
+crearse a lo mejor El fabricante me da
+el tipo de tubería PVC pero yo necesito
+la medida de 110 pues tengo que crear la
+de 110 Y cómo la creo ahora os enseñaré
+Cómo se crea vale la manejan en
+pulgadas manejamos pulgadas lo que son
+tuberías de acero y lo que es y cobre
+pero manejamos con milímetros lo que son
+Pues multicapa todo lo que es tubería de
+plástico PVC todo eso lo hacemos con con
+milímetros
+vale Pero lo que es todo todo acero o
+cobre con pulgadas entonces también es
+otra cosa que en nuestros proyectos
+tenemos que saber Representar en el
+mismo proyecto unas cosas con milímetros
+y otras cosas con pulgadas Vale entonces
+eso lo configuraremos y veremos Cómo se
+hace Vale entonces la par de unidades
+bueno seguimos con esto entonces
+segmentos y tamaños fijaros yo tengo el
+tipo de segmento en este caso yo
+selecciono vamos a ir al por ejemplo al
+acero al carbono serie 40 que es el el
+PVC que conocemos todos de tuberías de
+sanitario Pues el PVC yo le tengo aquí
+un dato o un valor en el parámetro
+aspereza que este valor lo puedo tener o
+no lo puedo tener me da igual o sea solo
+está ahí porque Calcula porque revit
+Calcula entonces Si necesito calcular
+ese valor lo tiene que tener si no me da
+Exactamente igual
+vale luego tengo el catálogo de tamaño y
+tengo tamaños puedo crear tamaños nuevos
+o puedo suprimir tamaños Vale fijaros
+tengo tamaño nominal el tamaño nominal o
+podríamos decir el comercial cuando tú
+compras una tubería tú lo compras y
+dices es tubería de
+110 pero realmente no es 110 si tú coges
+un calibre y mides el diámetro interior
+y el diámetro exterior no tiene no es
+110 puede ser 111 puede ser 110 con8
+interior exterior no tiene nada que ver
+pero a nivel comercial no voy a decir el
+105 con 38 no a nivel comercial distingo
+el de 110 el de 90 el de 75 el de 40 o
+sea distingo los que son Vale entonces
+aquí lo que te está dando es el
+nominal o el comercial vale Y este sería
+el diámetro interior y el diámetro
+exterior
+hay en función del material el espesor
+por ejemplo del Cobre la tubería del
+cobre es mucho más finita que una
+tubería de
+multicapa Entonces aunque sea la medida
+de
+15 el el exterior a lo mejor es muy
+parecida pero el interior no tiene nada
+que ver porque en multicapa es mucho más
+grueso el material y por tanto el
+diámetro interior es inferior Vale
+entonces esto es importante que tengamos
+claro cuando vamos a modelar Cuáles son
+los diámetros con los que vamos a
+trabajar y aquí veréis dos columnas Vale
+entonces ya sabéis diámetro interior y
+exterior Esto me lo tiene que dar El
+fabricante es decir cuando yo añado un
+segmento de tubería a revit Necesito una
+tabla donde me diga además lo tenéis
+fácil porque en internet rápidamente
+buscáis tabla de de diámetros del
+material x y muchos fabricantes Ya
+tienen sus tablas en internet Entonces
+directamente descargá el PDF y es meter
+el PDF vale oye que además necesitáis
+espeza pues miráis la ficha técnica del
+material y le metéis la espeza O sea que
+que es fácil vale Lo que pasa es que
+luego ahora tenéis esto es decir pues si
+yo tengo aquí fijaros eh desde
+15 hasta 600 o sea 600 estamos hablando
+de de 60 cm no O sea una tub de 60 cm Ya
+es considerable Entonces yo en mi
+proyecto voy a trabajar con ese tipo de
+dimensiones No pues vais aquí y le decís
+mira Fuera fuera fuera y vais quitando
+las que queráis para que no os aparezcan
+entonces cuidado uno pone utilizado en
+listas
+de y el otro pone voy a extenderlo un
+poquito más para que veáis lo que pone
+utilizado en listas de tamaño y otro
+utilizado en cambio de
+tamaño Qué diferencia hay entre uno y
+otro porque decir bueno Y cuál quito
+cuál
+desclice permite a ti seleccionar el
+diámetro y la otra es la que te lo hace
+de manera automática cuando tú haces un
+Un diseño automático una conexión
+automática revit te pone el que él cree
+que debe de ponerte luego tú lo puedes
+modificar Entonces el que el que él cree
+que debe de ponerte es el de la derecha
+el que pone utilizado en cambio de
+tamaño y el de la izquierda el de
+utilizado en listas de tamaño es el que
+yo elijo cuando yo elijo Oye es que este
+es 110 pues selecciono 110 Entonces
+quiero que en esa lista me aparezca el
+de 110 10 pero sin embargo no quiero que
+me aparezca el de 500 pues digo
+fuera no quiero que en esa lista que yo
+selecciono me aparezca porque J si yo
+tengo los cuatro cco Pues para mí es más
+fácil si no tengo que estar siempre
+buscando en la lista el que es Vale
+entonces para eso sirve cuidado con otra
+cosa cuidado con otra cosa que yo digo
+me pongo a crear aquí tamaños y digo es
+que aquí a ver aquí me hace falta el de
+110 vale voy a crear el de 110 para el
+de PVC y de repente digo vale tamaño
+nuevo
+siempre cuidado cuando yo voy a crear un
+tamaño si voy a crear 110 hago siempre
+justo el que tenga inferior Cuál es el
+inferior a 110 que tengo aquí el de 100
+no porque 125 está por arriba no voy al
+de AB justo al de por debajo y me pongo
+en el de 100 y le digo tamaño nuevo Y
+entonces digo vale si este es 100 y
+tiene que ser 110 Qué tengo que
+hacer pero sumarle 10 No pues le su 10 a
+todos a todos no solo a uno y le sumo 10
+al
+nominal 10 al
+interior y 10 al exterior le doy aceptar
+y ya tengo creado mi tamaño de
+110 yo digo fantástico ya he creado el
+tamaño de 110 para PVC y le digo aceptar
+ya lo tengo creado no entonces me voy
+aquí a sistemas fontanería
+tuberías Vale y voy fijaros aquí tengo
+los diámetros lo veis voy buscando y
+digo anda si yo juraría que qua el de
+110 y no lo esto es una es un tema que
+Suele suceder siempre J si si yo juraría
+que lo he creado no creo que le haya
+dado escape o cancelar sin querer y no
+está por qué no me
+aparece por qué penséis que no aparece
+en esta lista por el material Claro que
+sí porque tengo que
+mirar fijaros segmento de tubería cobre
+A dónde lo he creado os acordáis dónde
+lo he
+creado
+car al carbono claro Entonces yo tendría
+que cambiar el material que aquí no lo
+puedo cambiar porque lo tengo asociado a
+ese tipo de tubería tendría que crearme
+mi tipo de tubería y asociarle el
+material y en ese material es donde
+estaría el 110 lo veis Entonces si
+vuelvo otra vez al sitio de antes le doy
+a configuración meda segmentos y me voy
+a al de PVC tampoco lo tengo porque no
+lo he cargado en el D PVC dónde lo
+hicimos os
+acordáis yo creo que fue a lo mejor
+acero al carbono o
+no ahí lo veis lo veis como de una forma
+errónea he creado un diámetro en un
+material que no es y lo he ido a buscar
+y a utilizar tampoco lo he encontrado
+por eso hay que ser rigurosos y saber
+cuál es el tamaño Dónde A qué segmento
+se lo voy a crear y luego al tipo de
+tubería que selecciono tiene que tener
+ese tipo de segmento si no no hago nada
+visto Y de esa forma también puedo
+eliminarlo le doy aquí le digo suprimir
+tamaño y listo Entonces cuando yo le doy
+aquí damos aceptar cuando yo doy aquí a
+sistemas fontanería
+tubería este desplegable de aquí es es
+el de la columna que os he dicho yo de
+la izquierda Ahí es donde tengo todos
+los diámetros que puedo seleccionar lo
+veis del segmento cobre a si fijaros
+este va desde el 6 hasta el 200 si me vo
+al segmento de cobre
+a me voy al cobre
+a lo veis del 6 al
+200 lo veis entonces segmento que es el
+material y sus diámetros que no quiero
+aparezca el 200 pues Tan sencillo como
+esto le quito el 200 le doy aceptar me
+voy otra vez a
+tubería y desaparece el 200 lo veis Y de
+esa forma controlo este tema Entonces
+cuando yo vaya a hacer fontanería y
+sanamiento lo primero que tengo que
+crear o que tener son los tipos de
+tuberías entonces me tengo que crear
+primero los tipos de
+tuberías cosa frecuente vale Vais a ver
+que hay fabricantes que ya veremos que
+hay fabricantes que tienen sus familias
+con sus piezas de Unión Pero hay veces
+que esas piezas de Unión tienen miles de
+piezas miles de tuberías y me dan fallos
+y no sé de dónde vienen los fallos vale
+pueden ser de muchas cosas porque cuando
+tú haces conexiones de piezas depende có
+est echa la familia hay ciertas familias
+que te dan ese
+ese digamos que te dan un margen de
+holgura y otras piezas que no te dan un
+margen el de ol gura es decir cuando tú
+vayas a conectar una pieza si hay un
+mínimo grado aunque sea un 0,01 te da
+error pero tú Puedes configurar esa
+pieza para que aunque haya un ángulo de
+0,01 que es mínimo te permita esa
+conexión Entonces si esas familias no
+están hechas están muy rígidas pues te
+va a costar modelar con ese tipo de
+familia Entonces mi recomendación es que
+os creéis vos todas las tuberías que
+porque El fabricante os haga unas
+tuberías muy chulas bonitas de colores y
+tal que eso también lo podéis hacer
+vosotros otros utilizáis la tubería
+estándar le aplicá los diámetros de la
+del tipo de tubería la nombrá le aplicá
+los diámetros y los valores que queráis
+y trabajáis con la de revit vale Y luego
+la colore y hacéis lo que queráis con la
+de revit o la asá un material que
+queráis vale ese es mi consejo porque al
+final te emocionas y voy a Ju si son
+estos los mismos tipos de tuberías que
+voy a utilizar en mi proyecto y en la
+obra nada porque me van a dar
+seguramente mucha guerra entonces me
+creo los míos y a correr vale
+Entonces dime y desde aquí Cómo
+cambiarías el material de la tubería el
+material de la tubería tú cuando
+seleccionas la tubería vale aquí tienes
+directamente tipo de sistema tienes aquí
+segmento de tubería cobre a vale dónde
+cambias el el segmento de tubería lo
+cambias aquí mira cuando tú te vas vamos
+a modelar por ejemplo una tubería das a
+tubería vale generas una
+tubería seleccionas la tubería y te vas
+a editar tipo vale en editar tipo tienes
+un parámetro que es preferencias de
+enrutamiento las preferencias de
+enrutamiento son como las piezas de
+Unión es vamos a configurar cuando yoga
+una Unión de esta tubería con otra Cómo
+la con Qué piezas las Quiero unir
+Entonces yo aquí ya lo configuro luego
+revit tiene muchas A lo mejor yo tengo
+10 tipos de codos Pero hay uno que es el
+que yo he configurado que es el que
+quiero que haga las uniones y cuando yo
+quiera le cambio un codo por otro pero
+ya se lo cambio yo pero de manera
+automática revit te lo da y es aquí
+preferencias de enrutamiento y lo di a
+editar y en editar es donde yo voy a
+elegir a este tipo de tubería que lo he
+llamado Pepito Pérez es le voy a asignar
+a este Pepito Pérez su segmento de
+tubería y lo hago aquí entonces aquí
+fíjate donde tienes aquí segmento de
+tubería donde pone cobre a tengo todos
+los tipos entonces a este que lo llamo
+Pepito Pérez a este tipo de tubería o
+propileno le voy a asignar el material y
+lo asigno aquí y ya desde aquí ese esa
+tubería tiene asignado el material
+Entonces en este caso tiene asignado
+cobre pues lo dejo con cobre pero si me
+creo otra tubería que le quiero asignar
+otro material Pues fijaros ahora os
+enseño cómo se crean tuberías dime Le
+iba a preguntar eso o sea estarías
+modificando la familia completamente
+para que utilices ese material Si tú
+quieres la familia de otro material
+creas duplicas la familia eso es eso es
+todo lo que es familia de sistema hay
+que duplicar vale porque si no duplicas
+te estás cargando la familia entonces
+todo lo que es familia de sistema Antes
+de antes de modificarla o mejor dicho no
+se puede modificar puedes crearte otra
+eso es no se puede modificar Vale
+entonces una familia de sistema es hay
+que duplicar hay que renombrar Y a
+partir de ahí hago todo lo que quieras
+vale porque el error viene por ejemplo
+con los muros que sabéis que también es
+una familia de sistema Pues cuando yo
+modifico un muro de revit se modifican
+Todos los muros de ese tipo en revit ya
+me he cargado la familia no vamos a
+ ese muro como como base lo duplico
+lo renombro y ya trabajo con ese muro
+que es distinto pero no me cargo el muro
+que ya existe Vale entonces en esto es
+Exactamente igual las tuberías son
+familias de sistema sin embargo las
+piezas de Unión las preferencias de
+enrutamiento piezas de Unión son
+familias cargables quiero cargar un codo
+pues lo traigo de fuera y cargo el codo
+sin embargo la teoría no O sea acordaros
+eh con conductos pasa lo mismo un
+conducto es familia de sistema Pero sin
+embargo un todo de un conducto es
+familia cargable una t de un de un
+conducto es familia cargable vale o sea
+las piezas de Unión cargables lo que es
+en s la tubería y el conducto familia de
+sistema vale con conducto Vais a ver a
+ver cuando trabajemos con una disciplina
+excepto electricidad todas son iguales o
+sea Vais a ver que el proceso es el
+mismo lo único que en lugar de en una
+instalación de fontanería trabajar con
+tuberías de un tamaño en conducto
+trabajas con conducto pero el sistema es
+lo mismo o sea el concepto el proceso
+todo es Exactamente igual igual lo único
+que cambia es el que uno es rectangular
+grande y el otro es o sea redondo
+estrechito vale pero es lo mismo
+entonces acordaros siempre dónde asigno
+el segmento aquí primero creo la tubería
+y cuando ya cree la tubería le asigno el
+segmento que ahora lo haremos vale Y
+luego en la familia de tipo pues la que
+Vais a trabajar es esta porque el resto
+son más datos de identidad lo veis todos
+los parámetros ya os habrá dicho Jorge
+que van los
+agrupamos ya veremos Cuáles son los
+grupos que tiene revit para que nosotros
+digamos Oye pues este parámetro lo
+quiero meter en este grupo Y entonces
+estos son los grupos segmento y uniones
+datos de identidad parámetros If FC pero
+hay muchos más grupos Entonces todos los
+parámetros que vaya creando lo voy a
+agrupar los parámetros que utilizan las
+familias de sistema son parámetros del
+proyecto o parámetros de del
+programa los parámetros de las familias
+de sistema son parámetros de revit
+parámetros de sistema vale Pero yo a un
+a una familia de sistema le puedo crear
+parámetros de proyecto o parámetros
+compartidos no habéis visto todavía eso
+porque todavía es pronto pero ya veréis
+la diferencia entre un parámetro de
+proyecto y un parámetro compartido vale
+yo os lo anticipo un parámetro de
+proyecto es que yo me creo un parámetro
+en este proyecto y es para este proyecto
+y un parámetro compartido es un
+parámetro que primero me lo creo fuera
+en un en una lista y como ese parámetro
+lo voy a utilizar en más proyectos Pues
+esa lista la tengo común para todos los
+proyectos es un archivo txt y esos
+parámetros los creo fuera y los veo
+utilizando Es lógico las empresas en las
+que trabajéis no podéis Llamar las cosas
+como os dé la gana sino en las empresas
+donde estéis dirán Oye tenemos este
+listado de parámetros compartidos y hay
+que utilizar estos si surge uno nuevo lo
+tiene que decidir el Bin manager o el
+equipo y entonces se va añadiendo más
+parámetros compartidos a ese parámetros
+a ese listado pero claro un parámetro de
+proyecto es Oye me lo cre creo y lo cre
+y lo hago solo y lo utilizo solo en este
+proyecto vale es la única diferencia que
+ya trabajaremos con ello y entonces todo
+lo que tenemos son parámetros entonces
+en el caso de las tuberías tenemos una
+serie de parámetros de sistema Pero hay
+otros parámetros que podemos Añadir
+nosotros que pueden ser o de proyecto o
+compartidos vale
+eh Bueno al final fijaros que todo esto
+al final de lo que se trata es que
+tenemos ya no solo una representación
+gráfica sino que también tenemos
+información asociada a esos componentes
+nos quedan 13 minutillos vale para pegar
+un pequeño descanso vale avisarme no sé
+si ya tenéis nombrado delegado o
+delegada pero avisarme por favor porque
+a mí se me suele pasar la hora y yo creo
+que hay que hacer descansos para que
+estéis bien vale eh Seguimos entonces
+entonces Bueno pues esto En definitiva
+es donde tenemos esas piezas donde se
+configuran esas piezas de Unión os pasa
+que estamos modelando y de repente me da
+errores cuando voy a hacer un modelo una
+tubería y hago otra a 90 gr y me da
+error puede ser porque no tiene
+configuradas piezas de Unión es decir
+tengo tuberías pero no he dicho de esa
+tubería Qué piezas son las que voy a
+utilizar no tiene ninguna pues
+evidentemente pues me da un error porque
+no puedo unir las dos tuberías pero
+también puede ser que me lo haga y no me
+aparezca la pieza de Unión por qué puede
+ser que no me aparezca la pieza de
+Unión por el ángulo porque no exista no
+O sea la mod de lado pero no se ve este
+otra altura
+por la visibilidad los
+filtros sí puede ser por los filtros
+está bien pero pero si están las
+tuberías y la pieza de Unión a la misma
+altura no puede ser por la altura porque
+entonces no vería tampoco las
+tuberías puede ser también el grado que
+tengas
+no es por la visibilidad pero por la
+visibilidad porque las piezas de Unión
+son otra categoría uniones de tubería si
+yo al vv famoso le le doy al vv famoso
+fijaros
+vv y le digo que a las uniones de
+tubería no quiero que se vean en la
+vista pues yo voy a darle el nivel de
+detalle alto para que se vea el tamaño
+de la tubería hago dibujar tubería tal
+que así lo veis Esto es lo que os decía
+líneas finas para que se vea mejor no
+veo la pieza de Unión pero no me ha
+puesto error no me ha dicho
+nada pues cuidado porque la visibilidad
+primero la visibilidad siempre ir a ver
+si es un problema de categoría del que
+la tengo apagada entonces y fijaros
+cuando estamos trabajando de con
+plantillas de revit por defecto si yo
+tengo una plantilla de Electricidad lo
+normal es que en esa plantilla de
+Electricidad todo lo que tiene que ver
+con fontanería esté apagado Entonces si
+me pongo a dibujar tuberías dice sí la
+has modelado pero no está visible en la
+vista y tú qué ha pasado di pues
+seguramente el UV te vas a UV vas a
+categoría de modelo y dentro de
+categorías de modelo vas a la categoría
+en concreto y dices vale pues sabéis
+Buscar no buscáis la t de tuberías Ah
+pues sí que está
+activa Vale decí pues tiene que ser otra
+cosa entonces yo otro sitio donde me voy
+es a los filtros porque los filtros
+fijaros que tengo doméstica sanitaria
+ventilación si el filtro no es hecho por
+mí directamente hago así pum pum y pum
+los elimino porque como no los he hecho
+yo y no sé lo que me va a hacer el
+filtro los elimino Y le doy aceptar Y
+entonces ya me aseguro que tanto por
+categorías como por filtros las cosas se
+ven Vale entonces le doy al vv y le digo
+voy a
+uniones de tubería anda está desactivo
+Pues venga pues le doy a aceptar y ya la
+recupero vale otra de visibilidad que lo
+veréis también es cuando yo no quiero
+ver algo puntualmente o sea yo tengo
+debajo un un objeto que lo quiero quiero
+seleccionar pero este codo no me está
+dejando y me molesta Pues yo lo que
+puedo hacer es decir voy a quitármelo de
+medio Ahora puedo ir a vv pero también
+tenemos más herramientas para quitarnos
+lo del medio lo quito del medio
+selecciono hago lo que tengo que hacer y
+luego lo vuelvo a incorporar a la vista
+Pues selecciono con el botón izquierdo
+del Ratón botón derecho ocultar en vista
+elemento o si quiero todos los codos
+categoría pues le digo elemento y ya voy
+y puedo seleccionar lo que esté debajo
+digo vale cuidado porque cuando que
+estáa vista la tengo preparada para
+montar un plano Entonces ese codo se
+tiene que ver pues cómo lo recupero Pues
+al igual que he dicho ocultar cuando
+trabajo con ocultar tengo que trabajar
+con la bombilla vale Mostrar elementos
+ocultos lo veis Entonces le doy a la
+bombilla me lo pone en color rojo botón
+derecho mostrar en vista elementos y
+apago la bombilla Y de esa forma
+recupero el elemento Vale entonces eso
+me sirve sobre todo para lo que os decía
+porque tengo muchos objetos uno encima
+del otro pues puedo Apagar varios puedo
+Apagar varios tengo hasta cuatro uno
+encima del otro pues apago los tres de
+arriba y dejo el que necesito
+seleccionar vale Y de esa forma podemos
+trabajar hasta aquí
+dudas es un poco obur la pregunta Quiz
+pero una familia es un tipo de tubería
+de con material tal altura tal eso es lo
+que es una familia no a
+ver una familia es cualqu
+cuier cosa es una familia un tipo de
+muro por ejemplo es una famil A ver tú
+cómo clasificas los elementos en revit
+la clasificación es voy a ponerlo ahí
+para que lo veáis tenéis todos claro
+este concepto o
+no
+mirar eso me imagino que Jorge os lo
+explicará mejor pero para que lo
+entendáis todo en revit se clasifica por
+categorías
+vale
+vale una categoría por
+ejemplo vamos a ver por ejemplo a nivel
+de instalaciones terminales de aire
+sabéis lo que es un terminal de aire los
+difusores que tenemos en los techos pues
+una categoría es
+terminales de
+aire
+vale Vale ahora por debajo de categoría
+ya tengo la categoría qué hay por debajo
+de categoría lo que llamamos familia
+Vale entonces ahora
+tengo
+familia Qué es una
+familia por ejemplo dentro de lo que son
+terminales de aire una familia sería
+difusores
+rotacionales otra familia Puede ser
+toberas
+vale otra familia Puede ser
+difusores
+lineales vale lo veis por debajo de
+familia Qué hay tipos tipo Entonces por
+debajo de
+familia Ya voy a
+tipo o sea fijaros eh categoría
+terminales de aire o sea todo esto está
+dentro de la categoría terminales de
+aire pero ahora dentro de la categoría
+tenemos una subdivisión que es por
+familias es decir esto es una familia
+esto es otra familia y esto es otra
+familia y ahora dentro de cada familia
+hay diferentes tipos imaginar por
+ejemplo de difusores lineales está el
+tipo
+vale tenemos el tipo el de 1 metro de
+longitud y una
+vía vale vamos a dejar por ejemplo lo
+del metro vamos a poner una vía que es
+más sencillo
+entenderlo una
+vía dos
+vías y tres
+vías vale lo cual tenemos categoria
+terminal de aire
+familia difusor lineal y dentro de la
+familia Tenemos diferentes tipos el tipo
+de una vía dos vías tres vías ahí lo que
+es una vía dos vías tres vías no cuando
+tenéis un difusor lineal de estos en el
+techo que tenéis solo una vía por donde
+sale el aire o los tenéis que hay dos
+vías o los tenéis A lo mejor que pueden
+llegar a tener tres vías por donde sale
+el aire Entonces es diferentes tipos es
+la misma familia porque son difusores
+lineales y pertenece la categoría
+terminales de aire o si cambia también
+la
+dimensión también puede ser por cambio
+de Dimensión vale o sea el tipo sería
+como el elemento singular no bueno el
+tipo no porque tipo es porque en el
+proyecto tengo muchos de tres vías
+muchos difusores de tres vías entonces
+hay muchos de este tipo Pero luego está
+el ejemplar o sea por debajo de tipo
+está ejemplar y llamamos aquí
+ejemplar ejemplar es la última
+clasificación vale Y luego Imagínate que
+yo he elegido la categoría terminal de
+aire el tipo la perdon la familia
+difusor lineal el tipo de tres vías y
+ahora el ejemplar imaginar en el
+proyecto tenemos
+tenemos 200 difusores lineales de tres
+vías A qué denominamos
+ejemplar Por qué uno es ejemplar de
+otro si decimos que es ejemplar Qué
+estamos diciendo que es que tiene algo
+diferente al otro no que es único de él
+el modelo en concreto color
+diferente No porque si es del mismo tipo
+lo normal es que sean del mismo color
+todos lo normal la dimensión no la
+dimensión es la misma ti algún parámetro
+que lo diferenci eso es hay un parámetro
+que lo diferencia pensar qué parámetro
+puede diferenciar un parámetro en revit
+que lo diferencia a ese de tres vías que
+es de la misma categoría de la misma
+familia y del mismo tipo qué parámetro
+lo puede
+diferenciar el caudal que puede tirar su
+ID este Bueno tú has hilado muy fino eso
+eso sí porque el ID es diferente a cada
+uno entonces sí que sería ejemplar por
+el ID vale pero un parámetro más
+más visible material no porque el mismo
+tipo tiene el mismo tipo la marca
+comercial no porque es es porque este
+son todos de trocs del fabricante esté
+colocado en un sitio o en otro Eso es la
+ubicación hay un parámetro que es altura
+ese parámetro es un parámetro de
+ejemplar porque a lo mejor la altura de
+este es de 3 Met y el otro de 320 y el
+otro de 280 eso ya lo hace
+distinto siendo de la misma familia
+o sea de la misma categoría de la misma
+familia del mismo tipo pero hay
+parámetros que los di que los
+diferencian de otros siendo lo mismo
+entonces cuando tenemos un grupo de de
+componentes de revid que son de la misma
+categoría de la misma familia del mismo
+tiempo por qué son ejemplares pues son
+aquellos parámetros que los diferencian
+unos de otros siendo del mismo tipo
+porque en editar tipo cuando yo
+selecciono un componente cuando voy a
+editar tipo veo los parámetros que
+comparten todos los difusor de tres vías
+en editar tipo Pues los valores de esos
+parámetros son exactamente iguales en
+todos los difusores de tres vías iguales
+y suele ser el material el color o sea
+lo que acabéis decir hace un rato que
+podía ser ejemplar No pues el material
+el color las dimensiones pueden ser del
+mismo tipo y sin embargo la altura eso
+es lo que les diferencia entre ellos eh
+Y entonces dónde está ese parámetro de
+ejemplar en la tabla esa de propiedades
+que veis que tenéis propiedades y luego
+pestañita de editar tipo pues la de
+propiedades son parámetros de
+ejemplar son los parámetros que hacen
+diferentes a cada uno a cada elemento de
+revit siendo del mismo tipo y dónde
+están los parámetros que son comunes a
+los del mismo tipo Pues en editar tipo y
+si yo uso un difusor lineal de tres vías
+mismo todo y cambia el
+material sería otro
+tipo otro tipo o sea una medición por
+ejemplo la última categoría sería tipo
+no sí sí miento puede ser también de
+ejemplar el color tiene los 300
+difusores de dos de tres vías y de uno
+quiero azul el otro verde el otro tal o
+sea y entonces tienes un parámetro fuera
+de editar tipo que está en las
+propiedades que lo pones que es color y
+como a todos les voy a dar un color
+distinto pues lo puedo hacer parámetro
+de ejemplar no es lo lógico o sea No
+vais a encontrar esa casuística nunca
+pero podría ser ejemplar el color vale
+pero más más evidente es el tema de la
+altura la altura es muy evidente es
+decir es que en las habitaciones no
+todas están a la misma altura Entonces
+estos son y luego también la posición lo
+que habéis dicho alguno de vosotros la
+posición es decir este está en las
+coordinadas x y z y el otro está en la A
+lo mejor está en la misma x pero están
+diferente Y entonces la posición ya es
+un elemento que diferencia que es
+ejemplar O sea si yo quiero comprar
+sillas quieres Quiero comprar sillas per
+un ofici Sí y me las vendes stin la
+marca comercial
+y tienen el mismo modelo o sea sillas
+que tengan repos como esta y que sean
+iguales mismo modelo mismo es decir
+mismo modelo te estás refiriendo al
+mismo tipo el modelo sería el tipo y ya
+depende de la marca si es si ella genera
+la familia Me puede generar un tipo
+individualmente por cada variación de su
+producto o decir bueno el color lo
+eliges tú es un parámetro que que está
+ahí Y en cada ejemplar tú eliges el
+color es o sea Eso ya depende un poco de
+eso es tú cuando crees Una familia
+cuando crees Una familia vas a crearle
+vas a asociarle parámetros de tipo y
+parámetros ejemplar de ejemplar y tú vas
+a definir Cuáles son ejemplares y cuáles
+son de tipo cuando ya lo veremos cuando
+Hagamos una familia os voy a preguntar y
+este parámetro de Qué es de tipo de
+ejemplar y vosotros tendréis que decir
+pues si es un parámetro que va a ser
+exclusivo para cada uno o puede ser
+diferente para cada uno Aunque vaya a
+ser el mismo Pero puede ser diferente
+para cada uno Debería ser de
+ejemplar Pero si ese valor el valor de
+ese parámetro el valor si el valor de
+ese parámetro va a ser el mismo en todos
+de
+tipo en todos los del mismo tipo
+visto paramos aquí y seguimos ahora
+vale estas primeras clases son un
+poquito más de conceptos y un poco más
+un poco más hablando Clara en el
+caso de tías por ejemplo la la familia
+sería eh tubería tuberías PC y el tipo
+por por diámetro por ejemplo Claro claro
+el diámetro puede ser el tipo
+vale el tipo de 10 mm el tipo de 20 mm
+el tipo de tal o sabes eso es familia es
+el el el tubería PVC y el tipo es el
+diámetro
+vale Y luego ya el parámetro de ejemplar
+que tenga esa tubería es la altura donde
+la coloques
+Vale pero por ejemplo el material que
+sería un parámetro de ejemplar o de
+tipo tipo Claro si tú tienes una tubería
+de PVC el material siempre va a ser el
+mismo no va no va a ser de hoy de ahora
+de cobre ahora de El material va a ser
+siempre para las del mismo tipo va a ser
+el mismo material pues parámetro de tipo
+material vale o hay alu que lo hace bien
+o o es un desastre porque encima por eso
+si me gusta me gusta la par diseño
+también tener controlada la gente que
+lle la hora pues también porque como no
+se haga el diseño
+no
+no si que no me Pues sí es que justo
+estu ayer Hoy me tengo que ir a pero
+ayer estuve en una que está está Guay
+porque han puesto los revestimientos y
+los
+primer m que no se ve
+[Música]
+nada Qué gusto noos he tenido que
+llamar Bueno ya veréis a mí que vayan
+avanzando las clases me veréis por ahí
+oye que ya es
+[Música]
+hora
+est diciendo
+[Música]
+que
+bueno continuamos
+eh volviendo otra vez a la ventana de
+configuración hemos visto ángulos
+conversión segmentos y tamaños que ya
+entiendo que sabéis crearlos ya seguro
+que sois unos expertos fluidos vale es
+decir cuando calculamos esto tiene algún
+interés pues bueno si nos dedicamos a
+calcular Sí porque no es lo mismo un
+fluido como el agua que como un gas O
+como cualquier otro otro fluido que que
+puede tener diferentes densidades y y y
+características térmicas
+químicas que realmente son para calcular
+vale porque al final todos estos valores
+en el tema de temperatura viscosidad
+densidad son para temas de cálculo vale
+Pero como nosotros si calculamos algo a
+ser fontanería pues al final vamos a
+utilizar agua pero que sepáis que es lo
+mismo que podemos Añadir nuevos fluidos
+tendríamos que sacar bajarnos una tabla
+de características para ir rellenando
+todos datos podemos suprimir temperatura
+Añadir nuevas temperaturas no lo Vais a
+tocar vale o sea eso es de las cosas que
+ti revit que tampoco de momento a día de
+hoy que no Vais a utilizar vale pero
+noos nosotros o la práctica profesional
+la práctica profesional Cuando digo no
+utilicéis vosotros digo en la práctica
+profesional Tú sabes que hay otras
+aplicaciones mejores cl claro entonces a
+ver yo algunos de vosotros que tenéis ya
+cierta experiencia conocéis ciertas en
+el mercado de cálculo eh Y a lo mejor a
+mí muchos muchos que llaman expertos o
+que se llaman expertos de bim me van a
+me pueden crucificar pero el ifc que es
+un formato de intercambio de información
+funciona como funciona a ver si a mí me
+decís a ti te gusta el ifc no porque al
+final cuando yo intercambio información
+lo que pretendo Es que la información
+que estoy exportando tú la recibes si yo
+te exporto información y recibes la
+mitad y el resto lo tienes que volver a
+meter tú pues no vale absolutamente De
+nada os pongo otro ejemplo el ifc cuando
+yo exporto un modelo en formato ifc es
+como si fuera un PDF digamos con
+información es decir Yo puedo abrir el
+ifc puedo
+tocar puedo ver la información que me
+trae pero si lo quiero modificar no lo
+voy a poder modificar y a mí que me
+interesa poder modificar Cualquier cosa
+si yo voy a recibir un modelo de una
+ingeniería en formato ifc y lo voy a
+poder ver fantástico Pero y si quiero
+mover una máquina de sitio o una
+luminaria ya no lo puedo mover tengo que
+requerir al ingeniero que me ha hecho el
+proyecto que mueva el equipo y que me lo
+envíe con el equipo movido habéis visto
+qué absurdo para mover un equipo que lo
+puedo hacer yo que tardo cero coma tengo
+que llamar una persona que esa persona
+abra la herramienta que lo modifique que
+me envíe el
+archivo no es operativo Pues el ifc es
+eso ent hay fabricantes que por temas
+económicos y por temas estratégicos han
+pensado que es el formato de
+intercambios es el ifc vale el ifc nació
+como algo idílico es decir estamos todos
+cautivos de autodex es decir todos los
+que los que estamos aquí casi todos
+manejamos autocat manejamos revit
+tenemos navis Bing 360 O sea casi todo
+es producto
+autodex y podríamos estar trabajando con
+otras soluciones que hay en el mercado
+No pues en teoría el ifd está para que
+trabajemos cada uno con la herramienta
+que nos dé la gana y tengamos un
+lenguaje de intercambio de información
+que nos sirva para entendernos o para
+Oye pásame tu archivo que quiero
+trabajar con él pues Oye en formato yfc
+y sigo trabajando con él pero si al
+final yo te exporto un archivo para por
+ejemplo cipe y me interesa el archivo de
+revit porque me trae la geometría y me
+trae información y cuando voy a cipe lo
+que es ventana no lo tiene como ventana
+o lo la información que viene de la
+ventana no viene completa yo tengo que
+estar metiendo los valores de la ventana
+y tal para que me haga el cálculo de
+cargas
+térmicas pues al final no es no es
+eficiente Vale entonces el ifc existe el
+ifc se utiliza pero no es pero si a mí
+me decí Oye tú trabajarías con ifc no
+pero van sacando nu las versiones de
+ifc Van mejorando Pero qué pasa que la
+velocidad de de mejora del ifc no va con
+la velocidad de desarrollo de software
+en el mercado es decir autodex está
+comiendo todo o sea yo hace muchos años
+no sé si conocéis a bentley bentley es
+otro desarrollador de software muy
+conocido porque tiene herramientas muy
+potentes y incluso mejores que autodex
+pero como comercialmente no lo han hecho
+bien pues autodex les ha ido comiendo
+terreno entonces a ecosim Es una
+herramienta
+Eh pues podríamos decir que incluso más
+potente que revit pero es una
+herramienta que no se
+utiliza os habéis fijado que autodex
+pone muchas facilidades licencias
+educacionales licencias piratas o sea es
+tiene acceso para todo el mundo es
+código abierto es decir Yo puedo hacer
+plugin y puedo hacer desarrollos de
+software en entorno
+autodex y sin embargo el resto de
+programas ni te lo doy gratis ni te dejo
+pirata ni te dejo código abierto ni te
+dejo nada entonces a nivel estratégica
+estratégico Pues el resto de de
+fabricantes lo han hecho mal entonces el
+ifc se está desarrollando pero cada vez
+el entorno autodex es mayor y cada vez
+mayor y cada vez mayor Entonces al final
+el ifc vas a decir pues trabajamos con
+ifc Pues fíjate si ya decimos que las la
+plataforma de de trabajo colaborativo de
+o la que cumple con la ISO que es Bin
+360 que es autodex si hablamos de
+modelado que es revit si hablamos de
+navis que es para coordinación y tal
+pues al final y además es que una
+licencia de la Collection tiene todo
+esto pues al final di Bueno pues no
+tengo que estar comprando un software de
+esto otro software de otro otro software
+de tal Y además archicad por ejemplo que
+lo conocéis muchos Es que solo solo es
+para arquitectura si quieres
+instalaciones necesitas otro Software
+que se entienda con archicad Entonces al
+final tú dices revit tiene las tres
+disciplinas además como hay mucha gente
+trabajando con revit y mucha gente
+programando con en autodex pues cada día
+se mejoran las funcionalidades
+entonces para mi pesar a mi pesar
+autodex Nos está dando por saco Hablando
+claro y al final tú cuando quieras
+trabajar mínimo tienes que tener una
+inversión de dinero para tu puesto de
+trabajo de 6000 para empezar a hablar
+6000 por ti por el otro por el otro por
+el otro entonces imaginar hace muchos
+años un estudio madrileño que es muy
+conocido que es el e35 Pues en una
+presentación que hicimos en el colegio
+de arquitectos de Cataluña Pues dijo
+empezó a hablar de autodex autodex y
+Carlos tío deja de hacer publicidad y
+propaganda dice no si es que lo que
+quiero decir a esta gente es que somos
+cautivos es decir todos nuestros
+empleados trabajan con Autocad Y en
+lugar de cambiar a a
+ecosim pues nos ha obligado o sea
+prácticamente hemos estado obligados a
+cambiar a
+revit estás hablando de muchísimas
+licencias muchísimo coste a nivel de
+gastos fijos Entonces al final todo esto
+es dinero entonces no penséis que todas
+las empresas tienen 150 trabajadores 150
+licencias no O sea en función del uso
+pues tienen licencias en Red que se usan
+la usan ciertas personas en B 360 Pues a
+lo mejor Tienen varias
+licencias Entonces no tienen para todo
+el mundo porque al final imaginar todo
+ese coste que conlleva y al final
+también es un tema muy claro de de
+eficiencia es decir cuántas horas vas a
+utilizar tu
+revit si si tu trabajo es estar todo el
+día trabajando con revit a ti te pongo
+una licencia pero si la vas utilizar de
+vez en cuando para un proyecto para lo
+que sea pues digo Pues mira como tú hay
+30 vamos a tres licencias y apañar
+Si vemos que os pegá demasiado pues
+cogemos una cuarta Entonces al final
+esto pues pues al final qué pasa que
+autodex esto se convierte en un
+monopolio y autodex al final pondrá el
+precio que quiera y Tendremos que pagar
+el precio que
+quiera antiguamente vos doos sois
+jóvenes pero antiguamente una licencia
+era tú comprabas una licencia y ya
+estabas en posesión de esa licencia y
+podías trabajar con la versión que
+querías y ya pagabas solo al año pagabas
+un mantenimiento porque Oye esa versión
+que me vas a dar nueva que incluye otras
+cosas Pues tiene un coste pero era a lo
+mejor el 15% de lo que costaba la
+licencia Ahora no ahora es tú pagas al
+año 3800 por la licencia y todos los
+años 3800 la uses o no la uses y también
+tienen otro formato que es por uso es
+decir Oye pues solo la quiero 3 meses
+Pues casi te compensa pagarla un año
+o sea para que os hagáis una idea de lo
+que cuesta 3 meses Per bueno pues por
+poquito más ya me quedo el año completo
+vale venga Seguimos entonces segmentos y
+tamaños qué es lo que hemos visto
+fluidos pendientes pendientes dónde
+aplicamos En qué tipo de
+instalaciones sanitarias sanitarias en
+el resto yo no aplico pendientes
+Entonces al final Aquí tengo las
+pendientes que puedo utilizar Aquí tengo
+por normativa es decir en España la
+normativa es entre el uno y el cuatro me
+imagino en casi todo el mundo porque con
+Perdón la recorre la misma
+velocidad aquí que en Colombia que en
+cualquier otro país entonces en función
+de la pendiente sabéis que Cuanto más
+pendiente la porquería se trae se queda
+atrás y el agua corre más rápido
+Entonces al final por eso las pendientes
+están entre el uno y el cuatro entonces
+normalmente si estamos hablando de
+edificación tubería descolgada es
+1% y si es enterrado 2% y luego ya el TR
+y el cuat lo aplicas a criterio tuyo
+vale es decir en funci un poco de las
+circunstancias de ese proyecto pues la
+aplicas pero normalmente van entre el
+uno y el dos que son las pendientes más
+utilizadas entonces aquí tenemos 0 1 2 y
+cu Entonces cuando trabajemos con
+saneamiento o sanitario vamos aplicando
+la pendiente que queremos para cada caso
+vale que le podemos poner casi pendiente
+cero porque cuando si tenemos una
+instalación lo que pasa no cumple
+normativa pero cuando tenemos una
+instalación que sabemos que va a ser
+solo agua y más o menos agua limpia que
+no hay residuos pues ya sabéis que
+aunque le pong pongas AC cero esa
+tubería se vacía vale o con poquito que
+tenga de pendiente se vacía sola Vale
+entonces Pero eso yo me he encontado
+edificios en Madrid de vivienda pública
+donde nueva donde no cumple nada de esto
+O sea donde las Claro porque ves ves
+tuberías de sanamiento que recorren
+garajes A lo mejor de 100 m de largo y
+claro si si le aplica realmente
+la la pendiente del 1% si es 1 cm por
+cada metro en 100 m son 100 cm es 1 m
+Pues si tienes una altura de 250 Y ya
+estás bajando 1 m Pues hay zonas del
+garaje donde está la tubería metro y
+medio entonces vosotros penséis que van
+a cubrir a cumplir no entonces hay
+muchas veces que se hace la vista gorda
+y las tuberías van a prácticamente a
+poco más del cero Vale entonces por eso
+el técnico que desarrola Un diseño de
+instalaciones pues tiene que tener mucho
+cuidado como Cómo plantea el proyecto
+para que no tenga para que no tenga
+futuro problemas en el tema de la
+evacuación Vale entonces siempre
+acordaros que para sistemas descolgados
+1% y obligatorio para enterrado 2%
+mínimo Vale y Máximo cuatro de pendiente
+entonces aquí revit lo tenéis resuelto
+entonces Estas son las cuatro que
+utilizas y punto que queréis Añadir una
+pendiente nueva Pues lo mismo añadí
+pendiente nueva y listo vale Y luego la
+última que veríamos en tuberías es la de
+cálculo tenemos para redes
+hidrónico es el que os he dicho
+yo activar para redes de tuberías
+hidráulicas de bucle cerrado Entonces
+cuando tengáis una instalación ya
+interesante modelada esto hacer así pum
+porque al final el diámetro lo Vais a
+poner vosotros no lo Vais a ir
+recalculando recalculando entonces como
+se os olvide
+esto se os va a quedar la ruedecita así
+un buen rato y Vais a tener que cerrar
+el revit y perder todo lo que hayáis
+hecho sin haber guardado Yo también Es
+verdad que cuando ya trabajo en
+proyectos gordos intento si lo tenéis
+automático o sea os lo podéis configurar
+de poner el guardado cada 15 minutos o
+cada 10 para que cuando llevéis 10
+minutos pum guardo pum guardo porque
+cuando te emocionas y llevas ahí dos
+horas trabajando y te has emocionado y
+te va fenomenal Te pasa algo de esto no
+las sincronizar y pum y te estás
+acordando de todo el mundo vale o sea
+que que tengáis mucho cuidado con eso
+ent esta acordaros vale Y luego pues
+aquí son las típicas fórmulas de cálculo
+que son para los que son expertos en
+este tipo de instalaciones las conocen
+vale tenéis la ecuación de este señor o
+la ecuación del otro entonces
+normalmente yo la que utilizo es esta
+vale Yo conozco ingenierías que para la
+parte de saneamiento como el cálculo en
+fontanería el cálculo sencillo eh o sea
+cuando conozcáis las dos tres fórmulas y
+el proceso es muy sencillo Entonces se
+pueden desarrollar plugin directamente
+sobre revit para calcular vale Y aplicá
+ya criterios del código técnico que es
+lo que utilizamos aquí en España para
+calcular instalaciones de saneamiento y
+fontanería vale Pero podemos dejar este
+y calcularlo con esto pero repito las
+ingenierías no calculan con esto vale lo
+hacen con su método tradicional y luego
+a modelar pues esto sería la parte de
+fontanería Dime el tick ese azul lo
+dejamos para siempre desactivado o segú
+nos interese ahora mismo que estamos en
+formación déjalo activo pero yo mi
+recomendación es que lo desactivé
+siempre vale que lo dejéis desactivo
+cuando es un proyectito pequeño No pasa
+nada porque el cálculo es rápido pero
+cuando os metáis en un edificio grande
+ahí es cuando genera problemas
+vale visto esta parte Entonces vamos a
+ver ahora dentro de la configuración que
+tenemos de fontanería que es esta que
+acordaros el otro camino que vimos vale
+de gestión de gestionar vamos a
+gestionar vamos a configuración y aquí
+configuración mecánica Vale entonces que
+sepáis que siempre tenemos yo siempre
+soy prudente digo prácticamente
+siempre digo prácticamente siempre
+porque porque a ver si me vais a pillar
+algún día y vais a decir Oye Marcos que
+esto no no hay dos caminos para hacer
+esto pero yo diría que casi casi todo
+tiene dos caminos para llegar a ello
+vale seguimos
+eh vamos a ver ahora lo que es la parte
+de herramientas dentro de fontanería y
+sanamiento
+vale tenemos la herramienta para modelar
+tuberías cuando yo clico en una
+herramienta como va a pasar en
+cualquiera de las de revit siempre me
+aparece una opción de cómo la voy a
+modelar luego una barra de opciones de
+configuración que suele ser elevación
+diámetro tal Y luego por último elegir
+la familia y tipo Entonces el proceso es
+el mismo cóm la voy a modelar voy a
+configurar en la barra de opciones los
+parámetros importantes y luego elijo la
+familia del tipo vale ese sería un poco
+el proceso entonces aquí me está
+diciendo justificación qué es esto de
+justificación en tuberías pues la
+justificación es cuando yo modulo una
+tubería fijaros
+me
+sale justificación horizontal centro es
+decir cuando estoy en una vista de 2D y
+lo estoy haciendo en planta cuando yo
+módulo una tubería lo estoy haciendo
+desde el eje en el centro vale si quiero
+aplicar un desfaso es decir yo lo voy a
+aplicar desde aquí Pero que me lo ponga
+a un metro desde donde yo estoy
+modelando Vale y la justificación
+vertical en el medio vale que lo quiero
+cambiar y digo no es que yo las dibujo
+me gusta dibujar las tuberías a
+izquierdas o a derechas Vale entonces
+Bueno pues yo nunca lo utilizo vale Yo
+siempre lo hago centro y medio todo en
+el eje Vale cuando hablamos de tuberías
+y conductos igual esto no lo toco vale
+pero que sepáis que a ver conductos Sí
+está bien porque conductos cuando veis
+un garaje por ejemplo en un garaje Yo sí
+he visto que cuando modelis unas unos
+conductos por espacio por lo que sea
+fijaros si es esto es la pared imaginar
+que esto es el garaje vale pongo Pilares
+intermedios y el conducto va pegado a la
+pared entonces empieza con un tamaño y
+va decreciendo pero va como pegado en la
+pared vale o sea es como si el conducto
+tuviera esta parte lineal Y esta es la
+que va decreciendo Pues claro pues si yo
+voy a modelar el conducto así pues lo
+hago a izquierdas Y entonces voy
+modelando y voy cambiando el tamaño y se
+va quedando así vale si no luego lo
+tengo que hacer yo manualmente si lo
+quiero hacer así sin hacerlo así lo hago
+a ejes y luego lo modifico Pues voy a
+tardar mucho más de esta forma hoy voy
+haciendo este tramo cambio de de
+dimensiones hago este tramo cambio de
+dimensiones y hago este tramo y me lo
+buja directamente así vale o también lo
+tengo cuando estoy en un garaje esto es
+una sección vale de suelo y techo Pues
+cuando yo estoy en un garaje lo que
+quiero es ganar altura Entonces cuando
+tengo un conducto que es muy ancho Pues
+lo mismo Voy subiendo hacia arriba lo
+veis Y entonces la parte de arriba se
+queda siempre alineada y la parte de
+abajo es la que voy cambiando de tamaño
+pero subiendo hacia arriba Entonces Esta
+es vertical y horizontal vale para que
+veáis si lo dibujo a eje si lo dibujo a
+izquierda a derecha vale ese sería lo
+que es la justificación Y esa
+justificación la puedo cambiar
+directamente aquí cuando yo selecciono
+tubería vale fijaros que también lo
+tengo aquí lo que decía por dos caminos
+lo puedo hacer directamente en
+justificación y lo cambio o directamente
+en los parámetros de ejemplar vale
+fijaros Por qué es ejemplar porque un
+conducto del mismo tipo y de la misma
+dimensión loed lo puedo hacer a
+izquierdas a derechas a eje o sea por
+eso es un parámetro de ejemplar
+vale
+seguimos de posición fijaros que cuando
+yo modulo una tubería y yo selecciono
+esta tubería automáticamente me da una
+información
+vale si fue una línea de Autocad y
+seleccionas la línea no tienes
+información entonces el marcador de
+posición Para qué sirve el marcador de
+posición que es otra herramienta que no
+utilizo vale o que no se utiliza pero
+que tiene su funcionalidad pero no se
+utiliza o por lo menos yo no lo utiliz
+nunca el marcador de posición sirve para
+hacer un recorrido de tubería fijaros yo
+voy haciendo una serie de
+recorridos voy cambiando el
+diámetro vuelvo a cambiar el diámetro a
+100 con sus piezas lo veis puedo ir
+cambiando muchas cosas pero sigue siendo
+una
+línea Entonces yo para qué lo hago Pues
+a lo mejor me interesa hacer un
+recorrido todavía no tengo Claro si este
+va a ser el recorrido final y no voy a
+entretener en sus piezas de Unión tal
+entonces aquí esto no tiene piezas de
+Unión pero sin embargo si yo selecciono
+esa tubería me está dando la misma
+información que la tubería normal o sea
+la única diferencia es que no incorpora
+piezas de Unión y son líneas que luego
+estas líneas las puedo
+convertir directamente a lo veis
+convertir marcador de posición lo puedo
+convertir directamente en tubería
+Entonces le digo convertir lo veis que
+me lo ha convertido directamente en
+tubería Entonces yo puedo hacer ese
+recorrido que más o menos Creo que va a
+ser el que va a seguir mi tubería y
+cuando ya lo tenga claro selecciono todo
+y le digo convertir marcador de posición
+y ya me convierte esa tubería con los
+con los valores de los parámetros lo
+veis que yo he ido
+seleccionando para eso sirve pero vuelvo
+a repetir no la utilizo vale o sea al
+final ni tampoco utilizo tuberías
+paralelas tuberías paralelas es porque
+si llevo por ejemplo una un edificio de
+viviendas y llevo paralelas A lo mejor
+un grupo de 16 tuberías pues esta es una
+forma fácil de hacerlo vale que ya
+veremos como o sea dices tuberías
+paralelas a esta por ejemplo pues digo
+Pues mira en horizontal va a haber seis
+y en vertical va a haber cuatro pues me
+pongo aquí lo veis o para un lado o para
+otro me coloca las tuberías y las otras
+y las cuatro filas hacia arriba
+directamente hago así
+y nivel de detalle alto porque si no no
+te sale y ya tengo las tuberías ahí lo
+veis entonces puedo decirle la distancia
+que va cada una O sea que de una forma
+rápida puedo generar un grupo de
+tuberías para no tener que ir una una o
+sea esto es una herramienta que facilita
+vale Y esto Pues cuando tenemos una
+centralización de contadores de
+fontanería y de agua fría pues me viene
+muy bien porque las verticales y todo lo
+hago así vale Entonces est esto me viene
+fenomenal lo claro también pensar que me
+viene muy bien siempre que las tuberías
+sean del mismo diámetro si no son del
+mismo diámetro ahora tengo que ir a cada
+una diciendo Vale pues esta es de 18 y
+esta es de 58 que me quita un poco de
+trabajo pero tampoco tanto Vale entonces
+a lo mejor me interesa ya ir haciéndolas
+una una siempre para volver para atrás
+control Z vale eso lo sabíais no de de
+Windows o de de Autocad lo que sea visto
+más herramientas de fontanería tenemos
+uniones de tubería las piezas de Unión
+son los codos lasas si yo clico sobre
+ella vale aquí en propiedades despliego
+y veo todas las piezas de Unión que
+están cargadas en mi
+proyecto Vale entonces yo podré
+seleccionar cualquiera de estas piezas
+de Unión una t lo veis de un manguito
+reductor otra té otro tipo de té otro
+otro otra pieza de transición las piezas
+de transición son las que cambian de
+diámetro vale que van de un diámetro a
+otro las piezas de transición esto es
+otra pieza de transición otro tipo O sea
+que son las piezas de Unión
+todas vale Pero todas estas piezas de
+Unión cuando yo selecciono una tubería y
+quiero ver cuáles son las que están
+elegidas por defecto para la unión de
+esta tubería me voy a editar tipo
+selecciono la tubería y me voy a editar
+tipo y en editar tipo me voy a
+preferencias de enrutamiento y aquí en
+preferencias tengo fijaros el codo Este
+es el tipo de codo que utilizo para este
+tipo de tubería que es la estándar y que
+tiene un material de cobre
+Este es el tipo de codo sin embargo si
+me voy aquí si le doy a cancelar y me
+voy aquí a las piezas de Unión me voy
+directamente a las piezas de Unión pues
+ahí tengo todos los codos que hay
+cargados en mi proyecto
+todos pero este es el que utiliza como
+estándar para hacerle el tipo de uniones
+que luego fijaros que yo luego cuando he
+cambiado este codo este codo es el que
+me ha puesto lo veis por defecto pero
+ahora digo no es que este codo en este
+caso quiero
+este pues directamente cambio la familia
+y ya está selecciono el codo y cambio la
+familia como aquí tengo todas le pongo
+la que yo quiero pero lo que hago es por
+defecto configurarlo para que yo no
+tenga que hacer estos cambios Vale
+entonces para este tipo de tubería este
+tipo de codo para es tipo de conducto
+este otro tipo de pieza de Unión y listo
+vale dentro de las piezas de Unión que
+ya lo ya lo iremos viendo en la próxima
+clase cuando yo voy a selecciono una
+tubería siempre hay que seleccionar la
+tubería para ir a ver su configuración
+de piezas de Unión me voy a editar tipo
+en editar tipo preferencias de
+enrutamiento y Veo todas las piezas que
+tiene
+vale es decir aquí por
+defecto yo tengo la pieza el codo que
+tengo elegido para este tipo de tubería
+para la unión el tipo de conexión
+preferida que es el tipo t Vale cuando
+cuando uno tuberías el tipo de conexión
+quiero que sea una t en conductos
+utilizaremos otro tipo de conexión eh
+luego qué t voy a elegir esta la t
+genérica estándar cruces utilizo cruces
+pues este tipo de cruz para este tipo de
+tubería Entonces voy configurando para
+cada una de las piezas de Unión Cuál es
+la pieza que yo quiero que me ponga por
+defecto vale Y luego están el resto y el
+resto las iré cambiando si me interesa o
+no me interesa pero de manera automática
+quiero que me ponga estas uniones y ya
+lo tengo configurado y listo vale que
+quiero cargar un codo
+nuevo lo veis aquí no cargar familia
+Vale entonces le daría cargar familia
+Busco el codo que quiero cargar y lo
+cargo vale Y ahora fijaros todas estas
+piezas de
+Unión son de una categoría o de varias
+categorías de una categoría eso es qué
+categoría son piezas de uniones de
+tubería pues todas son de la misma
+categoría Entonces cuando yo cargue
+todas las piezas como se me
+colocan Pues cuando yo creo la familia
+le tengo que decir que esa familia es
+codo aunque sea de la categoría Unión de
+tubería le tengo que decir que es codo
+para que cuando yo lo cargue me lo ponga
+en
+codo y fijaros Y dónde está el resto de
+codos que tengo yo despliego aquí y
+están ahí todos lo veis Entonces cuando
+yo cargo un codo se tiene que poner en
+ese listado lo que pasa es que yo por
+defecto he seleccionado esta y he dicho
+Esa es la que quiero que me coloca las
+otras las tengo dentro de rev y las
+podré utilizar pero la que quiero que me
+ponga por defecto es esta
+vale entendido Entonces esta es la
+configuración que yo he hecho para este
+tipo de tubería que es la tubería
+estándar que esa tubería tiene asignado
+este material y esa tubería tiene
+configuradas estas piezas y además me
+está diciendo que este codo me lo va a
+poner para todos los
+tamaños que este esta t me la va a poner
+para todos este tipo de T me la va a
+poner para todos los
+tamaños Pero hay materiales que están en
+el mercado que en función del diámetro
+cambia la pieza de
+Unión Entonces si cambia el diámetro O
+sea si cambia la pieza de Unión lo tengo
+que poner si hasta 50 mm se utiliza un
+tipo de pieza Y a partir de 50 se
+utiliza otra lo tengo que hacer vale Y
+revit me lo permite por eso pone tamaño
+mínimo tamaño máximo Entonces yo puedo
+ir y decirle vale Es que trabajo con dos
+codos con dos tipos de codos en función
+del tamaño y cómo lo hacemos me pongo
+encima del codo dónde lo tengo el codo
+aquí y le doy al
+más y cuando le doy al más selecciono el
+otro tipo de codo sería por ejemplo
+imaginar el soldado genérico estándar
+este que es otro tipo y ahora aquí digo
+Vale pues Ahora ya ya no me vale todo
+ahora digo pues entre 6 MM y 100 mm
+utilizo este tipo y entre 100
+MM y 150 utilizo el otro lo veis Y
+entonces ya de manera automática cuando
+yo vaya eligiendo el diámetro me irá
+poniendo el codo que corresponda
+entonces me facilita mucho por lo menos
+me da pie a no equivocarme porque esto
+ya es automático es cambio a diámetro
+Pues me va a poner el que corresponda
+Vale y puedo poner todos los que quiera
+Qué pasa que ahora veis aquí que dices
+anda y aquí
+tengo Esto me lo ha puesto Marcos Como
+trampa o por qué me la ha puesto tengo
+aquí uno de 100 aquí otro de 100 Cuál es
+el que prevalece de los
+dos por el orden por el orden prevalece
+el de arriba o sea si yo trabajo con 100
+va a ponerme el codo de
+arriba vale lo he puesto así porque
+quiero que tenga continuidad porque a lo
+mejor ot hay otro diámetro que está
+entre medias y no lo y se me ha olvidado
+pero por eso prefiero para no
+equivocarme le doy esta continuidad
+hasta 100 y de 100 en adelante y de esa
+forma sé que el de 100 lo va a poner del
+de arriba y a partir del de 100 me pone
+el de abajo Vale entonces Esto va a ser
+una práctica que os voy a pedir que
+hagáis con ciertos diámetros para que
+veáis que se cumple lo que yo os he
+dicho vale Y entonces es una forma de
+configurar entonces Oye que me falta
+otro codo más y no lo tengo aquí pues
+cargar familia busco y lo cargo y como
+la familia tiene que estar hecha bien
+hecha tiene que estar bien hecha hay una
+un parámetro dentro de la familia de
+codo que hay que poner que es codo
+porque si no le digo que es codo no va a
+saber que es codo y no se va a colocar
+en codos
+vale Y así con todos Vais a ver que en
+fontanería en tuberías el tipo el el
+tipo de conexión preferido es la t y en
+conductos es
+injerto os habéis quedado igual o sea os
+da igual la t que el
+injerto sabéis lo que es un injerto o no
+pues
+preguntarlo por eso digo sabéis quedado
+Exactamente igual Pues vale lo que tú
+digas Marcos Vale entonces el injerto es
+O sea la t sabéis lo que es la t la t es
+una pieza que tiene salidas por tres
+sitios el injerto no el injerto es como
+un trozo de tubo de conducto que hago un
+agujero en el otro y me uno no tiene una
+Unión predefinida sino que yo
+directamente le hago el agujero lo uno y
+le pongo una cinta alrededor para que no
+se separe uno con el otro luego luego a
+nivel de ejecución lo lo harán los
+instaladores pero pero es es un poco la
+La idea es decir yo tengo una
+tubería llego con una tubería por aquí y
+quiero seguir por allí por aquí entonces
+aquí le pongo una pieza que se llama t y
+ya puedo salir por allí y puedo salir
+por aquí vale pero yo un
+conducto le quiero sacar un ramal aquí
+no existe una t en conductos Entonces yo
+directamente lo que se hace Es un
+injerto un injerto que puede tener esta
+forma más o menos es así es decir yo me
+creo una pieza especial para unir mi
+tramo de conducto este con el otro tramo
+Y entonces esta pieza Unión es lo que
+llamo injerto Y le doy esta forma porque
+si el aire viene por aquí pues para
+favorecer el recorrido del aire vale
+todo lo que
+sean lo que son formas rectangulares
+pues impiden lo veis El Paso natural del
+aire Entonces yo intento ayudar siempre
+al paso del aire para evitar la
+resistencia porque al final estas
+instalaciones se calculan por pérdida de
+carga entonces la pérdida de carga te la
+genera el rozamiento del conducto los
+las estrong a todo ese tipo de cosas Si
+yo aquí pongo impedimento genera más
+resistencia al paso del aire Entonces al
+final eso son pérdidas de carga vale
+entonces yo esto acordaros siempre que
+es injerto Entonces yo ya no pongo aquí
+una t para unir los conductos sino
+cuando vayáis a trabajar con revit la
+configuración es para tuberías t tipo de
+Unión la t y para conductos injerto y
+luego Tendré que ver qué tipo de
+injertos son con los que trabajo vale
+porque al final cuando trabajas con
+conductos esto es un trabajo muy manual
+en obra Entonces al final Aunque el
+tamaño del conducto rectangular las
+piezas de Unión las hacen personas y
+pueden tener diferentes formas vale que
+también hay familias eh Porque también
+ursa que es un fabricante de conductos
+tiene también familias de piezas vale de
+Unión Entonces acordaros siempre de del
+tipo de Unión Vale entonces el tipo de
+Unión lo tenéis aquí tipo de conexión
+preferido tenéis dos té e injerto
+entonces que elegís la t para tuberías t
+Y ahora qué tipo de T esta que elegís
+injerto pues tenéis que elegir un tipo
+de injerto vale que tiene que estar aquí
+entonces aquí Vais a tener las tes y los
+injertos que no tengo el injerto cargar
+familia busco y lo cargo visto puces
+todo eso lo hacemos antes de dibujar
+tuberías o conductos por eso qué
+importante es configurar todo bien antes
+de empezar porque te pones a trabajar a
+modelar te emocionas y de repente dices
+buah puo si es que me he dado cuenta que
+el tipo de tubería no es y el segmento
+de tubería tampoco y y y o sea empiezas
+a darte cuenta Y el sistema tampoco pues
+casi bórralo todo y empieza otz de cero
+Entonces es importante que antes de
+empezar tengáis claro todo vale entonces
+a nivel de herramientas Pues yo creo que
+de fontaner bueno faltan vale tenemos
+ahora accesorios de tubería que es otra
+categoría Vale y en los accesorios de
+tubería pues tenéis ahí las llaves las
+válvulas todo lo que son accesorios que
+lo que no es uniones de tubería son
+accesorios de tuber
+vale Así de claro entonces una llave o
+sea Cuáles son las uniones los codos las
+T las piedas de transición Qué son las
+los accesorios pues las llaves los
+filtros los todo lo demás vale Y lo que
+no está en accesorios ni en uniones
+Dónde
+está componente Eso es en componente
+Vale y directamente nos creamos una
+familia que tenga categoría modelo
+genérico y listo y ya sé que lo tengo en
+componente eso sí cuando vaya a medir
+tengo que saber dónde están las cosas
+Vale Me tendré que generar una tabla A
+lo mejor podemos generarnos una tabla
+mulator y en esa mulator tenemos todos
+aquellos componentes que no he podido
+clasificar vale luego ya veréis también
+cómo se clasifica có se mide con presto
+con ctit Vale quey pues lo mismo ya os
+enseñarán cómo hacerlo vale Pero la idea
+es que nosotros vamos a trabajar aquí en
+mi clase con tablas de planificación y
+lo ideal es que esas tablas de planif
+las podéis trasladar a presto para que
+digáis Oye pues lo que yo he medido y lo
+que ha medido presto se parece mucho o
+no se parece nada algo estoy haciendo
+mal vale entonces es importante que las
+tablas las tablas de planificación sobre
+todo va a servir para una medición
+rápida y para hacer chequeos para decir
+esto está bien Esto está mal esto sobra
+Esto está duplicado no está duplicado o
+sea porque ya veréis Cómo podemos
+generarnos montonazo de cosas con las
+tablas de planificación cculo los
+filtros o sea de todo y Entonces de esa
+forma tú Imagínate que dices o en el
+espacio en el despacho tengo dos
+máquinas eso cómo lo sabéis si tengo dos
+máquinas repetidas en el despacho Si no
+es con tablas de planificación y no
+tienes un buen ojo porque puede estar la
+máquina una encima de la otra
+exactamente en la misma
+posición podéis hacerlo con la
+herramienta de interferencias es decir
+que me diga Oye pero tendréis que elegir
+una categoría O sea la misma categoría
+equipos mecánicos con equipos mecánicos
+Y de repente te dice aquí hay dos no lo
+vas a ver inicialmente pero si sabes de
+revid dirás oye si hay una interferencia
+aquí y solo hay uno es que hay uno
+encima del otro Vale entonces ahí lo
+podéis detectar de esa forma pero otra
+forma es con talas de planificación
+espacios y tal Y dices anda aquí me han
+salido dos y no pueden salir dos tiene
+que salir una Aquí hay una duplicidad
+vale o aquí hay espacios redundantes
+este espacio hay que eliminarlo entonces
+por eso digo que las tablas son muy
+útiles para filtrar y para para hacer
+limpieza de los modelos vale Y para
+medir Seguimos entonces ya veremos lo de
+los accesorios vale que son las llaves
+todos los elementos habrá proyectos que
+os digan Mira no queremos que metáis
+accesorios vale porque los accesorios eh
+Porque no nos va a servir esto para
+medir para sacar mediciones sino lo
+queremos para coordinación pues para
+coordinación no hace falta las llaves
+contener las tuberías con sus
+dimensiones los conductos con sus
+dimensiones las máquinas lo que son los
+elementos importantes pues una llave no
+me hace no me vale para nada pero si
+quiero medir y quiero cuantificar todas
+las llaves que tengo Entonces ya sí vale
+pero también cuidado por qué Porque aquí
+en España Cómo medimos cuando medimos un
+punto de luz el punto de luz no es la
+luminaria el punto de luz es desde la
+caja de registro el trocito de cable el
+trocito de tubo las clemas o sea y ya da
+igual que tenga 2 m 5 m a lo llamamos
+punto de luz y lo vamos a cobrar
+igual pero no tengo una especificación
+Clara decir pero cuántos metros de cable
+he utilizado pero cuántas clemas he
+utilizado no no punto de luz eso comoo
+se mide en
+revit lo veis Entonces se puede medir
+porque si tengo tantas luminarias tantos
+puntos de luz ya está pero no voy a
+asociar ese punto de luz a la luminaria
+lo tengo que medir de otra forma
+fontanería la fontanería es lo mismo de
+agua entonces a lo mejor la fontanería
+es decir un punto un punto de fontanería
+es agua fría agua caliente y
+desagüe Y eso cómo se mide porque en
+revit yo tengo la tubería tengo el punto
+de agua o sea tengo la tubería de agua
+la de caliente y la otra cómo lo mido A
+qué lo referenci porque en revit tú lo
+referencias a la tubería que la tengo
+modelada al Grifo que lo tengo modelado
+pero así a un punto de agua se refiere a
+todo esto junto lo veis entonces tengo
+que ser capaz de saber medir bien todo
+esto vale lo iremos viendo vale no os
+preocupéis pero que entendáis un poco
+Cuál es el fin de todo esto que el fin
+no es solo modelar vale el fin no es que
+veamos un modelo bonito no no es más
+importante lo que tiene dentro Vale y la
+información que transmitamos porque el
+Santiago bernabeu se hizo se hizo un
+primer modelo bueno se hizo un segundo
+modelo porque el primer modelo Se tiró
+el segundo modelo se hizo se gastaron
+300000
+y el segundo modelo fue el que cogió
+ferrovial para construir Pues cuando
+cogió el modelo ferrovial dijo tampoco
+vale vamos a hacer otro más se hicieron
+mínimo tres módelos del Santiago ber rbu
+Por qué Porque el primero No se hizo
+bien fuera el segundo dijeron Ju qué
+chulo no y cuando se puso ferrovía la
+construir dice no me vale para nada
+imaginar cuando empiezan a levantar un
+topográfico del estadio y empiezan a
+darse cuenta que las gradas no son así
+las gradas son así entonces Claro tú un
+modelo Cómo lo haces
+recto no te planteas el hecho de que una
+grada pueda tener una pendiente x y que
+las cotas de el nivel de un lado y del
+otro no es el mismo Pues claro para ver
+el modelo que está precioso Sí me vale
+pero para construir no me vale porque
+cuando se meten con temas de estructuras
+los que sabéis un poco de estructuras ya
+no te vale la referencia de ese modelo
+pues tuvieron que hacer un tercer modelo
+pues imaginar la inversión que se hizo
+en modelos bim Vale entonces para que
+veáis un poco entendáis un poco que hay
+que tener muy claro Cuál es el fin para
+establecer unas reglas de juego y que el
+proceso sea el adecuado vale Yo soy muy
+pesado en esto porque porque me ha
+pasado a mí y lo que pretendo es
+ahorraros ese tiempo que nosotros hemos
+perdido para que vosotros entendáis y
+digáis pues esto sabemos que no se puede
+hacer
+vale seguimos con más bueno este sería
+tubería flexible es decir dentro de
+fontanería sabéis que trabajamos sobre
+todo en sanitario trabajamos con tubería
+flexible flexible de PVC Vale entonces
+Tenemos también la herramienta de
+tubería flexible tampoco la suelo
+utilizar vale en revit hay una premisa
+entre los que se dedican a hacer
+instalaciones que todo lo que son
+tuberías flexibles y de x y de menos de
+X diámetro no se modelan vale al final
+hay es un criterio que se tiene por qué
+Porque una tubería imaginos una tubería
+de centímetro y medio flexible entra por
+cualquier sitio o sea es que entra por
+cualquier sitio y la y me merece la pena
+modelar Pues a lo mejor
+no vale entonces hay que ver hasta qué
+nivel debo de modelar vuelvo a repetir
+Cuál es el uso que le vas a dar y cuál
+es el fin Pues a partir de ahí empezamos
+a plantear las reglas de juego Vale pues
+a mí sí me interesa modelarlo porque
+quiero tener hasta el último monigote
+del modelo error
+error porque los modelos logo nos
+utilizan para lo que es realmente o para
+lo que la gente puede pensar que se
+pueden utilizar pensar Por ejemplo yo
+tengo que me dedico al mantenimiento y
+voy a desarrollar y necesito el edificio
+el modelo Bin para el mantenimiento Y
+dices necesito todo modelado exactamente
+como está Qué pensáis si fuera vuestro
+el edificio y Vais a contratar una
+empresa de mantenimiento y queréis tener
+toda la información de todo lo que pasa
+modelar hasta el último tornillo del del
+edificio
+Sí sí pero no claro el sí es porque Mola
+no el no es el no es es cuando te das
+cuenta que no merece la pena pero tú
+dices os voy a poner un ejemplo Esta
+pared la que tienes tú ahy al lado
+Cuántas veces en la vida se va a aviar
+se va a romper se va a estropear hay que
+pintar o sea Cuántas veces en la vida a
+lo mejor a lo mejor pasar 30 años
+no qué interés tiene para mí Tener
+información de ese
+tabique ninguna y me interesa saber que
+todas las capas de se tabique la pintura
+y todo no y sin embargo la máquina que
+está en el falso techo vosotros penséis
+de esa sí que me interesa que sí porque
+esa cuando hace frío me interesa que de
+calor que sí y si no da calor Hay que
+llamar rápido al instalador no al
+mantenedor pues al final lo que me
+interesa es es tener un cascarón con el
+nivel de información básico y al final
+lo que me interesa es modelar aquellos
+elementos que son susceptibles de
+mantenimiento para qué quiero tener todo
+el edificio Oye si me lo van a dar un
+precio módico y lo puedo tener chulo
+pues me sirve para hacer incluso render
+y para presentar a la gente y fardar un
+poco de edificio Pero al final dices y
+para qué voy a dedicar tantas horas de
+trabajo si no vas si no se van a
+utilizar luego para nada y vuelvo a
+repetir Es que luego al final toda esta
+información pesa y al final cuando
+trabajamos con módulos en la nube que
+hay que guardarlos en en servidores en
+la nube todo eso pesa y cuesta dinero o
+sea sear tenéis que ser efectivos en el
+trabajo y optimizar lo máximo
+posible y sobre todo asesorar al cliente
+de la mejor manera posible y la mejor
+manera posible es decir no vamos que que
+no que el uso realmente le vas a dar
+para esto y lo que tienes que centrarte
+es en ese uso Olvídate del
+resto
+Vale entonces ya con esto tenemos visto
+lo que es la parte de
+fontanería no quiero seguir con más
+herramientas porque quiero explicaros
+ahora qué es esto de los sistemas vale
+porque Cuál va a ser el proceso que
+vamos a hacer nosotros para empezar a
+modelar para empezar a modelar vamos a
+seguir lo siguiente Lo pongo aquí al
+lado Cuando yo iba a
+modelar Qué sería lo primero que tendría
+que tener tuberías eh Qué es lo primero
+que tendría que tener mi vista Eh mi
+vista de plan no me refiero yo ya tengo
+todo preparado y tengo que empezar a
+modelar tuberías qué tendría que tener
+para modelar
+tuberías eh de familia claro o sea si no
+tengo tubería cómo voy a modelar o sea
+lo primero es tener la tubería pero
+tener que tubería depende la información
+que claro digo a ver qué voy a modelar
+por ejemplo os digo pues voy a modelar
+agua fría y agua caliente y en este
+proyecto el agua fría y el agua caliente
+dentro de mi edificio lo hacen con
+multicapa pues me tengo que crear una
+tubería de
+multicapa con sus diámetros y todo lo
+que corresponda Entonces primero qué
+hago me creo el tipo de
+tubería
+vale porque la familia que está por
+encima es la tubería circular sabes
+tubería la que sea circular es la
+familia pero luego dentro de la familia
+tengo diferentes tipos multicapa PVC o
+sea cobre todas las que sean vale pero
+yo me he creado un tipo de tubería
+fijaros ahora me creo un tipo de tubería
+que es
+multicapa vale pero este tipo a este
+tipo qué le tengo que asociar
+ahora para que sea una tubería de verdad
+qué le tengo que asociar porque esto
+Esto es de nombre esto es de Boquilla
+noal claro eso es Entonces le tengo que
+crear una tubería y asignarle un
+material
+vale ya tengo mi tubería por supuesto se
+entiende que que aquí hay que poner lo
+que son los diámetros Vale y las
+características o lo que quieran
+añadirle a esa tubería crearme ese tipo
+de tubería con su material segundo que
+tendría que hacer seguimos con los
+materiales sus piezas de Unión Es decir
+para la tubería Necesito una serie de
+piezas de Unión pues tendría que luego
+saber cuáles son este decimos el uno el
+dos las piezas de
+Unión si no las tengo las cargo como son
+familias cargables familia de sistema
+familias cargables
+vale Vale pues ya tengo mi
+tubería y ya tengo mi
+material qué me queda la altura no la
+altura ya la iré poniendo ya cuando me
+ponga a modelar qué me
+falta accesorio yo ahora tengo la
+tubería tengo mi tipo de tubería
+multicapa fantástico y me voy a poner a
+modelar qué voy a
+modelar qué voy a modelar sistema claro
+qué voy a modelar agua fría agua
+caliente
+esa tubería para qué Entonces es ahí
+donde tenemos que elegir el sistema de
+tubería entonces una cosa es el tipo de
+tubería y otra cosa es el
+sistema de
+tubería Vale entonces para modelar tengo
+que tener el tipo de tubería ese tipo de
+tubería que me lo he creado tiene que
+tener asociado un material y sus piezas
+de Unión y un s
+y para modelar necesito esto si no tengo
+esto no puedo
+modelar Vale entonces antes de empezar
+tengo que crearme todos mis tipos de
+tubería de mi proyecto y todos los tipos
+de sistema de mi proyecto Vale ahora qué
+tipo de sistemas
+tenemos por defecto revit nos trae una
+serie de sistemas Entonces fijaros
+primero vamos a familias que los Tenemos
+aquí
+vale en el navegador de proyectos
+tenemos
+una pestaña que es de familias y en
+familias tenemos todas las categorías
+Entonces vamos a irnos a los tipos de
+tubería Entonces vamos a directamente a
+tuberías vale Y en
+tuberías
+tenemos estos tres tipos vale por
+defecto revit tiene estos tres entonces
+yo como son familias de sistema a partir
+de estas me creo la mía y qué diría pues
+digo vamos a crearnos una nueva
+cojo cualquiera de estas que quiera
+utilizar como como base como es familiar
+sistema y le digo
+duplicar
+vale también podemos hacerlo por este
+camino es decir puedo seleccionar una
+tubería la tubería estándar editar tipo
+y cuando ya la tenga editada lo veis que
+pone familia sistema tipo de tubería
+estándar le doy a duplicar y la otra es
+que en la familia de estándar botón
+derecho duplicar O sea que otros dos
+caminos vale alternativos Cómo llego a
+editar tipo también en lugar de
+seleccionar la tubería e ir a editar
+tipo vale también puedo llegar a esa
+ventana directamente haciendo doble clic
+en tubería estándar hago doble clic
+llego a esta ventana y doy a duplicar o
+si no quiero hacerle doble clic botón
+derecho
+duplicar duplico y me sale estándar 2s
+siempre por defecto te va poniendo dos 3
+cu botón derecho y le cambio el nombre y
+pongo cambiar el nombre que lo tengo
+aquí mayúsculas
+multicapa ya os dirán Cómo codificar
+vale Y cómo nombrar las cosas pero de
+momento vamos a trabajar así multicapa
+pues ya tengo un tipo Qué
+falta si seguimos un poco en orden hemos
+creado el tipo y a ese tipo qué hay que
+hacer esp el material asignarle el
+material Vale entonces cómo le asignamos
+el
+material clicamos dos veces sobre
+multicapa vamos a editar tipo lo veis
+que tengo tipo de tubería multicapa y le
+tengo que asignar el
+segmento
+imaginar que no tengo el material
+lleg botón hago doble clic en multicapa
+como no tengo la tubería de multicapa
+aquí hago doble click en multicapa ya
+está y me abre esa ventana y ahora ahí
+voy a las preferencias de enrutamiento
+que es donde le asigno el material
+perdonar que vaya rápido y en
+preferencias de enrutamiento
+veo que Efectivamente es tipo de tubería
+multicapa y le asigno el material pero
+de repente digo anda no está el material
+que yo
+necesito vale Necesito
+el polipropileno lo que sea pues fijaros
+vamos a crearnos el material de
+multicapa vale Yo cogería diría
+internet multicapa eh
+ficha de de
+diámetros El nominal interior exterior y
+el o sea todas los datos técnicos de esa
+tubería y cojo directamente y la utilizo
+y la y la plasmo en revit lo voy a hacer
+un poco más rápido porque no tengo es
+Tala vale Pero cómo haríamos vamos a
+segmentos y tamaños
+Vale y vamos a decirle aquí crear nueva
+tubería vale le doy ahí a crear nuevo
+segmento vamos a crear un nuevo material
+entonces hay Tres formas de crear ese
+material esto no ti material si lo
+tienes No hay que hacer esto Claro si lo
+tienes No hay que hacer esto es porque
+yo he ido y he visto que para el
+multicapa para la tubería que yo he
+llamado multicapa Necesito el material
+de multicapa vale Y entonces que ahora
+mismo no me acuerdo el nombre específico
+del material que es plástico pero el
+multicapa es que lleva una lámina de de
+aluminio entre medio de dos capas
+entonces eh Como no tengo el material lo
+tengo que crear Entonces voy cojo la
+ficha técnica del material y lo lo voy a
+poner pero lo puedo crear de Tres formas
+una llamándolo
+material lo que sea o lo quiero llamar
+como serie y tipo o lo quiero llamar
+como material serie y tipo eso es cómo
+lo quiero crear y cómo lo voy a llamar
+Vale entonces yo Por ejemplo si lo
+quiero llamar como material serie y tipo
+pues material tengo que irme a buscar el
+multicapa voy a una base de datos de
+revit a ver si tengo el de mapa y si no
+lo tendré que crear Vale entonces voy a
+los tres puntitos y me va a salir una
+base de datos de revit de materiales y
+yo aquí busco y digo a ver si tengo el
+multicapa multi o como sea la tubería no
+lo
+tengo lo veis no lo tengo lo tengo que
+crear yo de cero Vale pues voy a crearlo
+hay alguna que se parezca voy a poner
+algo de plástico por si hay algo que se
+parezca tampoco hay nada de plástico
+pues una una de dos o cojo uno porque me
+interesa las configuraciones que tienes
+aquí al final si yo duplico una de estas
+es porque me interesa aprovechar algo de
+esto vale de los sus características
+físicas térmicas o de la apariencia
+porque Tiene una apariencia así y ya no
+tengo que estar configurándolo Ya tiene
+los gráficos pues tiene ya asignado unos
+colores unas tramas que aquí no tiene
+tramas Entonces si lo hago es si duplico
+algún material es por ahorrarme ese
+tiempo pero como no tengo ningún un voy
+aquí abajo y le digo crear nuevo
+material crear nuevo material y lo tengo
+aquí nuevo material por defecto lo
+veis botón derecho cambiar nombre y le
+pongo aquí por ejemplo multicapa esto es
+un ejemplo
+Eh vale es decir si ahora yo quiero que
+esta tubería tenga una apariencia de
+Real de multicapa pues tendré que
+configurar en sus gráficos el
+color si hay un si tiene un corte Cuál
+es la trama que quiero que se vea de
+corte entonces todo esto es una
+configuración de representación a nivel
+de visualización en las vistas vale si
+yo no quiero pues lo dejo así ya está
+vale porque la visualización la voy a
+trabajar con el color del sistema o la
+voy a trabajar con filtros pues me
+olvido del material y ya está pero si le
+quiero dar un color realista y quiero
+hacer un render pues tendré que
+aplicarle un material tendré que aplicar
+una textura tendré que aplicarle un
+color pues lo hago todo aquí vale Y aquí
+en el aspecto Incluso le puedo cargar
+una imagen Es decir yo aquí puedo cargar
+una imagen
+vale Y decirle Pues es que el aspecto va
+a ser de color cobre Y entonces Busco
+una imagen de color cobre real la
+inserto y ya cuando vaya a darle un
+color realista me sale el color del
+Cobre entonces que sepáis que si yo
+duplico un material es porque aprovecho
+la configuración esta y no tener que y
+noer tener que trabajar yo estoy un poco
+vago entonces tengo ya el multicapa No
+pues doy doble clic y ya le tengo aquí
+lo veis ya tengo mi material nuevo
+creado ya lo tengo
+aquí visto esa base de datos dime dónde
+debería aparecer aquí donde pone
+material
+Ah vale Y ahora ya lo único que como yo
+lo he creado con esta configuración de
+material serie tipo Pues mira la serie
+la voy a llamar
+r barra 1
+es como identifico yo a mi material vale
+si hubiera puesto solo material Pues con
+multicapa me vale pero es así fijaros
+entonces ahora la vista previa del
+nombre es aquí abajo lo veis multicapa
+gu medio r bar1 lo veis y es así como se
+va llevar mi material y ahora una última
+cosa es decir Vale tengo algún material
+dentro de la base datos que sea similar
+y que pueda utilizar sus diámetros para
+no tener que estar copiando uno a otro
+pues de todo todos ellos digo pues voy a
+buscar No sé a lo mejor el de cloruro de
+polibo por poner un ejemplo este voy a
+utilizar los diámetros de este de este
+tipo de material y le digo aceptar y ya
+tengo creado mi nuevo
+segmento con los diámetros interior y
+exterior Este es el que me sale en el
+desplegable cuando yo selecciono el
+diámetro y este es el que me lo haría de
+manera automática cuando se hace un
+cálculo un cambio en revit vale Y ya lo
+tengo hecho le digo aceptar y ya en mi
+tubería de multicapa de todos los
+segmentos que yo tengo despliego Busco
+el de
+multicapa aquí y lo
+pongo Qué me faltaría ahora configurar
+todas las piezas de Unión poner todas
+las piezas de Unión de multicapa
+cargarlas desde cargar familia y
+ponerlas y ya una vez que he terminado
+esto le di aceptar y aceptar y ya tengo
+creada mi mi tubería ya tengo el primer
+punto que es tipo de
+tubería
+visto ahora vamos al siguiente punto que
+es el tipo de
+sistema Vale entonces hemos visto ya
+tuberías en familias vamos a ver
+sistemas de
+tuberías Entonces nos vamos a la s y
+tenemos en sistemas de tuberías
+desplegamos Y
+tenemos todos estos sistemas de tuberías
+ventilación Es la primera vez que lo
+veo es un tipo son tipos de sistemas
+vale o mejor dicho son tipos eh Son
+tipos pero podríamos decir que son
+sistemas Y ahora os digo por qué Porque
+yo puedo tener un sistema y de ese
+sistema tener varios tipos por ejemplo
+un sistema sería el agua fría sanitaria
+que lo tengo aquí pero un tipo puede ser
+agua fría potable agua fría de riego
+agua fría de
+jardines agua fría de baldeo de los
+garajes O sea fijaros que es el mismo la
+misma clasificación que es agua fría
+sanitaria pero los tipos son distintos
+porque una lo utilizo para el garaje la
+otra para beber la otra para la piscina
+y identifico diferentes tipos asociados
+a una misma clasificación Entonces ahora
+lo que me interesa es estas son los
+diferentes tipos de digamos más que
+tipos los sistemas que tenemos dentro de
+revit que son por defecto y no podemos
+crear ninguno más entonces yo todo lo
+que tengo en mis proyectos tiene que
+salir de ahí
+todo entonces ahora fijaros que solo de
+agua fría Solo tengo uno que es
+este lo
+veis y este de agua fría cuando lo
+selecciono fijaros en sus propiedades
+clasificación del sistema agua
+fría vale Y ahora veremos al tipo de
+sistema vale para que lo entendáis
+Entonces yo ya tengo estos son los
+sistemas que tengo por defecto en revit
+que puedo utilizar para mis proyectos y
+entonces ahora os pongo ese ejemplo
+decir Vale pues Ahora quiero un tipo
+para el agua potable otro para el del
+baldeo del garaje y otro para el jardín
+Cuál utilizaría de todos estos
+sistemas Cuáles utilizarías de aquí
+aguaí y alguno más hay para utilizar o
+no
+agua caliente no porque agua caliente no
+das al
+jardín suministro hidrónico Qué es
+hidrónico se refiere más a temas de gas
+climatización y tal a que no veis otro
+Así que qu digáis Oye pues a qué Dime se
+puede duplicar los sistemas no Claro
+pero los vas a duplicar no para para
+duplicar el sistema no para crear tipos
+claro para crear un nuevo sistema porque
+Vais a sistema la clasificación del
+sistema es la misma pero el tipo es
+distinto Entonces yo ahora cojo y digo
+vale agua fría duplico y lo renombro y
+pongo mirar este
+afs que en España decimos agua fría
+sanitaria que es el de consumo Vale Voy
+a duplicar otra vez el de agua fría
+sanitaria para poner
+eh Para poner cambiar el nombre voy a
+poner por ejemplo para que lo entendáis
+bien eh
+jardín y voy a duplicar otra vez agua
+fría
+sanitaria y cambiar el nombre y que sea
+garaje porque tengo una instalación de
+agua fría para el garaje otro para el
+jardín y otro para la de
+viviendas Vale fijaros ahora vamos a la
+vista 2D y voy a empezar a
+modelar dibujo tubería acordaros siempre
+cuando voy a modelar una tubería es
+primero
+elijo el tipo de tubería lo que hemos
+puesto ahí después que
+elijo el sistema de tuberías qué vamos a
+modelar por ejemplo el agua de viviendas
+del agua potable de las viviendas pues
+donde pone tipo de sistema lo tengo que
+cambiar y poner el que he creado yo que
+es afs lo veis y ya una vez que tengo
+elegido el tipo de tubería y elegido el
+tipo de sistema ya me puedo poner a
+modelar Y entonces ya es cuando le digo
+desde el desde los diámetros el listado
+de diámetros que os dije que teníamos el
+de la izquierda pues elijo por ejemplo
+de 40 vamos a empezar con tubería de 40
+ya empiezo y con una elevación de 2750 y
+empiezo a modelar y voy y trazo el
+primer tramo sigo ahora hacia arriba con
+un diámetro inferior que sería de 32
+para acá y además incluso poniendo
+cuando voy hacia arriba son 2 Met pues
+tecleo 2s
+enter demasiado
+corta dibujar tubería porque está en
+milímetros Entonces le doy a 2000
+enter vale Y me dibuja le doy 1000 hacia
+la
+derecha enter y me hace 1000 le doy 500
+hacia abajo y 500 y ahora Cambio la
+elevación y le digo que es por ejemplo
+de
+2500 y voy hacia la derecha otro metro y
+enganchar una tubería de un tipo con
+otra tubería de otro tipo una de jardín
+una y una de garaje aunque no tenga
+sentido Por qué no las mezclo que sí se
+podría dig Sí claro claro claro De hecho
+acuérdate cuando te he dicho esto de
+Cuando hacemos la configuración de las
+piezas de de enrutamiento de las
+preferencias de enrutamiento Acuérdate
+que dijimos que podemos meter dos
+segmentos y dos tipos de piezas o un
+segmento y dos tipos de piezas para que
+de X tamaño x tamaño utilizamos una
+pieza y de X tamaño x tamaño otra pieza
+Pero podemos hacerlo también hasta 50
+utilizamos multicapa Y a partir de 50
+cobre Y entonces automáticamente te lo
+va cambiando él pero escucha pero el
+tipo de tubería es una el sistema el
+cuando tú nombras el tipo de tubería
+multicapa el nombre es uno claro yo si
+lo voy a diferenciar por tipo no le
+llamo multicapa porque si si para el
+agua fría de la casa voy a utilizar dos
+materiales no voy a utilizar uno de los
+materiales para nombrar esa tubería
+diría tubería de la casa y ya tendría
+los dos materiales aquí multicapa y
+cobre vale Lo que pasa es que he puesto
+es ejemplo pues para que lo diferencieis
+pero yo al final tengo que crearme un
+tipo y a ese tipo asignarle uno o varios
+materiales Vale y lo que he hecho es
+crearme diferentes tipos Entonces ahora
+fijaros selecciono la tubería
+y
+fijaros clasificación del sistema agua
+fría sanitaria anda Pero existe claro er
+agua fría y lo cambia garaje Porque
+todos estos tipos mantienen la misma
+clasificación
+afs garaje y jardín mantienen la misma
+clasificación que es agua fría sanitaria
+pero son de diferente tipo uno es afs el
+otro es garaje y otro jardín lo veis
+aquí que pone tipo de sistema debajo de
+clasificación sistema afs pues despliego
+y lo puedo cambiar Es decir me he
+equivocado y esta tubería en lugar de
+ser afs es de jardín
+vale Y cuidado porque cuando cambio una
+tubería que está unida a otro a otras
+tuberías te Cambia todas las
+demás siempre que no esté unida a
+equipos mecánicos vale una vez que lo
+uno a equipos mecánicos ya no se puede
+hacer esto pero si tengo una red de
+tuberías así y de repente este fijaros
+eh jardín y esta aquí jardín si esta la
+cambio de repente a garaje solo he cambi
+una ese también es garaje lo veis
+entonces cambio el tipo de sistema de
+una y se cambia de todo siempre que no
+estén unidas a equipos que sea una red
+de tuberías vale Ya os enseñaré a
+seleccionar redes de tuberías a a
+seleccionar un camino específico ya os
+enseñaré cosillas vale de tema de model
+pero ahora quiero que entendáis un poco
+este proceso entonces aquí lo que he
+hecho es eso generarme de una misma de
+una de una misma clasificación o un tipo
+de sistema me he generado diferentes
+tipos Vale entonces cuando modelo que
+tengo que hacer tipo de tubería y tipo
+de
+sistema y tipo de sistema y el tipo de
+sistema me lo he tenido que crear
+entonces pues ya lo tengo vale tengo el
+tipo de tubería tengo los sistemas Pues
+ahora dibujo garaje ahora dibujo lo que
+sea
+vale Y entonces ahora os explicaré si
+Por qué este tiene color azul y no verde
+de o rojo y por qué tiene ese color azul
+quién le da ese color azul se lo da al
+material se lo da un filtro se lo da el
+sistema o qué se lo da qué penséis que
+se lo da
+eh el sistema el sistema la de caliente
+sería roja Claro pero porque el sistema
+puede ser un filtro también puede ser
+per hacer analógia el sistema sería como
+la capa de de autoc la capa que tú
+tienes de agua fría agua caliente
+saneamiento el sistema dices No
+no Noa que están todas englobadas en en
+ese en esa capa Por así decirlo todos
+los tipos de
+tuberías de agua caliente por ejemplo
+eh No porque cada tipo de sistema tiene
+unas características y unos colores
+distintos o sea te digo Cómo llegamos al
+sistema o sea y yo aquí selecciono y
+tengo la tubería pero no tengo el
+sistema seleccionado Cómo selecciono el
+sistema el sistema Se selecciona os
+ponéis encima de la tubería y con la
+tecla de tabular vais tabulando es el
+tabulador te va seleccionando toda la
+red de tuberías pero si le das una más
+te aparece esta línea discontinua Este
+es el sistema y yo fijo la selección con
+el botón izquierdo y ya tengo fijado la
+Selección del sistema lo veis que pone
+aquí sistema de tuberías Ya tengo fijada
+la Selección del sistema y ahora voy a
+editar tipo cuando ya tengo seleccionado
+el sistema edito el tipo del sistema lo
+veis sistema de tuberías
+garaje y el tipo garaje si me voy aquí a
+gráficos modificaciones de gráfico
+editar Ahí es donde veo el color que
+está asignado por el tipo de sistema lo
+veis si ahora le cambio y le digo que el
+garaje no lo quiero lo quiero
+verde le digo aceptar y le digo aceptar
+y le digo
+aceptar lo tengo de color verde lo veis
+entonces puedo colorear por el tipo de
+sistema Sí claro control Z o sea yo al
+final fijaros voy a crear vamos a crear
+otro sistema distinto Vamos a darle a
+sistema de a tuberías Este era el de
+garaje no pues vamos a crear otro que
+sea afs Venga pues el afs hacemos otras
+dos tuberías y ahora voy a crear otro
+que sea el de riego no el de
+jardín y los tres Fíjate si yo
+selecciono la clasificación es agua fría
+si yo selecciono este la clasificación
+es agua fría si yo selecciono este la
+clasificación Son la misma clasificación
+pero el tipo Este es de jardín lo ves el
+tipo Este es de afs y el tipo Este es de
+garaje a ver si son de la misma
+clasificación Cómo puedo
+distinguirlos Cómo los puedo colorear
+Pues por el tipo Entonces por el tipo
+iría diría selecciono aquí el tipo de
+sistema tabulando clico editar tipo y
+aquí en modificaciones de gráfico le doy
+editar y al garaje le voy a dar un color
+verde aquí puedes aplicarle un patrón o
+sólido o otro tipo de patrón vale de
+línea y tal porque son lo que vas a es
+generar un patrón en las dos líneas vale
+Yo le suelo dar solido a este y luego
+grosor si lo vamos a imprimir o o lo
+queremos ver realmente el que tiene
+podemos aplicar un grosor vale el que
+sea y le doy aceptar Y le doy aceptar y
+ya tengo este de un color ahora voy a
+por el
+otro Este
+es el de agua fría normal que este este
+le voy a dejar azul porque el agua fría
+lo tengo en azul Jesús y este lo voy a
+poner en otro color que este
+sería Este es el de jardín Pues el de
+jardín Qué color le doy No lo sé pues un
+verde de así
+fosforito y fijaros que teniendo la
+misma clasificación ya tengo las
+tuberías identificadas Son son de
+diferente tipo lo
+veis material para cambiar el
+color es lo que estoy cambiando es el
+color al sistema al tipo de sistema
+entonces tabulas encima de la tubería y
+cuando te sale en línea discontinua
+clico o selección Y le doy editar tipo
+en editar tipo modificación de gráfico
+editar
+vale sistema Pero diferente color eso es
+no el mismo sistema no la clasificación
+es la misma Porque todos son agua fría
+sanitaria pero el tipo es diferente
+entonces yo los voy a colorear por el
+tipo y para colorear por el tipo
+selecciono el tipo de sistema que es
+tabulando lías discontinua selecciono
+edito ese tipo y en modificaciones de
+gráfico le cambio el color y entonces sé
+que todas las tuberías de multicapa del
+tipo eh del tipo garaje del tipo sistema
+garaje van a ser todas de color verde y
+Entonces de esa forma cuando yo tenga
+una vista diga ya sé que est es la red
+de garaje est la de red de es que me
+estoy liando con la diferencia entre
+sistema y tipo ahora o sea con esto a
+ver el sistema
+es este todos los que hemos visto antes
+vale Vale y un sistema puede ser común a
+varios tipos Entonces por uno por un
+lado está la clasificación del sistema
+que en este caso es agua fría sanitaria
+Y hay muchos tipos dentro de agua fría
+sanitaria Vale entonces yo lo que pasa
+es que por eso al principio decía que
+genera un poco de error porque cuando
+ves aquí agua fría sanitaria ese no es
+el el sistema no es un tipo Lo que pasa
+que es un tipo que ya tiene su
+clasificación que es agua fría entonces
+lo que estoy haciendo es duplicando ese
+tipo crear otro tipo que va a seguir
+teniendo la misma clasificación de
+sistema vale tú Imagínate que en revit
+tengo clasificación al sistema agua fría
+sanitaria vale pero aquí no tengo
+todavía nada y como tengo agua fría la
+clasificación voy ir generando tipos 1 2
+3 cu Qué pasa que aquí ya me ha generado
+un tipo que se llama también como la
+clasificación del sistema
+entendido sí o no
+[Risas]
+regular a ver revit te da unos
+digamos clasificación y sistema puede
+ser lo mismo vale te da unos sistemas
+vale de tuberías y esos sistemas de
+tuberías son estos agua fría agua
+caliente protección contra incendios tal
+esos son sistemas pero luego dentro de
+cada sistema puedes tener diferentes
+tipos como hemos dicho dentro del
+sistema agua fía sanitaria tengo el tipo
+garaje riego tal vale Qué pasa que que
+realmente
+Cuál es el sistema ag agua fría
+sanitaria Vale cuando tú seleccionas uno
+de estos te dice que que el sistema es
+agua fría sanitaria y el tipo es garaje
+o sea todos los tipos comparten la misma
+clasificación o el mismo sistema vale
+agua fría sanitar lo que pasa es que
+claro esto confunde Porque tú cuando
+tienes aquí agua fría sanitaria dices
+vale ese es el sistema no vale es el
+tipo aunque se LL igual que el sistema
+es es un tipo tú estás duplicando Y está
+cambiando Enton es un tipo dentro de la
+lista pero es que este este mismo fíjate
+le voy a decir a cambiar
+nombre Dónde está el sistema Ah ha
+desaparecido lo ves lo que te quería
+decir era eso que lo que estabas viendo
+ahí no era el
+sistema era el es un tipo de ese sistema
+lo que pasa es que coincide que se
+llaman igual Vale entonces aquí son tip
+de sistema asociados ya a una
+clasificación a un sistema Vale entonces
+esto por eso decía que aunque ponga agua
+fría sanitaria y se llame igual que la
+clasificación del sistema guf sanitaria
+realmente Esto no es el sistema es un
+tipo de ese sistema el sistema es como
+algo interno de revit vale entendido
+ahora o sea todos esos son tipos que
+tienen el mismo nombre que el sist eso
+es son tipos que tienen el mismo nombre
+que el sistema vale Lo que pasa es que
+de partida de partida te pones est revit
+para que lo saques de algún sitio porque
+si no tú llegas aquí sin ningún tipo y
+dices Bueno y dónde saco Ahora yo un
+tipo dónde Busco dentro de revit para
+sacar un tipo Entonces te lo pone aquí
+un poco revit para que tú digas ya
+tienes uno para que a partir de ese
+puedas duplicar y crear otros pero se
+pueden crear nuevas clasificaciones no
+son las que hay no son las que hay por
+eso os he dicho que ha aparecido
+ventilación que es una nueva Porque
+ventilación estaba asociado más a
+conductos y ahora de repente aparece
+también en tuberías porque también ahora
+con el tema de la ventilación hay
+tuberías redondas sabes entonces y
+tuberías rectangulares Entonces ahora ya
+hay tubos que son de ventilación que
+acabas de cambiar el nombre de ya o sea
+aunque hayas cambiado el nombre Sigue
+estando en algún lado claro eso es eso
+es eso es algo es algo interno de
+revit Vale entonces tú Aunque quieras
+cargá no te lo puedes cargar
+dime veo que dentro de o sea dentro del
+sistema también te crean nombre sistemas
+No eso es claro dentro de un tipo hay
+eso es como una subdivisión más que ya
+lo veremos o sea dentro de dentro de un
+tipo hay diferentes nombres vale pero
+eso ya lo eso ya lo veremos pero
+quedaros solo con sistema y tipo vale
+nada más clasificación y tipo nada más
+eh Nada más lo del nombre ya lo veremos
+más adelante pero el nombre no que no os
+ligue con esto vale que no es como un
+añadido más vale entonces cuando has
+hecho el cambio de color estabas
+haciendo cambio de color a al tipo V
+vale se le hace al tipo no se le puede
+hacer al sistema vale al tipo y cuando
+hagamos filtros ya veréis cómo lo
+hacemos sobre el tipo imaginar Yo tengo
+tres tipos aquí si quiero filtrar me
+interesa por el tipo no No por la
+clasificación Porque si filtro por la
+clasificación o me pone todos los tres
+de un color o me apaga los tres lo veis
+entonces por eso lo que me interesa es
+que estén separados y la única forma de
+separarlos es por el
+tipo
+Vale y Qué diferencia hay en crear un
+tipo dentro de aquí como has hecho en
+sistemas de tubería o hacerlo en el tipo
+de
+tubería ninguno la diferencia no es el
+que hemos duplicado y hemos llamado mul
+lo podríamos haber hecho Igualmente como
+hemos hecho ahora con el de garaje Claro
+igual igual o sea te refieres a esto que
+yo lo puedo crear desde aquí o lo puedo
+crear directamente desde aquí editar
+tipo duplicar no te refieres a eso o no
+no no cuando has cogido el sistema y lo
+has duplicado para modificar sí no la
+tubería no lo puedo hacer así O sea el
+tipo de tubería va por separado al tipo
+de sistema van por separado lo que pasa
+es que tú para modelar tienes que elegir
+el tipo de tubería y el tipo de sistema
+ya van los dos juntos Pero están por
+separado vale el tipo es una cosa y el
+sistema es
+otra de la configuración de la tubería
+para eso es porque tú piensas que puedo
+utilizar la misma el mismo tipo de
+tubería para diferentes tipos de
+sistemas de tuberías para diferentes
+tipos de sistemas de
+tuberías multicapa lo puedo hacer para
+agua fría para agu caliente para el
+riego para el gaje o sea el mismo
+material Entonces el tipo de tubería
+puede ir con diferentes tipos de
+sistemas vale o sea esto es la clave o
+sea si sabéis esto y lo tenéis
+controlado modelar es un poquito
+de práctica Vale pero no es difícil o
+sea esto es que tengáis claros los
+conceptos vale Y luego pues cuando
+filtro porque filtro por esto cuando
+coloreo porque coloreo por esto y luego
+pues el el tema de familias que el tema
+de familias es fundamental tal por lo
+que decía porque yo por ejemplo Quiero
+un una compuerta cortafuego Oye yo tengo
+la familia pero pero cuando genero mis
+planos tengo que ponerle una leyenda que
+diga que eso es una compuerta cortafuego
+cómo lo hago a lo mejor he creado una
+familia que en vista de planta tiene una
+forma especial y es fácil porque cojo
+esa familia la pongo al lado y le pongo
+que es una máquina de x y listo o a lo
+mejor las puedo etiquetar puedo en lugar
+de hacer leyendas puedo etiquetar y
+decir Pues voy a etiquetar las máquinas
+y en la etiqueta le incluyo información
+marca modelo lo que yo quiero y entonces
+me evito tener que hacer leyendas vale
+Pero si tengo que hacer leyendas tengo
+que utilizar simbología Y si tengo que
+utilizar simbología tengo que crear
+familias con con símbolos o sea tengo
+que ser capaz de generar familias que
+una vista 3D veo el proyector o la
+cámara o lo que sea pero en vista de
+planta es un símbolo que representa esa
+cámara pero cuando yo vaya a generar
+documentación planos el que que le los
+planos tiene que interpretar Qué es eso
+y para interpretar es o le pongo una
+etiqueta o leyenda Y si lleva leyenda
+tienes que asociarle un símbolo con una
+con un
+texto vale Y eso es lo que vamos a hacer
+o sea preparar documentación para cuando
+vayamos a exportarla que el cliente diga
+Oye fantástico que ahora surge mucho eh
+ahora ahora te dicen Oye estos planos no
+se parecen nada los que me ha dado el
+ingeniero a los que me has exportado tú
+de
+revit entendéis no O sea que hay que
+intentar que esa información y esa
+documentación sea la misma vale más
+cosas de esto dudas que tengáis
+yo creo que ya estáis casi preparados eh
+En media clase yo sí tengo una pregunta
+Cuando nosotros queremos nosotros
+seleccionamos el sistema no Y entonces
+en la barra de la izquierda podemos
+cambiar pero solamente podemos cambiar
+al de jardín al de garaje o al de afs
+pero yo no yo no puedo cambiar misma
+clasificación de
+sistema o sea el agua caliente no
+aparece
+ahí solo los que tengan la misma
+clasificación visto ya os enseñaré a
+cambiar tipos cuando estemos metidos ya
+en F enseño ya a cambiar tipos y hacer
+cosas más avanzadas vale pero en
+principio es esto si teado de sistema
+tienes que borrarlo y volverlo a dibujar
+no lo que te he dicho hay quee que te
+permite cambiar el tipo de sistema vale
+ya veréis o sea por ejemplo de tener una
+tubería o sea yo aquí ya os lo dir es
+que si no es avanzado pero yo puedo esta
+misma
+tubería la puedo
+prolongar y la puedo conectar a esa y
+puedo hacer que esta tubería que es de
+un tipo se convierta toda esta al mismo
+tipo que
+esta sea imaginar que me equivocado y
+estado trabajando con un tipo pues si
+Bueno también lo habéis visto que lo
+cambio aquí directamente y se cambia el
+tipo o sea lo que sería igual
+propiedades sí como igual a propiedades
+parecido pero tienen que ser del mismo
+sistema de la misma clasificación Sí si
+no son de la misma clasificación no te
+lo
+hace clasificación s sistema sistema
+vale clasificación y sistema es lo mismo
+vale es que como pone Ah el parámetro
+clasificación de sistema Pues yo lo
+llamo sistema o clasificación vale Yo
+soy
+más dibujando en agua caliente y juntas
+la de agua fría No te no hace no te lo
+hace no te lo hace te sale un mensaje de
+de alerta sí te sale un mensaje de
+alerta que estás uniendo tuberías de
+sistemas distintos o el color son
+diferentes O sea no no te lo unifica
+vale
+vale preguntas sobre
+esto ninguna seguimos
+seguimos de
+momento vamos hacemos un pequeño
+ejercicio así para que que veáis cómo
+funciona vale Voy a apuntar ahí en la
+pizarra y Vais a hacer un pequeño
+ejercicio vale de lo que hemos dicho de
+tuberías para bueno
+el cuando perdonar un segundito cuando
+le deis aquí a sistemas y dais a uniones
+de
+tuberías todas las herramientas de revit
+todas las categorías tienen una pestaña
+que pone cargar familia o sea lo que
+visteis antes en la ventana de
+preferencias de enrutamiento cargar
+familia desde aquí también puedo hacerlo
+o sea es decir cuando cuando yo voy a
+cargar una puerta en arquitectura clico
+en puerta y la forma de cargarlo es en
+esta ventana de la puerta que tiene una
+una Es que aquí no tiene ninguna puerta
+Pero porque es una veis no tiene puertas
+por qué Porque es una plantilla de
+instalaciones y lo que ha hecho es
+limpiar limpiar familias que no son de
+instalaciones vale por es una plantilla
+Entonces en este caso pues cualquier
+cosa que yo quiera cargar si quiero
+cargar una pieza de conductos por
+ejemplo uniones de conducto pues tiene
+su pestaña específica de cargar famil
+para las uniones de conducto si quiero
+cargar uniones de tubería tiene su
+ventana específica para cargar uniones
+de tubería vale Y así con todo pero la
+otra forma es directamente preferencias
+de enrutamiento cargar familia y también
+lo hago desde ahí vale pero en revit
+cualquier herramienta tenéis que ir a su
+categoría para cargarla desde su
+categoría vale si un equipo mecánico lo
+cargá desde aparatos de fontanería o
+instalación de fontanería que es como el
+inador ese que aparece en la herramienta
+y lo intentéis cargar por ahí no os va a
+funcionar tenéis que ir a equipo
+vale Venga pues voy a poner ese pequeño
+ejercicio y lo vamos a ir
+haciendo Mira vamos a hacer una
+instalación vale de
+tuberías muy
+sencilla vamos a crear un tipo de
+tubería
+que es la tubería afs vale
+afs vale es el
+tipo y ese tipo vamos a utilizar dos
+materiales vale vamos a utilizar
+ppr polipropileno Vale ppr y vamos a
+utilizar eh
+cobre
+esos dos materiales vale lo cual tenemos
+que utilizar estos dos materiales este
+no lo Vais a tener en la base de datos
+vale Este tenéis que crear el material y
+este lo tenéis poner por ejemplo el
+cobre
+a
+vale las piezas de Unión este Vais a
+poner las las piezas de Unión las que
+pone
+soldado soldada Estas son las que viene
+soldada porque por defecto en la
+plantilla de Esta sí que tenéis varias
+piezas Pues a este ponéis la soldada y
+este le vais Vais a poner las piezas
+estándar las de
+Unión
+vale Este Vais a como Vais a crear
+el material Vais a los diámetros
+del
+Cloruro de
+polivin El serie 40 creo que es serie 40
+vale pero me tiis que crear el material
+y todo y ahora la configuración Vais a
+poner en la ventana esa de configuración
+de de de materiales Vais a tener la
+tubería fs y tenéis que tener dos
+materiales Vais a poner el material de
+de cobre no vamos a poner primero bueno
+da igual el de
+cobre vale el de
+cobre el de
+ppr y esto lo Vais a poner a lo mejor
+entre 6 mm
+y 40 o 50
+MM y este de
+50 a
+90
+vale Y acordaros que todo lo que tipo de
+Unión Qué tipo de Unión
+es hemos dicho que es el T Vale entonces
+acordaros que para el cobre tenemos que
+poner el que pone
+soldado y para el de ppr El
+estándar y cuando pongamos las piezas
+tenemos que hacer esto mismo vale 6 mm a
+50 mm en todo y este de 50 a
+90
+vale Y cuando ya tengáis todo
+configurado Vais a dibujar una tubería
+con esta forma vais ir haciendo
+así vale Este
+primero lo Vais a poner bueno Mirar los
+diámetros que tengáis pero lo que quiero
+es que utilicéis diámetros distintos
+vale Y que por ejemplo este y este pues
+a lo mejor este sean
+25 este que sea
+50 este 65 y este 90 por ejemplo vale
+con todas sus piezas de Unión quiero que
+me hagáis una tubería con ese
+recorrido vale
+está entendido o
+no y en qué sistema Ah bueno tienes toda
+la razón vamos a poner el tipo de
+sistema porque este a ver el tipo de
+tubería Vamos a ponerle otro nombre
+porque si no se confunde con el sistema
+vamos a poner que el tipo de tubería sea
+eh tipo de tubería sea no sé vivienda
+por poner un ejemplo
+vale el tipo de tubería y el tipo de
+sistema el tipo de
+sistema a
+fs vale de agua fría
+sanitaria
+el primero que termine que levante la
+mano y el último que termine
+[Risas]
+también
+a intentar discurrir Y si ya veis que no
+conseguís me
+llamáis
+B
+ah
+ah
+Sí buenas tardes Sí buenas
+tardes Sí eso es le esperamos aquí
+arriba primero
+[Música]
+[Música]
+[Aplausos]
+derecha 20 minutillos vale No
+[Música]
+[Música]
+[Música]
+aquí
+[Música]
+[Música]
+est
+y
+[Música]
+[Música]
+[Música]
+C
+[Música]
+an
+[Música]
+[Música]
+es
+[Música]
+materi
+aboo material
+puse el
+[Música]
+tercero y entonces
+eso abajo
+y
+[Música]
+[Música]
+cones me imagino
+que
+[Música]
+[Música]
+y
+ent Ah cuando
+[Música]
+empon
+[Música]
+[Música]
+es dec
+que
+[Música]
+[Música]
+no
+[Música]
+los
+[Música]
+tramos
+[Música]
+[Música]
+es
+[Música]
+[Música]
+ah
+[Música]
+con
+[Música]
+[Música]
+bien
+[Música]
+tip
+ap para que te
+no
+[Música]
+D que
+pas
+probablemente creo que hay
+[Música]
+Peña una pal
+Ada
+Sia
+[Música]
+P
+[Música]
+T tiene que salir el
+otro
+sú
+[Música]
+elro
+[Música]
+[Música]
+ar
+[Música]
+[Música]
+ya y claro Ahora cuando dibujo las
+tuberías Yo pensaba
+[Música]
+que camb
+[Música]
+materi
+[Música]
+suministro hidráulico
+aquí
+[Música]
+est
+[Música]
+claro y material
+[Música]
+categorí
+[Música]
+[Música]
+no
+est
+[Música]
+diando
+[Música]
+mateg
+vamos a ver tú yo lo tenemos igual o sea
+que igual que a
+m
+0 de todo y todo lo de abajo es todo de
+gené te
+sale programa para
+dibujar
+[Música]
+configuración hay
+un
+aquí
+[Música]
+mat
+automáticamente Perdón no cuando pasas
+deí cambiar el material automticamente
+Claro claro lo s pero no me
+sale ent
+ten estoy dudando
+a el genrico de estamos sold
+de El estándar
+de50 me pasa
+[Música]
+a me haba
+[Música]
+confundido que no me sale a m que no me
+sale es el último que se supone que
+tiene
+que
+no ti
+el cob
+prima esamp
+C
+cobre porque lo mejor ppr
+enci Mira
+tenemos lo mismo vale a m lo que no me
+cambies es el último deía
+cambiar vamos a ver todo por en conexión
+has cambiado ya me salían dos yo no sé a
+dejar al normal porque no C
+[Música]
+[Música]
+directamente mi ppr y es lo único que he
+hecho o sea cambi el ppr y hacerme esto
+y ahora no me cambia y
+a la de vivienda y en sistema en sistema
+de la de
+vivienda claro y luego el
+sistema
+no yo creo que
+no mi tubería y a mi izquierda tipo de
+sistema
+afs no lo
+s alguien le sale bien pero no entiend
+Mi
+último ese debería de los
+codos losos
+modificar modificar los
+complicado no se modific sol losos no
+modif
+es que nos está haciendo las tuberías no
+porque ha dicho que hay que poner un
+codo para Ah
+vale Ah a salo me ha salido es que mear
+cuando decir me ha salido Ah
+vale el de
+abajo porque tienes que entrar a la
+familia tienes que entrar a la familia
+cambiar y no sé bórralo todo y
+vamos voy intentar me sale generic en
+todos pero es que eso no deber la
+conexión como tal Qué es
+alentado A ver vamos a meteros otra
+vez cuando tú unes dos tuberías
+físicamente en construcción saber si es
+que la conexión es soldada soltamos
+cuando es
+acero simplemente con pegamento
+es
+quieres más cómodo tipo de
+tubería por ties está es que noas creado
+tipo si está ahí
+Ah es que te tienes que poner Mira bor
+porque lo has hecho con tu tipo de tuera
+recreo eh
+Tienes
+pinchas
+aquí
+cobre
+soldado creo que problema es que no
+hemos dibujado O sea no hemos dibujado
+en la capa vivienda claro yo creo que
+habis dibujar la capa se c
+Dear aar ya
+está
+pera ties que hacerlo manual desde el
+principio entonces tú ahora Ya conforme
+vas metiendo sí que ya te va a salir
+conme vas cambiando de tamaño
+dibujate eso que tienes y ponte el
+espacio blanco que estás en cienda
+o Vale
+ahora y
+ah
+el muro
+[Música]
+otro
+cambiar tienes dibujada la tubería
+porque no puedes cambiarla
+aquí
+que es
+[Música]
+gen
+[Música]
+[Música]
+mat
+o puesto
+[Música]
+aquí vale
+voyar dicho antes
+que por la
+[Música]
+[Música]
+visualiz en realidad
+[Música]
+tiene Pero eso no pero
+[Música]
+no tienes que
+seleccionar y la tabulación tres
+veces
+65
+No pero si
+cambias sale así verdad Pero sabes tiene
+sentido Porque si tú tú lo haces todo en
+un mismo tamaño has dado la orden de que
+ese codo vaya a ese tamaño está creado
+el codo queas
+cre t lo
+cambias manualmente
+el
+toas y luego ido como cambiando el
+diámetro una unao el codo se le había
+generado
+para no cambi
+elodo
+imagate ha creado todo a
+diámetro 10 vale Por así decirlo
+Entonces le ha creado todos los codos
+conforme a los diámetros de
+las hay que ir cambiando diámetro o sea
+tubería tubería conform tienes que
+generar
+para esto entendendo
+no sal el codo
+el mismo para tod para principio había
+dibujado todo con el
+mismo No pero si por ejemplo ahora has
+equiv quieres cambiar uno Tienes que
+[Música]
+revis
+mana
+a 90 y al pasar el de
+50 noes se ha puesto el original que
+tiene
+prioridad de est El problema es
+[Música]
+que
+cuando
+[Música]
+ual
+[Música]
+tod
+[Música]
+los
+[Música]
+maravill
+pero la
+de
+porque sabes cambiarle los
+Mod
+[Música]
+[Música]
+esend
+dibujito del
+[Música]
+ventilador
+[Música]
+nun
+[Música]
+aguant much
+no O sea
+tienes interferencias que hay que sea de
+laora
+que no son
+fenta que no deberí estar
+as pero no es
+cálculo puo
+[Música]
+frac
+se piensa
+mejor hacer parti del
+disco es estabas dibujando en agua
+refrigeras agua
+refriger
+[Música]
+Enma pero es que lo mío Tiene delito
+porque yo he tomado
+captura
+[Música]
+[Aplausos]
+des levantarlo con estrura y termin
+haciend lación de Windows entonces tenía
+más para
+person Y sí que aument quio recordar que
+que aument sí sí no lo aument porque si
+no me dejaba instalarlo lo que pasa
+oa sea la descargué lo metí y al meterlo
+ponía como no se van a
+copiar Lo que pasa
+que
+prr por no te pillas
+para di
+per te lo
+[Música]
+digo
+[Música]
+[Música]
+ca
+[Música]
+[Música]
+que
+cuando emp
+[Música]
+aar
+[Risas]
+[Música]
+un
+poer haer
+sab estoy como
+nerviosa que me F
+[Música]
+morir
+cuando es que teng quece cuando empez
+con uno aquí en la
+pierna Bueno Lu tiene todo el
+brazo
+Entonces
+mi
+resistencia
+metros
+[Música]
+el
+elri est en plan
+iluminación desde el cuadro hasta
+detección y
+alarma
+luego
+yo no me acuerdo de muchas
+cosas obviamente yo estoy contando con
+mi cabeza estoy contando
+conab lo que
+siempre que es básicamente que cuando
+hay un
+incendio se comunique
+cre por
+[Música]
+enos
+deso haciendo las instalaciones y todo y
+muchas cosas se dejan no me parece muy ú
+sin calcular oa que Lu el instalador es
+el empez hacer instes a mitad de
+desarrollo de la
+arquitectura
+as
+[Música]
+des
+[Música]
+nunca
+pas
+en las demás
+[Música]
+[Música]
+no
+porque imperi
+V pues es un
+poco claro yo incompatibilidad porj acá
+Este es un timbre para entrar al
+departamento pero este timbre está en
+una un espacio un tabique de 10
+cm que venga y me lo ponga Entonces eso
+no es posible porque mi caja de timbre
+tiene 5 cm de ancho
+y bueno
+[Música]
+tenía sabes m tu caja 10 5 10 ca
+rectangular
+elb
+dur el proyecto Ah Es todava tengo el ch
+grupoo quit cuando estaba en el piso
+19
+pis hoy sigen reportando
+cosas
+y
+grupo
+[Música]
+[Música]
+estos unar de
+cister
+[Música]
+podamos
+yo creo
+podamos yo creo sinceramente es
+loig
+[Música]
+V es como para tener como un poco Pauta
+para que te organices tu estrategia
+per
+Ob que ni siquiera hace falta eso para
+lo que
+entiendas Qué diferencia ent
+vosotros ha
+dos
+que y a no me contradice
+nadie contradecir porque la gente pues
+lógicamente no tiene dinero porque muy
+cara
+Pues a ver
+[Música]
+yo sí a
+tambén deate interno cosas susceptibles
+de ser
+intercambiadas interés
+no vale porque tus intereses es cuando
+los organizas con los interes del otro
+vambi y el objetivo es principio tú vas
+con una meta superca que de eso o sea es
+eso yo lo tengo
+supero yo tengo claro lo que qui y vamos
+a llegar a un acuerdo de
+eso y no solo es o sea el objetivo es
+por ejemplo hacer hacer la compra Mater
+el interés es no intercambiar interés
+que a ver yo la verdad que no hice No
+estud negocios
+sab pasado y noches Sin dormir pas a par
+que no O sea yo lo que entiendo es que
+al final tú en un principio te fijas un
+objetivo como para ir un primer acuerdo
+en el cual tú intentas sacarlo tod la
+pero como no llegas a un acuerdo ent de
+verdad decir vale Pero si llegas acuerdo
+por negocio tienes que hacerlo del
+Man Ese es lo mejor lo más fortaleza y
+los tú tienes varias cosas que sabes que
+hay algunas de las que puedes prescindir
+y
+otas ent tú intercambias de es Ob loes
+ahí para quedarte con que otro para dar
+vale más o menos lo hemos puesto
+bien obtivo como la visión más
+estratégica Yo quiero merendar los
+intereses o quiero tener estáis hablando
+de los objetivos del principio no el
+objetiv para mí es la visión general que
+tú tienes de la situación que hato plazo
+medio plaz chenos sí Exacto pero yo
+tengo o sea es todo lo que yo quiero
+abarcar tanto
+corto yo quiero ser más rica y quiero
+ser yo quiero ser más cosas y luego
+conforme tú tienes ahí primer una
+primera negociación en la que no se ha
+resuelto nada y no tienes que ir al
+siguiente y valorar de esos objetivos
+Cuáles realmente los alcanzables
+conforme a lo que está eso no es el
+interés el interés que tienes que
+negociar objetivos primeros pero porque
+ya pero porque es la cria O sea tú
+quitas esos objetivos si al final puede
+ser
+creo que es el objetivo puedes
+dar quiero ser más
+rica refes a
+los doy y yo te lo doy aunque no
+sea se ha ido alguno o no de momento no
+ya se fueron dos ya faltan dos todavía
+me fal han dejado los ordenadores no muy
+lejos bueno habéis terminado el ejemplo
+o no os ha funcionado creo aquí no ha
+funcionado yo tengo una duda Y es que lo
+he hecho de dos formas y una funcionado
+y otra
+no O
+sea he ido dibujándolo aquí
+cambiando
+y
+otado rpido y he cambiado el diámetro a
+un y no se
+ha los codos por ejemplo no se han
+cambiado y la de 50 que estaba en el
+límite Tampoco porque lo que te he dicho
+yo es lo hace de manera automática si tú
+ya modificas algo tú ya no lo haces de
+manera automática ya no te aplica el
+criterio que está configurado entonces
+tiene que ser cuando estás modelando
+tuberías y asignando más y diámetros y
+tal te lo va haciendo pero si ya una vez
+quieres volver o sea lo has hecho y
+quieres modificar ya no se pu hacer
+tienes que modificar otra vez
+manualmente No eso es porque de hecho tú
+cuando seleccionas un elemento se te
+abre la la la tabla de propiedades y en
+esa tabla de propiedades te permite
+cambiar la familia o el tipo entonces
+por eso ya no te aplica la misma el
+mismo criterio tiene que ser
+configuración Y tú ya te pones a modelar
+eligiendo diámetro Y si coges una
+familia que ya está creada sí que te lo
+actualiza o tampoco Tampoco tampoco o
+sea el criterio es tú configuras
+inicialmente y cuando ya lo tengas
+configurado empiezas a modelar con los
+diámetros y te tiene que ir aplicando en
+función del diámetro que tú cojas el Las
+piezas que tú has seleccionado que has
+configurado pero luego ya una vez hecho
+si lo quieres modificar tú uno a uno y
+tal eso ya no Pero y si seleccionas toda
+la red de tuberías y pones Imagínate que
+te has equivocado con los datos y
+seleccionas todas las red de tuberías y
+cambias los datos se te cambia toda la
+red de tuberías y se te pone bien pero
+Depende de qué datos Depende de qué
+datos si estás cambiando el valor de un
+parámetro ese parámetro tien todos los
+tramos asociados te lo cambia todo Claro
+pero esta funcionalidad esta
+configuración de tuberías no vale porque
+esta configuración parte del inicio si
+tú ya has terminado lo que te permite
+reir es que una vez que has terminado
+algo seleccionas cualquier componente y
+ese componente lo puedes cambiar por
+otro pero no significa que al cambiarlo
+por otro automáticamente te lo vuelve a
+recalcular y te lo vuel a poner bonito
+me entiendes O sea que que hace camb es
+un parámetro de estos tienes que estar
+atento de las cosas las que está
+comentado
+claro vale visto Entonces lo habéis
+entendido todos la práctica o no O sea
+que ya sabiendo
+Esto vale Pues
+seguimos un habéis hecho descansito yo
+creo que no hacemos
+no vale Seguimos entonces entonces yo el
+objetivo que quería es que entendiera un
+poco Cómo funciona la parte de de
+instalaciones de rid vale porque
+cogiendo un poco el concepto cuando
+trabajemos con ductos es exactamente lo
+mismo electricidad tiene una variante
+electricidad no trabaja con sistemas
+vale electricidad es más un tema de
+trabaja con cuadros y circuitos es decir
+yo tengo que generar con estos con estos
+aparatos de iluminación y con estos
+enchufes tengo que ir generando
+circuitos que a esos circuitos se les
+asocia una potencia y puedo también
+generar encendidos es decir con los
+interruptores que tengo en la pared red
+puedo generar tantos encendidos vale a
+lo mejor es un circuito con tres
+encendidos Entonces eso lo puedo hacer y
+luego puedo generar unas tablas unos
+cuadros donde vienen unos esquemas donde
+yo voy detallando los circuitos con su
+número su potencia y luego Incluso rev
+te permite incluso hacer equilibrado de
+cargas vale Pero eso lo lo iremos viendo
+pero al final es una disciplina que es
+más modelar que
+no trabajar con sistemas como hemos
+hecho con tuberías y como lo haremos con
+conductos vale un tema de en la parte de
+por ejemplo de de instalaciones
+eléctricas cuando veis planos todos los
+elementos y los componentes de
+instalación eléctrica lleva normalmente
+en en Cat asociados un número de
+circuito Vale cuando yo yo soy ingeniero
+desarrollo un plano de Electricidad y yo
+a cada luminaria le tengo que poner esta
+pertenece al circuito a1 o al op no sé
+cuántos entonces claro y eso luego como
+lo traduzco yo a iones o cómo lo
+traduzco yo a representación en
+planos cómo lo hago es decir cómo yo
+cuando represente en mi plano todas las
+luminarias Cómo pongo una etiqueta que
+ponga el número de
+circuito claro tengo que crearme un
+parámetro pero claro en revis ya existe
+un parámetro que se pone que se llama
+número de
+circuito y ese me
+sirve pemos un texto
+a ver el problema de si me sirve claro
+el problema de si me sirve es porque yo
+tendría que no dejar que revit lo haga
+lo tengo que hacer yo entonces revit me
+va a hacer una cosa y yo se la voy a
+cambiar para saber que el circuito Ese
+es es el a1 entonces lleva un trabajo
+importante Vale entonces tengo que
+buscar otros otras formas de poder
+Representar en los planos los circuitos
+de cada elemento sin tener que acceder a
+lo mejor a la herramienta de revit que
+es crear circuitos vale porque luego al
+final es eh es más farragoso y como no
+voy a calcular lo único que voy a hacer
+es modelar pues para mí es más sencillo
+crearme un parámetro ese parámetro darle
+un valor y luego crearme una etiqueta
+que lleve asociada a ese parámetro el
+valor de ese parámetro Y entonces ya voy
+colocando etiquetas pum pum pum pum pum
+y en la etiqueta automáticamente se
+autorellena vale entonces ese tipo de
+cosas son las que tenéis que aprender a
+la hora de hacer porque al final tenéis
+que entender un poco cómo funciona revit
+Y qué es lo que el cliente me está
+pidiendo y porque muchas veces revit
+trabaja de una forma pero el cliente me
+está pidiendo otra entonces tengo que no
+tengo que ser cuadrículo y decir No es
+que revit lo hace así no es que el
+cliente no lo quiere así O sea buscaros
+la forma de que darle al cliente lo que
+te está pidiendo y a lo mejor le decís
+Oye es que revit no es la herramienta
+para Esto vale hay otras herramientas
+para temas de Electricidad canec bim por
+ejemplo que es una herramienta pero
+claro es muy cara Entonces yo la compro
+si me dedico a temas de instalaciones
+eléctricas si soy especialista en
+instalaciones eléctricas la compro
+porque voy a estar haciendo todo el día
+proyectos pero si no me tengo que buscar
+otras herramientas para poder
+representar esta información Vale
+entonces fontanería funciona Exactamente
+igual que conductos lo vamos a ver ahora
+mismo vale para hacer un repaso pero
+Vais a ver que es lo mismo cambia un
+poco el qué qué puede cambiar en
+conductos la geometría no que difiere Y
+qué puede cambiar que otra cosa cuando
+decíamos ahí las dos cosas que
+necesitamos para empezar a funcionar que
+decíamos tipo de
+tubería tipo de sistema pues esto es lo
+mismo tipo de conducto tipo de sistema
+de conducto Entonces si nos vamos aquí
+por ejemplo a familias y buscamos
+conductos Muchas gracias Guillermo si
+buscamos conductos fijaros iros a
+familias vamos a la c de
+conductos Y tenemos por defecto conducto
+oval conducto rectangular y conducto
+redondo conducto oval se utiliza más en
+Estados Unidos que por aquí por aquí no
+se utiliza el conducto valal Vale
+entonces yo de este me olvido pero el
+rectangular y el redondo Sí entonces a
+diferencia por ejemplo Bueno es muy
+similar porque al final tú dices vale Yo
+quiero un conducto de chapa o Quiero un
+conducto de fibra o Quiero un conducto
+mitad a mitad pues entonces me creo el
+tipo lo renombro y igual que hecho con
+tuberías lo que pasa es que a diferencia
+de las tuberías que aquí no le asigno un
+material en conducto no le voy a asignar
+un material lo llamo como el material
+conducto de chapa Y ya sé Que cuando
+haga est este desarrollo de proyecto
+cuando selecciones s que es conducto de
+chapa Y ya está Vale O sea que a
+diferencia de tubería aquí no trabajamos
+con material aquí directamente lo
+nombramos vale Y luego fijaros que a
+nivel de sistemas de conductos tiene
+sistema de tuberías y tiene sistemas de
+conductos tenemos muchos menos sistemas
+que en tuberías tenemos aire aire de
+retorno aire viciado y suministro de
+aire qué son estos tres sistemas porque
+tenemos que utilizarlos para todo lo que
+vayamos a utilizar de conductos pues el
+que es impulsión y retorno cuando
+hablamos de climatizar o de calentar
+utilizamos impulsión es suministro y
+retorno aire de retorno ent esos dos son
+climatización y el de aire viciado es
+para todo lo demás el aire viciado es
+para el humo de una campana de una
+cocina el humo de extracción de garaje
+el humo de los aires de ventilación o
+sea todo lo demás Vale entonces cuando
+yo tenga que
+seleccionar un sistema y que tenga que
+crear tipos de de ese sistema tengo que
+saber de estos tres cuál utilizar No
+tengo más vale entonces sé que tengo
+solo estos tres pero si os fijáis es lo
+mismo es crear tipo de conducto y tipo
+de sistem tema y cuando tenga las dos
+cosas hechas a modelar y ya lo único es
+utilizar las herramientas que tengo para
+la elevación para el tipo de piezas de
+enrutamiento Por ejemplo si aquí vamos a
+conductos voy a
+conducto dibujo un conducto este es muy
+Este es de 300 por 300 lo veis
+rectangular Tendría que haber elegido el
+tipo de conducto si lo quiero circular
+lo quiero rectangular Pero bueno es lo
+mismo tengo que elegir tipo de conducto
+que lo elegiría de aquí y tipo de
+sistema si es suministro aire o retorno
+o el que yo haya creado digo suministro
+y ya modelo es exactamente lo mismo y si
+le doy al conducto selecciono el
+conducto y me voy a las propiedades de
+tipo tengo también preferencias de
+enrutamiento qué pasa que aquí como
+dijimos en tuberías Qué tipo de Unión
+dijimos en tuberías t no y en la otra
+injerto pues cambiamos aquí decimos que
+ahora este es injerto y vamos y lo que
+pasa que aquí Tendremos que tener un
+injerto aquí Tendremos que tener un
+injerto una pieza de injerto que ya os
+daré yo familias para que la cargué y
+tengáis injertos como os he dicho yo
+vale porque aquí por defecto no tiene y
+el el climaver plus que llamamos aquí
+que es que lleva una lámina de plata por
+dentro y por fuera y fibra entre medias
+que es como un sándwich Pues ese es el
+que utilizamos interior luego por las
+verticales utilizamos un conducto
+aislado pero por fuera es de chapa vale
+Y en la cubierta Pues a lo mejor también
+es de chapa también aislada entonces
+chapa aislada vertical y cubierta y
+fibra en la parte interior Entonces yo
+hago primero mis lo que es la parte
+interior con un tipo de conducto y luego
+la vertical con otro tipo de conducto y
+ya está lo único el sistema sigue siendo
+el mismo pero el tipo de conducto es
+otro vale Y entonces qué es lo que da
+color a todo eso el tipo el el conducto
+el material cambia porque uno es
+conducto de Chapa el otro conducto de
+fibra Pero los dos tienen el mismo tipo
+de sistema impulsión de aire y entonces
+ya todo aunque tenga diferente material
+me lo colorea Igual y así yo diferencio
+que esta es la red de impulsión esta es
+la red de retorno Esta es la de aire
+viciado
+vale no no os preocupéis porque vamos a
+ver instalaciones y Vais a ver
+eh poder diferenciar los diferentes
+tipos vale para que lo entendáis
+entonces fijaros aquí es lo mismo es yo
+tengo que configurar las piezas Vale y
+tengo también Aquí lo de cargar familia
+tengo aquí lo de Modificar el tamaño del
+conducto aquí no tengo materiales y
+tamaños aquí solo tengo un material o lo
+tengo rectangular o lo tengo valal o lo
+tengo redondo tengo lo mismo
+ángulos tengo lo mismo conversión
+principal y
+ramificación es lo mismo a nivel de
+hacer algo automático y luego tengo los
+tres tipos de conductos el tema del
+cálculo lo mismo quitamos aquí lo del
+cálculo Si no vamos a calcular para que
+no nos esté dando la lata vale Y listo O
+sea que os si os fijáis es similar al
+otro o sea no tienen o sea es que es lo
+mismo y luego a nivel de herramientas
+también es lo mismo o sea
+tenéis conducto marcador de
+posición un de
+conducto accesorios de conducto y
+flexible es que lo mismo para tuberías y
+para conductos Exactamente igual Vale
+entonces ya una vez que sabéis estas dos
+cosas ya es que os enseñe trucos de
+modelado se usa en este caso El qué el
+flexible aquí se usa Sí porque cuando
+cuándo usas el flexible sobre todo en
+los sistemas de impulsión cuando tú
+haces un sistema de impulsión
+normalmente para que funcione bien un
+terminal de aire un difusor para que
+funcione bien no se conecta directamente
+esto al conducto lo que lleva esto es
+como una especie de plenum lleva un
+cajón de chapa donde llega el aire a una
+presión ese aire se expande por todo el
+cajón y la propia presión es la que hace
+que salga por las por esas Lamas para
+que funcione bien si no lo hago así no
+va a funcionar bien si yo directamente
+esto lo conecto al conducto no lo va a
+hacer bien vale entonces veréis qué pasa
+que instalaciones que el falso techo es
+mínimo Y entonces dicen directamente
+pongo la regía al conducto Pero porque
+no tengo espacio pero si quiero hacer
+una buena difusión tiene que ir con su
+accesorio de plenum que es como un cajón
+de chapa y en ese cajón de chapa Pues
+llega un conducto normalmente el
+circular que se emboca ese cajón se
+genera esa presión de aire dentro del
+conducto y cuando ya está esa presión
+fum sale por el difusor vale Y es un
+poco ese funcionamiento entonces esa
+Unión del conducto con el final de aire
+con ese plenum ese cajón de chapa va con
+un flexible circular Vale entonces ese
+flexible circular es el que utilizamos
+Qué pasa que eso se hace siempre en
+todas las instalaciones de climatización
+pero que hay un límite también es decir
+todos los sistemas de climatización los
+conductos se calculan por pérdidas de
+carga Entonces tú vas calculando la
+pérdida de carga en cada uno de los
+tramos de la instalación entonces una
+pieza de esas un flexible genera mucha p
+de carga entonces esos flexibles
+facilitan la conexión del conducto al
+terminal de aire pero tienen que ser
+cortos tiene que haber un máximo de
+longitud es decir lo ideal es que esté
+como en uno entre uno y uno y medio como
+mucho como mucho vale Y eso sol y veréis
+en en revit que podemos poner esa
+limitación es decir cuando me hagas una
+instalación automática el flexible no
+puede ser más de metro y medio y lo
+pones tú vale
+pero que y en otras instalaciones donde
+no se pueda porque los techos son enanos
+y la única forma es poner directamente
+el terminal el difusor al conducto pues
+se a dosa y ya
+está Vale
+preguntas hemos visto mucho Ho o
+poco yo creo que a ver yo creo que si
+atendé como hoy os habéis portado muy
+bien si atendé como yo creo que seremos
+capaces de la parte teórica terminar muy
+rápido y dedicar más a la parte práctica
+para que empecéis a trabajar con un
+proyecto y para que empecéis a a
+desarrollar instalaciones vale Y al
+final es destreza o sea lo que es lo que
+tenéis que ir cogiendo es destreza
+destreza Entonces el próximo día
+intentaré ya meteros ya con el proyecto
+vale para que empecéis a trabajar y
+empezar a a ver porque al final esto es
+son truquitos de modelado vale al final
+cuando te enfrentas a un proyecto de
+estos Qué diferencia entre Marcos y no
+de
+vosotros que Marcos lleva muchas más
+horas que vosotros Pero al final si
+conocéis bien las herramientas y los
+truquitos pues al final terminéis
+cogiendo Esa esa velocidad y bueno
+vosotros que sois jóvenes y que se
+supone que los jóvenes tenéis más de ca
+en esto tenéis que ser más rápidos que
+yo haremos un día una
+carrera Bueno pues yo creo que nos
+quedamos hoy por aquí
+no
+vale la semana tenéis conmigo o
+no el jueves a o cuándo es jueves
+[Música]
+vale
+[Música]
+cu
