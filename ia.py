@@ -194,6 +194,7 @@ option = st.selectbox(
 
 
 # Mostrar la respuesta del asistente en el contenedor de chat
+st.write(st.session_state["openai_model"])
 with st.chat_message("assistant"):
     stream = client.chat.completions.create(
         model=st.session_state["openai_model"],
