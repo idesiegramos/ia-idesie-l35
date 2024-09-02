@@ -42,17 +42,33 @@ print("'Secretos' cargados correctamente")
 
 model_name = "gpt-4o"
 
-client = OpenAI(api_key=OPENAI_API_KEY,)
 
-model = client.chat.completions.create(
-    model=model_name,
-    messages=[
-        {
-            "role": "user",
-            "content": "Dile al usuario que haga preguntas sobre el máster BIM de IDESIE",
-        }
-    ],
-)
+# Configuración de la API Key de OpenAI
+client = OpenAI(api_key=OPENAI_API_KEY)
+
+# Modelo por defecto
+if "openai_model" not in st.session_stare:
+    st.session_state["openai_model"] = model_name
+
+# Inicialización del histórico del chat
+if "messages" not in st.session_state:
+    st.session_state.messages = []
+
+# Mostrar los mensajes de chat del histórico al volver a ejecutar la aplicación
+for message in st.session_state.messages:
+    with st.chat_message(message["role"]):
+        st.markdown(message["content"])
+
+#model = client.chat.completions.create(
+#    model=model_name,
+#    messages=[
+#        {
+#            "role": "user",
+#            "content": "Dile al usuario que haga preguntas sobre el máster BIM de IDESIE",
+#        }
+#    ],
+#)
+
 print(f"Modelo '{model_name}' cargado correctamente")
 
 
@@ -174,7 +190,7 @@ for message in st.session_state.messages:
         st.markdown(message["content"])
 
 # Reaccionar a los mensajes del usuario
-if prompt := st.chat_input(f"Escribe tu pregunta. {OPENAI_API_KEY}"):
+if prompt := st.chat_input("Escribe tu pregunta"):
     # Mostrar el mensaje del usuario en el contenedor del chat
     with st.chat_message("user"):
         st.markdown(prompt)
