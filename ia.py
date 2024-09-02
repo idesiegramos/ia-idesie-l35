@@ -151,6 +151,7 @@ with st.status("Loading video..."):
 
 
 ################
+# Pruebas sacadas de https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps#build-a-bot-that-mirrors-your-input
 
 # Ventana de texto
 with st.chat_message("assistant"):
@@ -171,7 +172,12 @@ for message in st.session_state.messages:
         st.markdown(message["content"])
 
 # Reaccionar a los mensajes del usuario
-#if prompt := st.chat_input(""):
+if prompt := st.chat_input(""):
+    # Mostrar el mensaje del usuario en el contenedor del chat
+    with st.chat_message("user"):
+        st.markdown(prompt)
+    # Añadir el mensaje al histórico de chat
+    st.session_state.messages.append({"role": "user", "content": prompt})
 
 
 ###############
