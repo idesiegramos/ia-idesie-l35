@@ -138,13 +138,13 @@ option = st.selectbox(
 )
 
 # Status
-with st.status("Loading video..."):
-    st.write("Searching for data...")
-    time.sleep(2)
-    st.write("Found URL.")
-    time.sleep(1)
-    st.write("Downloading data...")
-    time.sleep(1)
+#with st.status("Loading video..."):
+#    st.write("Searching for data...")
+#    time.sleep(2)
+#    st.write("Found URL.")
+#    time.sleep(1)
+#    st.write("Downloading data...")
+#    time.sleep(1)
 
 
 
@@ -157,7 +157,7 @@ with st.status("Loading video..."):
 with st.chat_message("assistant"):
     st.write("¡Hola!")
 
-prompt = st.chat_input("Escribe tu pregunta sobre el máster BIM de IDESIE")
+#prompt = st.chat_input("Escribe tu pregunta sobre el máster BIM de IDESIE")
 
 # Inicializar el historial de chat
 if "messages" not in st.session_state:
