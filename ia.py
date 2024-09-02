@@ -163,7 +163,7 @@ if prompt:
 
 # Inicializar el historial de chat
 if "messages" not in st.session_state:
-    st.sesion_state.messages = []
+    st.session_state.messages = []
 
 # Mostrar los mensajes de chat del histórico al reacargar la aplicación
 for message in st.session_state.messages:
