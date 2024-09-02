@@ -47,7 +47,7 @@ model_name = "gpt-4o"
 client = OpenAI(api_key=OPENAI_API_KEY)
 
 # Modelo por defecto
-if "openai_model" not in st.session_stare:
+if "openai_model" not in st.session_state:
     st.session_state["openai_model"] = model_name
 
 # Inicialización del histórico del chat
