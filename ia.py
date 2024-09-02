@@ -50,14 +50,6 @@ client = OpenAI(api_key=OPENAI_API_KEY)
 if "openai_model" not in st.session_state:
     st.session_state["openai_model"] = model_name
 
-# Inicialización del histórico del chat
-if "messages" not in st.session_state:
-    st.session_state.messages = []
-
-# Mostrar los mensajes de chat del histórico al volver a ejecutar la aplicación
-for message in st.session_state.messages:
-    with st.chat_message(message["role"]):
-        st.markdown(message["content"])
 
 #model = client.chat.completions.create(
 #    model=model_name,
@@ -180,26 +172,39 @@ option = st.selectbox(
 
 #prompt = st.chat_input("Escribe tu pregunta sobre el máster BIM de IDESIE")
 
+
 # Inicializar el historial de chat
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
-# Mostrar los mensajes de chat del histórico al reacargar la aplicación
+# Mostrar los mensajes de chat del histórico al recargar la aplicación
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
 
 # Reaccionar a los mensajes del usuario
 if prompt := st.chat_input("Escribe tu pregunta"):
+    
+    # Añadir el mensaje al histórico de chat
+    st.session_state.messages.append({"role": "user", "content": prompt})
+    
     # Mostrar el mensaje del usuario en el contenedor del chat
     with st.chat_message("user"):
         st.markdown(prompt)
-    # Añadir el mensaje al histórico de chat
-    st.session_state.messages.append({"role": "user", "content": prompt})
 
 
-####
-client = OpenAI(api_key=OPENAI_API_KEY)
+# Mostrar la respuesta del asistente en el contenedor de chat
+with st.chat_message("assistant"):
+    stream = client.chat.completions.create(
+        model=st.session_state["openai_model"],
+        messages=[
+            {"role": m["role"], "content": m["content"]}
+            for m in st.session_state.messages
+        ],
+        stream=True
+    )
+    response = st.write_stream(stream)
+st.session_state.messages.append({"role": "assistant", "content": response})
 
 
 #
