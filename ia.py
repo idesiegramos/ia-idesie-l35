@@ -146,10 +146,14 @@ with st.status("Loading video..."):
     st.write("Downloading data...")
     time.sleep(1)
 
+
+
+
+
 ################
 
 with st.chat_message("user"):
-    st.write("¡Hola!")
+    st.write("Hola")
 
 # Inicializar el historial de chat
 if "messages" not in st.session_state:
@@ -165,6 +169,10 @@ if prompt := st.chat_input(""):
 
 
 ###############
+
+
+
+
 
 st.video(f"{YOUTUBE_VIDEO_URL}")
 st.write(YOUTUBE_VIDEO_URL)
