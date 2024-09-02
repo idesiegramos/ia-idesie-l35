@@ -42,7 +42,7 @@ print("'Secretos' cargados correctamente")
 
 model_name = "gpt-4o"
 
-model = openai.ChatOpenAI(
+model = openai.ChatCompletion.create(
     openai_api_key=OPENAI_API_KEY,
     model=model_name,
     temperature=0,
