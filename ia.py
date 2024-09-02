@@ -3,6 +3,7 @@ import time
 import re
 import openai
 import tiktoken
+import youtube_transcript_api
 
 from openai import OpenAI
 #from dotenv import load_dotenv
