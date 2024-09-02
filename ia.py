@@ -147,6 +147,16 @@ with st.status("Loading video..."):
     time.sleep(1)
 
 
+# Inicializar el historial de chat
+if "messages" not in st.session_state:
+    st.sesion_state.messages = []
+
+# Mostrar los mensajes de chat del histórico al reacargar la aplicación
+for message in st.session_state.messages:
+    with st.chat_message(message["role"]):
+        st.markdown(message["content"])
+
+
 st.video(f"{YOUTUBE_VIDEO_URL}")
 st.write(YOUTUBE_VIDEO_URL)
 
