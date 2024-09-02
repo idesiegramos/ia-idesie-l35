@@ -2,6 +2,7 @@ import streamlit as st
 import time
 import re
 import openai
+import tiktoken
 
 from openai import OpenAI
 #from dotenv import load_dotenv
