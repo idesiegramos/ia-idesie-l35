@@ -158,9 +158,6 @@ with st.chat_message("assistant"):
     st.write("¡Hola!")
 
 prompt = st.chat_input("Escribe tu pregunta sobre el máster BIM de IDESIE")
-if prompt:
-    st.write(f"El usuario ha escrito la siguiente pregunta: {prompt}")
-
 
 # Inicializar el historial de chat
 if "messages" not in st.session_state:
