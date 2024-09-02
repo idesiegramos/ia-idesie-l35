@@ -3,3 +3,4 @@ pandas
 openai
 pytube
 tiktoken
+youtube_transcript_api
