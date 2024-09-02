@@ -7,7 +7,7 @@ import tiktoken
 from openai import OpenAI
 #from dotenv import load_dotenv
 from tiktoken import encoding_for_model
-from langchain_openai.chat_models import ChatOpenAI
+#from langchain_openai.chat_models import ChatOpenAI
 from pytube import YouTube
 from youtube_transcript_api import YouTubeTranscriptApi
 from langchain_openai.embeddings import OpenAIEmbeddings
