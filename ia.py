@@ -14,7 +14,8 @@ from youtube_transcript_api import YouTubeTranscriptApi
 #from langchain_openai.embeddings import OpenAIEmbeddings
 #from langchain_community.vectorstores import DocArrayInMemorySearch
 #from langchain_core.runnables import RunnableParallel, RunnablePassthrough
-from pinecone import Pinecone, ServerlessSpec
+from pinecone.grpc import PineconeGRPC as Pinecone
+from pinecone import ServerlessSpec
 
 
 ################################
@@ -114,25 +115,21 @@ with open("./transcripts/transcription_y.txt", "w", encoding="utf-8") as file:
 
 pc = Pinecone(api_key=PINECONE_API_KEY)
 
-# pc.create_index(
-#     name="quickstart",
-#     dimension=2, # Replace with your model dimensions
-#     metric="cosine", # Replace with your model metric
-#     spec=ServerlessSpec(
-#         cloud="aws",
-#         region="us-east-1"
-#     ) 
-# )
+# Crear el índice
+index_name = "idesie_vectorstore"
 
-pc.create_index(
-    name=index_name,
-    dimension=8, # Replace with your model dimensions
-    metric="cosine", # Replace with your model metric
-    spec=ServerlessSpec(
-        cloud="aws",
-        region="us-east-1"
-    ) 
-)
+if not pc.has_index(index_name):
+    pc.create_index(
+        name=index_name,
+        dimension=1536,
+        metric="cosine",
+        spec=ServerlessSpec(
+            cloud='aws',
+            region='us-east-1'
+        )
+    )
+
+index = pc.Index(index_name)
 
 
 
