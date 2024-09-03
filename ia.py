@@ -116,7 +116,7 @@ with open("./transcripts/transcription_y.txt", "w", encoding="utf-8") as file:
 pc = Pinecone(api_key=PINECONE_API_KEY)
 
 # Crear el índice
-index_name = "idesie_vectorstore"
+index_name = "idesieindex"
 
 if not pc.has_index(index_name):
     pc.create_index(
