@@ -14,7 +14,7 @@ from youtube_transcript_api import YouTubeTranscriptApi
 #from langchain_openai.embeddings import OpenAIEmbeddings
 #from langchain_community.vectorstores import DocArrayInMemorySearch
 #from langchain_core.runnables import RunnableParallel, RunnablePassthrough
-# from pinecone import Pinecone, ServerlessSpec
+from pinecone import Pinecone, ServerlessSpec
 
 
 ################################
@@ -40,7 +40,7 @@ print("'Secretos' cargados correctamente")
 # Modelo
 ################################
 
-model_name = "gpt-4o"
+model_name = "gpt-4o-mini"
 
 
 # Configuración de la API Key de OpenAI
@@ -112,8 +112,8 @@ with open("./transcripts/transcription_y.txt", "w", encoding="utf-8") as file:
 # Pinecone
 ######################
 
-# pc = Pinecone(api_key=PINECONE_API_KEY)
-# 
+pc = Pinecone(api_key=PINECONE_API_KEY)
+
 # pc.create_index(
 #     name="quickstart",
 #     dimension=2, # Replace with your model dimensions
@@ -124,6 +124,15 @@ with open("./transcripts/transcription_y.txt", "w", encoding="utf-8") as file:
 #     ) 
 # )
 
+pc.create_index(
+    name=index_name,
+    dimension=8, # Replace with your model dimensions
+    metric="cosine", # Replace with your model metric
+    spec=ServerlessSpec(
+        cloud="aws",
+        region="us-east-1"
+    ) 
+)
 
 
 
