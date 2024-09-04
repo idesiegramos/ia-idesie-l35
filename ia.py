@@ -41,7 +41,7 @@ print("'Secretos' cargados correctamente")
 # Modelo
 ################################
 
-model_name = "gpt-4o-mini"
+model_name = "gpt-4o-mini-2024-07-18"
 
 
 # Configuración de la API Key de OpenAI
@@ -118,7 +118,7 @@ pc = Pinecone(api_key=PINECONE_API_KEY)
 # Crear el índice
 index_name = "idesieindex"
 
-if not pc.has_index(index_name):
+if not pc.Index(index_name):
     pc.create_index(
         name=index_name,
         dimension=1536,
