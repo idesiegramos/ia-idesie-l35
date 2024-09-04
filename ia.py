@@ -170,7 +170,7 @@ option = st.selectbox(
     "Plan de Gerencia",
     "Protocolos y Estándares BIM",
     "Revit Arquitectura", 
-    "REVIT MEP", 
+    "Revit MEP", 
     "Trabajo colaborativo. CDE"),
 )
 # Status
