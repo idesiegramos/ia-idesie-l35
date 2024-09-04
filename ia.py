@@ -152,9 +152,27 @@ st.write(
 
 option = st.selectbox(
     "Asignatura",
-    ("Fundamentos BIM", "REVIT ARQ", "REVIT MEP", "Management Skills"),
+    ("Todas las asignaturas", 
+    "Bases de Datos", 
+    "BIM & Facility Management",
+    "BIM Construction",
+    "BIM Design - L35",
+    "BIM Project Management. Costes",
+    "BIM Project Management. Plan de Gerencia",
+    "BIM Project Management. Planificación",
+    "Civil 3D e Infraworks",
+    "Dynamo",
+    "Estrategia",
+    "Instalaciones con Trox Technik",
+    "Management Skills",
+    "Mediciones y Presupuestos",
+    "Navisworks",
+    "Plan de Gerencia",
+    "Protocolos y Estándares BIM",
+    "Revit Arquitectura", 
+    "REVIT MEP", 
+    "Trabajo colaborativo. CDE"),
 )
-
 # Status
 #with st.status("Loading video..."):
 #    st.write("Searching for data...")
