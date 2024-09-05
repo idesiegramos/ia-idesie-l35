@@ -10,6 +10,6 @@ text_input = st.text_input(
     placeholder="usuario@idesie.com",
 )
 
-    if text_input:
-        st.write("Tu usuario es: ", text_input)
+if text_input:
+    st.write("Tu usuario es: ", text_input)
 st.button("Iniciar sesión", type="primary")
