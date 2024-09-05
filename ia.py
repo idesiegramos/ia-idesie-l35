@@ -18,6 +18,8 @@ from youtube_transcript_api import YouTubeTranscriptApi
 #from pinecone import ServerlessSpec
 
 
+
+
 ################################
 # Constantes (son variables que no cambian)
 ################################

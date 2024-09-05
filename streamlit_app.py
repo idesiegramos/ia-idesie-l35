@@ -55,6 +55,7 @@ st.logo(
 pages = {
     "Inteligencia IDESIE": [
         st.Page("inicio.py", title="Inicio"),
+        st.Page("login.py", title="Login")
         st.Page("ia.py", title="Accede a nuestra IA"),
         st.Page("acerca_de.py", title="Acerca de"),
     ],
