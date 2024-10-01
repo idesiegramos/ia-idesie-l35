@@ -4,6 +4,7 @@ import re
 import openai
 import tiktoken
 import youtube_transcript_api
+import pinecone
 
 from openai import OpenAI
 #from dotenv import load_dotenv
@@ -24,8 +25,8 @@ from youtube_transcript_api import YouTubeTranscriptApi
 # Constantes (son variables que no cambian)
 ################################
 
-YOUTUBE_VIDEO_URL = "https://www.youtube.com/watch?v=dgZaIk3iFhc" # Clase MEP de IDESIE
-# YOUTUBE_VIDEO_URL = "https://www.youtube.com/watch?v=ROax8vdhuEQ"
+YOUTUBE_VIDEO_URL : str = "https://www.youtube.com/watch?v=dgZaIk3iFhc"       # Clase MEP de IDESIE
+# YOUTUBE_VIDEO_URL : str = "https://www.youtube.com/watch?v=ROax8vdhuEQ"
 
 
 
@@ -34,6 +35,7 @@ YOUTUBE_VIDEO_URL = "https://www.youtube.com/watch?v=dgZaIk3iFhc" # Clase MEP de
 ################################
 
 OPENAI_API_KEY = st.secrets.api_openai
+print(type(OPENAI_API_KEY))
 PINECONE_API_KEY = st.secrets.api_pinecone
 print("'Secretos' cargados correctamente")
 
@@ -43,7 +45,7 @@ print("'Secretos' cargados correctamente")
 # Modelo
 ################################
 
-model_name = "gpt-4o-mini-2024-07-18"
+model_name = "gpt-4o-mini"
 
 
 # Configuración de la API Key de OpenAI
@@ -68,7 +70,6 @@ print(f"Modelo '{model_name}' cargado correctamente")
 
 
 
-
 ################################
 # Transcripción con youtube-transcript-api
 ################################
@@ -76,8 +77,8 @@ print(f"Modelo '{model_name}' cargado correctamente")
 def extract_video_id(url):
     # Intenta extraer el ID del video de la URL estándar y corta
     patterns = [
-        r'(?:https?://)?(?:www\.)?youtube\.com/watch\?v=([^&]+)',  # URL estándar
-        r'(?:https?://)?youtu\.be/([^?]+)'                         # URL corta
+        r"(?:https?://)?(?:www\.)?youtube\.com/watch\?v=([^&]+)",  # URL estándar
+        r"(?:https?://)?youtu\.be/([^?]+)"                         # URL corta
     ]
 
     for pattern in patterns:
