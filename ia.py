@@ -140,7 +140,12 @@ index_name = "idesieindex"
 if index_name not in pc.list_indexes():
     pc.create_index(
         name=index_name,
-        dimension=1536          # 1536 es la dimensión para el modelo 'text-embedding-3-small'
+        dimension=1536,          # 1536 es la dimensión para el modelo 'text-embedding-3-small'
+        metric="cosine",
+        spec=ServerlessSpec(
+            cloud='aws',
+            region='us-east-1'
+        )
     )
 
 
