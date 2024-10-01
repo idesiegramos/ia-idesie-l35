@@ -184,7 +184,7 @@ def vectorize_and_store(text, metadata=None):
 
 
 # Ejemplo de uso
-transcript = transcription_y
+transcript = "Este es un ejemplo de transcripción de un video de YouTube."
 metadata = {"source": "YouTube", "video_id": "Revit_MEP_2023-10-27"}
 
 doc_id = vectorize_and_store(transcript, metadata)
