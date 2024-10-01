@@ -34,9 +34,8 @@ YOUTUBE_VIDEO_URL : str = "https://www.youtube.com/watch?v=dgZaIk3iFhc"       # 
 # Secretos
 ################################
 
-OPENAI_API_KEY = st.secrets.api_openai
-print(type(OPENAI_API_KEY))
-PINECONE_API_KEY = st.secrets.api_pinecone
+OPENAI_API_KEY : str = st.secrets.api_openai
+PINECONE_API_KEY : str = st.secrets.api_pinecone
 print("'Secretos' cargados correctamente")
 
 
@@ -45,11 +44,12 @@ print("'Secretos' cargados correctamente")
 # Modelo
 ################################
 
-model_name = "gpt-4o-mini"
+model_name : str = "gpt-4o-mini"
 
 
 # Configuración de la API Key de OpenAI
 client = OpenAI(api_key=OPENAI_API_KEY)
+print(type(client))
 
 # Modelo por defecto
 if "openai_model" not in st.session_state:
