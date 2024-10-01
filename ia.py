@@ -15,8 +15,8 @@ from youtube_transcript_api import YouTubeTranscriptApi
 #from langchain_openai.embeddings import OpenAIEmbeddings
 #from langchain_community.vectorstores import DocArrayInMemorySearch
 #from langchain_core.runnables import RunnableParallel, RunnablePassthrough
-#from pinecone.grpc import PineconeGRPC as Pinecone
-#from pinecone import ServerlessSpec
+from pinecone.grpc import PineconeGRPC as Pinecone
+from pinecone import ServerlessSpec
 
 
 
@@ -49,7 +49,7 @@ model_name : str = "gpt-4o-mini"
 
 # Configuración de la API Key de OpenAI
 client = OpenAI(api_key=OPENAI_API_KEY)
-print(type(client))
+
 
 # Modelo por defecto
 if "openai_model" not in st.session_state:
@@ -97,7 +97,7 @@ print(f"ID del vídeo de YouTube: {YOUTUBE_VIDEO_ID}")
 def get_transcript(video_id):
     try:
         # Obtener la transcripción del video
-        transcript = YouTubeTranscriptApi.get_transcript(video_id, languages=['es'])
+        transcript = YouTubeTranscriptApi.get_transcript(video_id, languages=["es"])
 
         # Concatenar las partes de la transcripción en un solo texto
         transcript_text = "\n".join([entry['text'] for entry in transcript])
@@ -116,11 +116,13 @@ with open("./transcripts/transcription_y.txt", "w", encoding="utf-8") as file:
 # Pinecone
 ######################
 
-#pc = Pinecone(api_key=PINECONE_API_KEY)
+pc = Pinecone(api_key=PINECONE_API_KEY)
+
 
 # Crear el índice
-#index_name = "idesieindex"
-#
+index_name = "idesieindex"
+
+
 #if not pc.Index(index_name):
 #    pc.create_index(
 #        name=index_name,
@@ -134,7 +136,54 @@ with open("./transcripts/transcription_y.txt", "w", encoding="utf-8") as file:
 #
 #index = pc.Index(index_name)
 
+# Crear el índice si no existe
+if index_name not in pc.list_indexes():
+    pc.create_index(
+        name=index_name,
+        dimension=1536          # 1536 es la dimensión para el modelo 'text-embedding-3-small'
+    )
 
+
+# Conectar al índice
+while not pc.describe_index(index_name).status['ready']:
+    time.sleep(1)
+ 
+index = pc.Index(index_name)
+
+
+
+######################
+# OpenAI embeddings
+######################
+
+def vectorize_text(text):
+    """Vectoriza el texto usando el modelo de OpenAI."""
+    response = openai.Embedding.create(
+        input=[text],
+        model="text-embedding-3-small"
+    )
+    return response['data'][0]['embedding']
+
+def vectorize_and_store(text, metadata=None):
+    """Vectoriza el texto y lo guarda en Pinecone."""
+    # Vectorizar el texto
+    vector = vectorize_text(text)
+    
+    # Generar un ID único (puedes adaptar esto según tus necesidades)
+    id = f"doc_{len(index.fetch([])['vectors'])}"
+    
+    # Guardar en Pinecone
+    index.upsert(vectors=[(id, vector, metadata)])
+    
+    return id
+
+
+# Ejemplo de uso
+transcript = transcription_y
+metadata = {"source": "YouTube", "video_id": "Revit_MEP_2023-10-27"}
+
+doc_id = vectorize_and_store(transcript, metadata)
+print(f"Documento guardado con ID: {doc_id}")
 
 
 ########################################################################
