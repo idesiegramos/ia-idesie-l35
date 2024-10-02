@@ -197,6 +197,7 @@ vectorstore = Chroma.from_documents(
 
 
 
+
 ######################
 # OpenAI embeddings
 ######################
@@ -246,6 +247,7 @@ st.write(
     "Te será de ayuda."
 )
 
+st.write(vectorstore.similarity_search("cat"))
 
 option = st.selectbox(
     "Asignatura",
