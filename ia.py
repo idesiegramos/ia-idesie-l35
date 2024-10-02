@@ -202,31 +202,31 @@ documents = [
 # OpenAI embeddings
 ######################
 
-def vectorize_text(text):
-    """Vectoriza el texto usando el modelo de OpenAI."""
-    response = openai.Embedding.create(
-        input=[text],
-        model="text-embedding-3-small"
-    )
-    return response['data'][0]['embedding']
-
-def vectorize_and_store(text, metadata=None):
-    """Vectoriza el texto y lo guarda en Pinecone."""
-    # Vectorizar el texto
-    vector = vectorize_text(text)
-    
-    # Generar un ID único (puedes adaptar esto según tus necesidades)
-    id = f"doc_{len(index.fetch([])['vectors'])}"
-    
-    # Guardar en Pinecone
-    index.upsert(vectors=[(id, vector, metadata)])
-    
-    return id
-
-
-# Ejemplo de uso
-transcript = "Este es un ejemplo de transcripción de un video de YouTube."
-metadata = {"source": "YouTube", "video_id": "Revit_MEP_2023-10-27"}
+#def vectorize_text(text):
+#    """Vectoriza el texto usando el modelo de OpenAI."""
+#    response = openai.Embedding.create(
+#        input=[text],
+#        model="text-embedding-3-small"
+#    )
+#    return response['data'][0]['embedding']
+#
+#def vectorize_and_store(text, metadata=None):
+#    """Vectoriza el texto y lo guarda en Pinecone."""
+#    # Vectorizar el texto
+#    vector = vectorize_text(text)
+#    
+#    # Generar un ID único (puedes adaptar esto según tus necesidades)
+#    id = f"doc_{len(index.fetch([])['vectors'])}"
+#    
+#    # Guardar en Pinecone
+#    index.upsert(vectors=[(id, vector, metadata)])
+#    
+#    return id
+#
+#
+## Ejemplo de uso
+#transcript = "Este es un ejemplo de transcripción de un video de YouTube."
+#metadata = {"source": "YouTube", "video_id": "Revit_MEP_2023-10-27"}
 
 #doc_id = vectorize_and_store(transcript, metadata)
 #print(f"Documento guardado con ID: {doc_id}")
@@ -247,7 +247,7 @@ st.write(
     "Te será de ayuda."
 )
 
-st.write(vectorstore.similarity_search("cat"))
+#st.write(vectorstore.similarity_search("cat"))
 
 option = st.selectbox(
     "Asignatura",
