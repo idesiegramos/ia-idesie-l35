@@ -189,10 +189,10 @@ documents = [
     ),
 ]
 
-vectorstore = Chroma.from_documents(
-    documents,
-    embedding=OpenAIEmbeddings(),
-)
+#vectorstore = Chroma.from_documents(
+#    documents,
+#    embedding=OpenAIEmbeddings(),
+#)
 
 
 
