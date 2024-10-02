@@ -15,9 +15,11 @@ from youtube_transcript_api import YouTubeTranscriptApi
 #from langchain_openai.embeddings import OpenAIEmbeddings
 #from langchain_community.vectorstores import DocArrayInMemorySearch
 #from langchain_core.runnables import RunnableParallel, RunnablePassthrough
-from pinecone.grpc import PineconeGRPC as Pinecone
-from pinecone import ServerlessSpec
-
+#from pinecone.grpc import PineconeGRPC as Pinecone
+#from pinecone import ServerlessSpec
+from langchain_openai import ChatOpenAI
+from langchain_chroma import Chroma
+from langchain_openai import OpenAIEmbeddings
 
 
 
@@ -35,7 +37,8 @@ YOUTUBE_VIDEO_URL : str = "https://www.youtube.com/watch?v=dgZaIk3iFhc"       # 
 ################################
 
 OPENAI_API_KEY : str = st.secrets.api_openai
-PINECONE_API_KEY : str = st.secrets.api_pinecone
+#PINECONE_API_KEY : str = st.secrets.api_pinecone
+LANGCHAIN_API_KEY : str = st.secrets.api_langchain
 print("'Secretos' cargados correctamente")
 
 
@@ -116,11 +119,11 @@ with open("./transcripts/transcription_y.txt", "w", encoding="utf-8") as file:
 # Pinecone
 ######################
 
-pc = Pinecone(api_key=PINECONE_API_KEY)
+#pc = Pinecone(api_key=PINECONE_API_KEY)
 
 
 # Crear el índice
-index_name = "idesieindex"
+#index_name = "idesieindex"
 
 
 #if not pc.Index(index_name):
@@ -137,23 +140,60 @@ index_name = "idesieindex"
 #index = pc.Index(index_name)
 
 # Crear el índice si no existe
-if index_name not in pc.list_indexes():
-    pc.create_index(
-        name=index_name,
-        dimension=1536,          # 1536 es la dimensión para el modelo 'text-embedding-3-small'
-        metric="cosine",
-        spec=ServerlessSpec(
-            cloud='aws',
-            region='us-east-1'
-        )
-    )
+#if index_name not in pc.list_indexes():
+#    pc.create_index(
+#        name=index_name,
+#        dimension=1536,          # 1536 es la dimensión para el modelo 'text-embedding-3-small'
+#        metric="cosine",
+#        spec=ServerlessSpec(
+#            cloud='aws',
+#            region='us-east-1'
+#        )
+#    )
+#
+#
+## Conectar al índice
+#while not pc.describe_index(index_name).status['ready']:
+#    time.sleep(1)
+# 
+#index = pc.Index(index_name)
 
 
-# Conectar al índice
-while not pc.describe_index(index_name).status['ready']:
-    time.sleep(1)
- 
-index = pc.Index(index_name)
+
+######################
+# Langchain
+######################
+
+from langchain_core.documents import Document
+
+documents = [
+    Document(
+        page_content="Dogs are great companions, known for their loyalty and friendliness.",
+        metadata={"source": "mammal-pets-doc"},
+    ),
+    Document(
+        page_content="Cats are independent pets that often enjoy their own space.",
+        metadata={"source": "mammal-pets-doc"},
+    ),
+    Document(
+        page_content="Goldfish are popular pets for beginners, requiring relatively simple care.",
+        metadata={"source": "fish-pets-doc"},
+    ),
+    Document(
+        page_content="Parrots are intelligent birds capable of mimicking human speech.",
+        metadata={"source": "bird-pets-doc"},
+    ),
+    Document(
+        page_content="Rabbits are social animals that need plenty of space to hop around.",
+        metadata={"source": "mammal-pets-doc"},
+    ),
+]
+
+vectorstore = Chroma.from_documents(
+    documents,
+    embedding=OpenAIEmbeddings(),
+)
+
 
 
 
