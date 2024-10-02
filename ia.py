@@ -18,7 +18,7 @@ from youtube_transcript_api import YouTubeTranscriptApi
 #from pinecone.grpc import PineconeGRPC as Pinecone
 #from pinecone import ServerlessSpec
 from langchain_openai import ChatOpenAI
-from langchain_chroma import Chroma
+#from langchain_chroma import Chroma
 from langchain_openai import OpenAIEmbeddings
 
 
@@ -228,8 +228,8 @@ def vectorize_and_store(text, metadata=None):
 transcript = "Este es un ejemplo de transcripción de un video de YouTube."
 metadata = {"source": "YouTube", "video_id": "Revit_MEP_2023-10-27"}
 
-doc_id = vectorize_and_store(transcript, metadata)
-print(f"Documento guardado con ID: {doc_id}")
+#doc_id = vectorize_and_store(transcript, metadata)
+#print(f"Documento guardado con ID: {doc_id}")
 
 
 ########################################################################
