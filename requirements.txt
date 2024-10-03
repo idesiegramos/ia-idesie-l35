@@ -9,3 +9,4 @@ pinecone-client[grpc]
 langchain
 langchain-chroma
 langchain-openai
+chromadb
