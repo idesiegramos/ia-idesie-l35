@@ -138,7 +138,8 @@ client = OpenAI(api_key=OPENAI_API_KEY)
 # Esto falla porque la transcripción supera el token máximo
 # embedding = client.embeddings.create(input=encoded_transcription, model="text-embedding-3-small")
 
-max_length = 100257
+#max_length = 100257
+max_length = 100000
 
 # Dividir el texto en partes más pequeñas si es necesario
 def dividir_texto(texto, max_length):
