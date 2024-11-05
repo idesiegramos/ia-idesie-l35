@@ -19,9 +19,7 @@ from youtube_transcript_api import YouTubeTranscriptApi
 #from pinecone.grpc import PineconeGRPC as Pinecone
 #from pinecone import ServerlessSpec
 from langchain_openai import ChatOpenAI
-#from langchain_chroma import Chroma
 from langchain_openai import OpenAIEmbeddings
-from langchain_chroma import Chroma
 
 
 
@@ -39,7 +37,7 @@ YOUTUBE_VIDEO_URL : str = "https://www.youtube.com/watch?v=dgZaIk3iFhc"       # 
 ################################
 
 OPENAI_API_KEY : str = st.secrets.api_openai
-#PINECONE_API_KEY : str = st.secrets.api_pinecone
+PINECONE_API_KEY : str = st.secrets.api_pinecone
 LANGCHAIN_API_KEY : str = st.secrets.api_langchain
 print("'Secretos' cargados correctamente")
 
@@ -196,18 +194,7 @@ documents = [
 #    embedding=OpenAIEmbeddings(),
 #)
 
-######################
-# CHROMA + LANGCHAIN
-######################
 
-
-
-embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
-
-vector_store = Chroma(
-    collection_name="example_collection",
-    embedding_function=embeddings,
-    persist_directory="./chroma_langchain_db")  # Where to save data locally, remove if not necessary
 
 
 
