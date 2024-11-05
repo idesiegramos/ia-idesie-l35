@@ -365,4 +365,4 @@ st.write(YOUTUBE_VIDEO_URL)
 with st.expander("Transcripción (primeros 1000 caracteres)"):
      st.write(transcription_y[:1000])
 
-st.write(encoding)
+print(encoding)
