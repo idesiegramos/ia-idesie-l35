@@ -122,8 +122,9 @@ transcription_y = get_transcript(video_id)
 ################################################
 
 encoding = tiktoken.encoding_for_model(model_name)
-with open("./transcripts/transcription_y.txt", "w", encoding="utf-8") as file:
-            encoded_transcription = encoding.encode(file)
+with open("./transcripts/transcription_y.txt", "r", encoding="utf-8") as file:
+            content : str = file.read()
+            encoded_transcription = encoding.encode(content)
 
 
 
