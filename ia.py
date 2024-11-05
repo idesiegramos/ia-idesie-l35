@@ -135,7 +135,24 @@ encoded_transcription = encoding.encode(content)
 
 client = OpenAI(api_key=OPENAI_API_KEY)
 
-embedding = client.embeddings.create(input=encoded_transcription, model="text-embedding-3-small")
+# Esto falla porque la transcripción supera el token máximo
+# embedding = client.embeddings.create(input=encoded_transcription, model="text-embedding-3-small")
+
+max_length = 100257
+
+# Dividir el texto en partes más pequeñas si es necesario
+def dividir_texto(texto, max_length):
+    return [texto[i:i + max_length] for i in range(0, len(texto), max_length)]
+
+# Crear embeddings para cada parte
+partes = dividir_texto(encoded_transcription, max_length)
+embeddings = []
+
+for parte in partes:
+    embedding = client.embeddings.create(input=parte, model="text-embedding-3-small")
+    embeddings.append(embedding)
+
+
 
 
 
@@ -370,6 +387,6 @@ with st.expander("Transcripción (primeros 1000 caracteres)"):
 with st.expander("encoded_transcription"):
      st.write(encoded_transcription[:1000])
 
-with st.expander("embedding"):
-     st.write(embedding[:1000])
+with st.expander("embeddings"):
+     st.write(embeddings[:1000])
 
