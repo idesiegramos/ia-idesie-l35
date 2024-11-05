@@ -124,7 +124,8 @@ transcription_y = get_transcript(video_id)
 encoding = tiktoken.encoding_for_model(model_name)
 with open("./transcripts/transcription_y.txt", "r", encoding="utf-8") as file:
             content : str = file.read()
-            #encoded_transcription = encoding.encode(content)
+
+encoded_transcription = encoding.encode(content)
 
 
 
@@ -368,4 +369,6 @@ st.write(YOUTUBE_VIDEO_URL)
 with st.expander("Transcripción (primeros 1000 caracteres)"):
      st.write(content[:1000])
 
+with st.expander("encoded_transcription"):
+     st.write(encoded_transcription[:1000])
 
