@@ -111,8 +111,13 @@ def get_transcript(video_id):
 
 video_id = YOUTUBE_VIDEO_ID
 transcription_y = get_transcript(video_id)
+
 with open("./transcripts/transcription_y.txt", "w", encoding="utf-8") as file:
             file.write(transcription_y)
+
+with open("./transcripts/prueba.txt", "w", encoding="utf-8") as file:
+            file.write("pacoapcoapocpaocpaocpaoc")
+
 
 
 ######################
