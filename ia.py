@@ -115,8 +115,25 @@ transcription_y = get_transcript(video_id)
 with open("./transcripts/transcription_y.txt", "w", encoding="utf-8") as file:
             file.write(transcription_y)
 
-with open("./transcripts/prueba.txt", "w", encoding="utf-8") as file:
-            file.write("pacoapcoapocpaocpaocpaoc")
+
+
+################################################
+# Langchain text splitter - OpenAI Tiktoken
+################################################
+
+encoding = tiktoken.encoding_for_model(model_name)
+
+
+
+################################################
+# Langchain embeddings - OpenAI Embeddings
+################################################
+
+#client = OpenAI(api_key=OPENAI_API_KEY)
+
+#embedding = client.embeddings.create(input="hello world", model="text-embedding-3-small").data[0].embedding
+
+#len(embedding)
 
 
 
@@ -348,3 +365,4 @@ st.write(YOUTUBE_VIDEO_URL)
 with st.expander("Transcripción (primeros 1000 caracteres)"):
      st.write(transcription_y[:1000])
 
+st.write(encoding)
