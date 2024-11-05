@@ -133,11 +133,9 @@ encoded_transcription = encoding.encode(content)
 # Langchain embeddings - OpenAI Embeddings
 ################################################
 
-#client = OpenAI(api_key=OPENAI_API_KEY)
+client = OpenAI(api_key=OPENAI_API_KEY)
 
-#embedding = client.embeddings.create(input="hello world", model="text-embedding-3-small").data[0].embedding
-
-#len(embedding)
+embedding = client.embeddings.create(input=encoded_transcription, model="text-embedding-3-small")
 
 
 
@@ -371,4 +369,7 @@ with st.expander("Transcripción (primeros 1000 caracteres)"):
 
 with st.expander("encoded_transcription"):
      st.write(encoded_transcription[:1000])
+
+with st.expander("embedding"):
+     st.write(embedding[:1000])
 
