@@ -15,7 +15,6 @@ from pinecone.grpc import PineconeGRPC as Pinecone
 from pinecone import ServerlessSpec
 from langchain_pinecone import PineconeVectorStore
 from langchain.chains import RetrievalQA
-from google.colab import userdata
 
 
 
@@ -32,8 +31,8 @@ YOUTUBE_VIDEO_URL : str = "https://www.youtube.com/watch?v=dgZaIk3iFhc"       # 
 # Secretos
 ################################
 
-OPENAI_API_KEY = userdata.get('OPENAI_API_KEY')
-PINECONE_API_KEY = userdata.get('PINECONE_API_KEY')
+OPENAI_API_KEY = api_openai
+PINECONE_API_KEY = api_pinecone
 
 os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
 os.environ["PINECONE_API_KEY"] = PINECONE_API_KEY
