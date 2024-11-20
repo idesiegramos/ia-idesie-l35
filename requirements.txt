@@ -2,12 +2,13 @@ streamlit
 pandas
 openai
 pytube
-tiktoken
 youtube_transcript_api
 pinecone
 pinecone-client[grpc]
+pinecone-client
 langchain
-langchain-chroma
+langchain-community
+langchain-pinecone
 langchain-openai
-chromadb
+
 #sqlite3==3.35.0

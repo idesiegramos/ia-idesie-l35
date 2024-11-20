@@ -1,25 +1,21 @@
 import streamlit as st
 import time
 import re
-import openai
-import tiktoken
+import os
 import youtube_transcript_api
-import pinecone
 import getpass
 
-from openai import OpenAI
-#from dotenv import load_dotenv
-from tiktoken import encoding_for_model
-#from langchain_openai.chat_models import ChatOpenAI
 from pytube import YouTube
 from youtube_transcript_api import YouTubeTranscriptApi
-#from langchain_openai.embeddings import OpenAIEmbeddings
-#from langchain_community.vectorstores import DocArrayInMemorySearch
-#from langchain_core.runnables import RunnableParallel, RunnablePassthrough
-#from pinecone.grpc import PineconeGRPC as Pinecone
-#from pinecone import ServerlessSpec
-from langchain_openai import ChatOpenAI
-from langchain_openai import OpenAIEmbeddings
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_openai import ChatOpenAI, OpenAIEmbeddings
+from langchain.document_loaders import TextLoader
+from langchain.indexes import VectorstoreIndexCreator
+from pinecone.grpc import PineconeGRPC as Pinecone
+from pinecone import ServerlessSpec
+from langchain_pinecone import PineconeVectorStore
+from langchain.chains import RetrievalQA
+from google.colab import userdata
 
 
 
@@ -36,40 +32,34 @@ YOUTUBE_VIDEO_URL : str = "https://www.youtube.com/watch?v=dgZaIk3iFhc"       # 
 # Secretos
 ################################
 
-OPENAI_API_KEY : str = st.secrets.api_openai
-PINECONE_API_KEY : str = st.secrets.api_pinecone
-LANGCHAIN_API_KEY : str = st.secrets.api_langchain
+OPENAI_API_KEY = userdata.get('OPENAI_API_KEY')
+PINECONE_API_KEY = userdata.get('PINECONE_API_KEY')
+
+os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
+os.environ["PINECONE_API_KEY"] = PINECONE_API_KEY
+
 print("'Secretos' cargados correctamente")
 
 
 
 ################################
-# Modelo
+# Variables
 ################################
 
-model_name : str = "gpt-4o-mini"
+# Text Splitter
+chunk_size: int = 8000
+chunk_overlap: int = 200
 
+# LLM (OpenAI)
+model_name: str = "gpt-4o-mini"
 
-# Configuración de la API Key de OpenAI
-client = OpenAI(api_key=OPENAI_API_KEY)
+# Embeddings (OpenAI Embeddings)
+embedding_model: str = "text-embedding-3-small"
 
-
-# Modelo por defecto
-if "openai_model" not in st.session_state:
-    st.session_state["openai_model"] = model_name
-
-
-#model = client.chat.completions.create(
-#    model=model_name,
-#    messages=[
-#        {
-#            "role": "user",
-#            "content": "Dile al usuario que haga preguntas sobre el máster BIM de IDESIE",
-#        }
-#    ],
-#)
-
-print(f"Modelo '{model_name}' cargado correctamente")
+# Vector store (Pinecone)
+index_name: str = "pinatest"
+namespace: str = "idesie"
+vector_store_dimension: int = 1536
 
 
 
@@ -110,22 +100,56 @@ def get_transcript(video_id):
         return str(e)
 
 video_id = YOUTUBE_VIDEO_ID
-transcription_y = get_transcript(video_id)
+content: str = get_transcript(video_id)
 
 # with open("./transcripts/transcription_y.txt", "w", encoding="utf-8") as file:
 #             file.write(transcription_y)
 
 
 
-################################################
-# Langchain text splitter - OpenAI Tiktoken
-################################################
 
-encoding = tiktoken.encoding_for_model(model_name)
-with open("./transcripts/transcription_y.txt", "r", encoding="utf-8") as file:
-            content : str = file.read()
 
-encoded_transcription = encoding.encode(content)
+
+
+
+
+
+
+
+
+
+##############################################################################
+
+
+################################
+# Modelo
+################################
+
+model_name : str = "gpt-4o-mini"
+
+
+# Configuración de la API Key de OpenAI
+client = OpenAI(api_key=OPENAI_API_KEY)
+
+
+# Modelo por defecto
+if "openai_model" not in st.session_state:
+    st.session_state["openai_model"] = model_name
+
+
+#model = client.chat.completions.create(
+#    model=model_name,
+#    messages=[
+#        {
+#            "role": "user",
+#            "content": "Dile al usuario que haga preguntas sobre el máster BIM de IDESIE",
+#        }
+#    ],
+#)
+
+print(f"Modelo '{model_name}' cargado correctamente")
+
+
 
 
 
