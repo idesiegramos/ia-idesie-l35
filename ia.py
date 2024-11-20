@@ -422,6 +422,6 @@ with st.expander("Transcripción (primeros 1000 caracteres)"):
 # with st.expander("encoded_transcription"):
 #      st.write(encoded_transcription[:1000])
 
-with st.expander("embeddings"):
-     st.write(embeddings[:1000])
+# with st.expander("embeddings"):
+#      st.write(embeddings[:1000])
 
