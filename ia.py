@@ -117,7 +117,7 @@ text_splitter = RecursiveCharacterTextSplitter(
 )
 
 content_splitted: list = text_splitter.create_documents([content])
-print(f'Se ha dividido el contenido en {len(content_splitted)} partes (chunks) en la variable content_splitted, que es de tipo {type(content_splitted)}.\nCada elemento de la lista es de tipo {type(content_splitted[0])}.')
+comprobacion_splitted = 'Se ha dividido el contenido en' + len(content_splitted) + 'partes (chunks) en la variable content_splitted, que es de tipo ' + type(content_splitted) + '.\nCada elemento de la lista es de tipo ' + type(content_splitted[0]) + '.'
 
 
 
@@ -425,4 +425,4 @@ with st.expander("Transcripción (primeros 1000 caracteres)"):
 # with st.expander("embeddings"):
 #      st.write(embeddings[:1000])
 
-st.write("Se ha dividido el contenido en " + len(content_splitted) + "partes (chunks) en la variable content_splitted, que es de tipo " + type(content_splitted) + "Cada elemento de la lista es de tipo " + type(content_splitted[0]).")
+st.write(comprobacion_splitted)
