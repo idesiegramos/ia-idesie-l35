@@ -117,7 +117,7 @@ text_splitter = RecursiveCharacterTextSplitter(
 )
 
 content_splitted: list = text_splitter.create_documents([content])
-comprobacion_splitted = 'Se ha dividido el contenido en' + str(len(content_splitted)) + 'partes (chunks) en la variable content_splitted, que es de tipo ' + str(type(content_splitted)) + '.\nCada elemento de la lista es de tipo ' + str(type(content_splitted[0])) + '.'
+comprobacion_splitted = 'Se ha dividido el contenido en ' + str(len(content_splitted)) + 'partes (chunks) en la variable content_splitted, que es de tipo ' + str(type(content_splitted)) + '.\nCada elemento de la lista es de tipo ' + str(type(content_splitted[0])) + '.'
 
 
 
