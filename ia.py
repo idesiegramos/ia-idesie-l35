@@ -425,3 +425,4 @@ with st.expander("Transcripción (primeros 1000 caracteres)"):
 # with st.expander("embeddings"):
 #      st.write(embeddings[:1000])
 
+st.write("Se ha dividido el contenido en " + len(content_splitted) + "partes (chunks) en la variable content_splitted, que es de tipo " + type(content_splitted) + "Cada elemento de la lista es de tipo " + type(content_splitted[0]).")
