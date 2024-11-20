@@ -106,10 +106,18 @@ content: str = get_transcript(video_id)
 
 
 
+################################
+# Text splitter
+################################
 
+text_splitter = RecursiveCharacterTextSplitter(
+    chunk_size=chunk_size,
+    chunk_overlap=chunk_overlap,
+    length_function=len,
+)
 
-
-
+content_splitted: list = text_splitter.create_documents([content])
+print(f'Se ha dividido el contenido en {len(content_splitted)} partes (chunks) en la variable content_splitted, que es de tipo {type(content_splitted)}.\nCada elemento de la lista es de tipo {type(content_splitted[0])}.')
 
 
 
@@ -118,22 +126,25 @@ content: str = get_transcript(video_id)
 
 
 ##############################################################################
-
+# * * ########################################################################
+##############################################################################
+##############################################################################
+##############################################################################
 
 ################################
 # Modelo
 ################################
 
-model_name : str = "gpt-4o-mini"
+#model_name : str = "gpt-4o-mini"
 
 
 # Configuración de la API Key de OpenAI
-client = OpenAI(api_key=OPENAI_API_KEY)
+#client = OpenAI(api_key=OPENAI_API_KEY)
 
 
 # Modelo por defecto
-if "openai_model" not in st.session_state:
-    st.session_state["openai_model"] = model_name
+#if "openai_model" not in st.session_state:
+#    st.session_state["openai_model"] = model_name
 
 
 #model = client.chat.completions.create(
@@ -146,7 +157,7 @@ if "openai_model" not in st.session_state:
 #    ],
 #)
 
-print(f"Modelo '{model_name}' cargado correctamente")
+#print(f"Modelo '{model_name}' cargado correctamente")
 
 
 
@@ -156,25 +167,25 @@ print(f"Modelo '{model_name}' cargado correctamente")
 # Langchain embeddings - OpenAI Embeddings
 ################################################
 
-client = OpenAI(api_key=OPENAI_API_KEY)
-
-# Esto falla porque la transcripción supera el token máximo
-# embedding = client.embeddings.create(input=encoded_transcription, model="text-embedding-3-small")
-
-#max_length = 100257
-max_length = 10
-
-# Dividir el texto en partes más pequeñas si es necesario
-def dividir_texto(texto, max_length):
-    return [texto[i:i + max_length] for i in range(0, len(texto), max_length)]
-
-# Crear embeddings para cada parte
-partes = dividir_texto(encoded_transcription, max_length)
-embeddings = []
-
-for parte in partes:
-    embedding = client.embeddings.create(input=parte, model="text-embedding-3-small")
-    embeddings.append(embedding)
+# client = OpenAI(api_key=OPENAI_API_KEY)
+# 
+# # Esto falla porque la transcripción supera el token máximo
+# # embedding = client.embeddings.create(input=encoded_transcription, model="text-embedding-3-small")
+# 
+# #max_length = 100257
+# max_length = 10
+# 
+# # Dividir el texto en partes más pequeñas si es necesario
+# def dividir_texto(texto, max_length):
+#     return [texto[i:i + max_length] for i in range(0, len(texto), max_length)]
+# 
+# # Crear embeddings para cada parte
+# partes = dividir_texto(encoded_transcription, max_length)
+# embeddings = []
+# 
+# for parte in partes:
+#     embedding = client.embeddings.create(input=parte, model="text-embedding-3-small")
+#     embeddings.append(embedding)
 
 
 
@@ -229,30 +240,30 @@ for parte in partes:
 # Langchain
 ######################
 
-from langchain_core.documents import Document
-
-documents = [
-    Document(
-        page_content="Dogs are great companions, known for their loyalty and friendliness.",
-        metadata={"source": "mammal-pets-doc"},
-    ),
-    Document(
-        page_content="Cats are independent pets that often enjoy their own space.",
-        metadata={"source": "mammal-pets-doc"},
-    ),
-    Document(
-        page_content="Goldfish are popular pets for beginners, requiring relatively simple care.",
-        metadata={"source": "fish-pets-doc"},
-    ),
-    Document(
-        page_content="Parrots are intelligent birds capable of mimicking human speech.",
-        metadata={"source": "bird-pets-doc"},
-    ),
-    Document(
-        page_content="Rabbits are social animals that need plenty of space to hop around.",
-        metadata={"source": "mammal-pets-doc"},
-    ),
-]
+# from langchain_core.documents import Document
+# 
+# documents = [
+#     Document(
+#         page_content="Dogs are great companions, known for their loyalty and friendliness.",
+#         metadata={"source": "mammal-pets-doc"},
+#     ),
+#     Document(
+#         page_content="Cats are independent pets that often enjoy their own space.",
+#         metadata={"source": "mammal-pets-doc"},
+#     ),
+#     Document(
+#         page_content="Goldfish are popular pets for beginners, requiring relatively simple care.",
+#         metadata={"source": "fish-pets-doc"},
+#     ),
+#     Document(
+#         page_content="Parrots are intelligent birds capable of mimicking human speech.",
+#         metadata={"source": "bird-pets-doc"},
+#     ),
+#     Document(
+#         page_content="Rabbits are social animals that need plenty of space to hop around.",
+#         metadata={"source": "mammal-pets-doc"},
+#     ),
+# ]
 
 #vectorstore = Chroma.from_documents(
 #    documents,
