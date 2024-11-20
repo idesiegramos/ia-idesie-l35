@@ -419,8 +419,8 @@ st.write(YOUTUBE_VIDEO_URL)
 with st.expander("Transcripción (primeros 1000 caracteres)"):
      st.write(content[:1000])
 
-with st.expander("encoded_transcription"):
-     st.write(encoded_transcription[:1000])
+# with st.expander("encoded_transcription"):
+#      st.write(encoded_transcription[:1000])
 
 with st.expander("embeddings"):
      st.write(embeddings[:1000])
