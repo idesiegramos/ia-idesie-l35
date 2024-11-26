@@ -207,7 +207,7 @@ def hacer_pregunta(pregunta):
     resultado = qa_chain({"query": pregunta})
 
     # Imprimir respuesta
-    respuesta_llm: str = "Respuesta: " + resultado["result"]
+    return f"Respuesta: {resultado["result"]}"
 
     # Imprimir documentos fuente (si está habilitado)
     if "source_documents" in resultado:
@@ -218,7 +218,7 @@ def hacer_pregunta(pregunta):
 
 # Ejemplo de uso
 pregunta = "¿Qué tipos de conductos se mencionan?"
-hacer_pregunta(pregunta)
+respuesta_llm_test = hacer_pregunta(pregunta)
 
 
 
@@ -527,4 +527,4 @@ with st.expander("Transcripción (primeros 1000 caracteres)"):
 
 st.write(comprobacion_splitted)
 
-st.write(respuesta_llm)
+st.write(respuesta_llm_test)
