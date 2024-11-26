@@ -117,7 +117,57 @@ text_splitter = RecursiveCharacterTextSplitter(
 )
 
 content_splitted: list = text_splitter.create_documents([content])
-comprobacion_splitted = 'Se ha dividido el contenido en ' + str(len(content_splitted)) + 'partes (chunks) en la variable content_splitted, que es de tipo ' + str(type(content_splitted)) + '.\nCada elemento de la lista es de tipo ' + str(type(content_splitted[0])) + '.'
+comprobacion_splitted = 'Se ha dividido el contenido en ' + str(len(content_splitted)) + ' partes (chunks) en la variable content_splitted, que es de tipo ' + str(type(content_splitted)) + '.\nCada elemento de la lista es de tipo ' + str(type(content_splitted[0])) + '.'
+
+
+
+
+###############################
+# Pinecone
+###############################
+
+# Creamos el cliente de Pinecone
+pc = Pinecone(api_key=PINECONE_API_KEY)
+
+# Lista de índices existentes en Pinecone
+existing_indexes: list[str] = pc.list_indexes().names()
+print(f'En Pinecone existen los siguientes índices: {existing_indexes}')
+
+# Creamos el índice solo si no existe ya
+if index_name not in existing_indexes:
+    pc.create_index(
+        name=index_name,
+        dimension=vector_store_dimension,
+        metric="cosine",
+        spec=ServerlessSpec(
+            cloud="aws",
+            region="us-east-1"
+        )
+    )
+    while not pc.describe_index(index_name).status["ready"]:
+        time.sleep(1)
+    print(f'Índice "{index_name}" creado.')
+else:
+    print(f'El índice "{index_name}" ya existe, por lo que no se creará de nuevo.')
+
+# index = pc.Index(index_name)
+
+
+# Creamos el indexador de LangChain (el generador de embeddings de OpenAI), para transformar texto a su representación vectorial:
+embeddings = OpenAIEmbeddings(openai_api_key=OPENAI_API_KEY, model=embedding_model)
+
+vectorstore = PineconeVectorStore(index_name=index_name, embedding=embeddings, pinecone_api_key=PINECONE_API_KEY)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
