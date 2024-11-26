@@ -156,19 +156,69 @@ else:
 # Creamos el indexador de LangChain (el generador de embeddings de OpenAI), para transformar texto a su representación vectorial:
 embeddings = OpenAIEmbeddings(openai_api_key=OPENAI_API_KEY, model=embedding_model)
 
-vectorstore = PineconeVectorStore(index_name=index_name, embedding=embeddings, pinecone_api_key=PINECONE_API_KEY)
+# vectorstore = PineconeVectorStore(index_name=index_name, embedding=embeddings, pinecone_api_key=PINECONE_API_KEY)
 
 
+# Generamos los embeddings y los subimos al vector store de Pinecone
+# Ojo, se suben cada vez que se ejecuta el código
+# Habría que subirlos solo si no están ya en el vector store
+vectorstore_from_docs = PineconeVectorStore.from_documents(
+        content_splitted,
+        index_name=index_name,
+        namespace=namespace,
+        embedding=embeddings
+    )
 
 
+################################
+# LLM (OpenAI)
+################################
+
+# Preparamos el modelo LLM para preguntas y respuestas
+llm = ChatOpenAI(
+    model_name=model_name,
+    temperature=0.3  # Ajusta la creatividad de la respuesta
+)
+
+# Conectar al índice de Pinecone
+vectorstore = PineconeVectorStore.from_existing_index(
+    index_name=index_name,
+    embedding=embeddings,
+    namespace=namespace
+)
+
+# Crear el retriever
+retriever = vectorstore.as_retriever(
+    search_type="similarity",  # Puedes cambiar a "mmr" para diversidad
+    search_kwargs={"k": 4}  # Número de documentos a recuperar
+)
+
+# Crear cadena de recuperación de QA
+qa_chain = RetrievalQA.from_chain_type(
+    llm=llm,
+    chain_type="stuff",  # Método de inserción de contexto
+    retriever=retriever,
+    return_source_documents=False  # Opcional: devuelve documentos fuente
+)
+
+# Función para hacer preguntas
+def hacer_pregunta(pregunta):
+    # Realizar la pregunta
+    resultado = qa_chain({"query": pregunta})
+
+    # Imprimir respuesta
+    respuesta_llm: str = "Respuesta: " + resultado["result"]
+
+    # Imprimir documentos fuente (si está habilitado)
+    if "source_documents" in resultado:
+        print("\nDocumentos fuente:")
+        for doc in resultado["source_documents"]:
+            print(f"- {doc.page_content[:200]}...")  # Muestra extracto del documento
 
 
-
-
-
-
-
-
+# Ejemplo de uso
+pregunta = "¿Qué tipos de conductos se mencionan?"
+hacer_pregunta(pregunta)
 
 
 
@@ -476,3 +526,5 @@ with st.expander("Transcripción (primeros 1000 caracteres)"):
 #      st.write(embeddings[:1000])
 
 st.write(comprobacion_splitted)
+
+st.write(respuesta_llm)
