@@ -173,7 +173,7 @@ vectorstore_from_docs = PineconeVectorStore.from_documents(
 # Preparamos el modelo LLM para preguntas y respuestas
 llm = ChatOpenAI(
     model_name=model_name,
-    temperature=0.3  # Ajusta la creatividad de la respuesta
+    temperature=0.6  # Ajusta la creatividad de la respuesta
 )
 
 # Conectar al índice de Pinecone
