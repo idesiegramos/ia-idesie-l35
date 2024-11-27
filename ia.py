@@ -150,13 +150,9 @@ if index_name not in existing_indexes:
 else:
     print(f'El índice "{index_name}" ya existe, por lo que no se creará de nuevo.')
 
-# index = pc.Index(index_name)
-
 
 # Creamos el indexador de LangChain (el generador de embeddings de OpenAI), para transformar texto a su representación vectorial:
 embeddings = OpenAIEmbeddings(openai_api_key=OPENAI_API_KEY, model=embedding_model)
-
-# vectorstore = PineconeVectorStore(index_name=index_name, embedding=embeddings, pinecone_api_key=PINECONE_API_KEY)
 
 
 # Generamos los embeddings y los subimos al vector store de Pinecone
@@ -275,7 +271,6 @@ option = st.selectbox(
 
 
 
-
 ################################
 # Pruebas sacadas de https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps#build-a-bot-that-mirrors-your-input
 #
@@ -306,18 +301,51 @@ if prompt := st.chat_input("Escribe tu pregunta"):
     with st.chat_message("user"):
         st.markdown(prompt)
 
+    # # Mostrar la respuesta del asistente en el contenedor de chat
+    # with st.chat_message("assistant"):
+    #     stream = client.chat.completions.create(
+    #         model=st.session_state["openai_model"],
+    #         messages=[
+    #             {"role": m["role"], "content": m["content"]}
+    #             for m in st.session_state.messages
+    #         ],
+    #         stream=True,
+    #     )
+    #     response = st.write_stream(stream)
+    # st.session_state.messages.append({"role": "assistant", "content": response})
+
     # Mostrar la respuesta del asistente en el contenedor de chat
     with st.chat_message("assistant"):
-        stream = client.chat.completions.create(
-            model=st.session_state["openai_model"],
-            messages=[
-                {"role": m["role"], "content": m["content"]}
-                for m in st.session_state.messages
-            ],
-            stream=True,
-        )
-        response = st.write_stream(stream)
-    st.session_state.messages.append({"role": "assistant", "content": response})
+        # Contenedor para mostrar la respuesta
+        message_placeholder = st.empty()
+
+        # Llamar a la cadena de QA
+        try:
+            resultado = qa_chain({"query": prompt})
+            respuesta = resultado['result']
+
+            # Mostrar respuesta con efecto de escritura
+            full_response = ""
+            for chunk in respuesta.split():
+                full_response += chunk + " "
+                message_placeholder.markdown(full_response + "▌")
+                
+            message_placeholder.markdown(full_response)
+
+            # Añadir respuesta al historial
+            st.session_state.messages.append({
+                "role": "assistant", 
+                "content": respuesta
+            })
+
+            # Mostrar documentos fuente si están disponibles
+            if resultado.get('source_documents'):
+                with st.expander("Documentos fuente"):
+                    for doc in resultado['source_documents']:
+                        st.write(doc.page_content[:300] + "...")
+
+        except Exception as e:
+            st.error(f"Ocurrió un error: {e}")
 
 
 #
