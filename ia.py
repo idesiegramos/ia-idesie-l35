@@ -292,7 +292,7 @@ for message in st.session_state.messages:
         st.markdown(message["content"])
 
 # Reaccionar a los mensajes del usuario
-if prompt := st.chat_input("Escribe tu pregunta"):
+if prompt := st.chat_input("Escribe tu pregunta, majo"):
     
     # Añadir el mensaje al histórico de chat
     st.session_state.messages.append({"role": "user", "content": prompt})
