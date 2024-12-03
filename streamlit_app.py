@@ -1,5 +1,5 @@
 import streamlit as st
-import streamlit_scrollable_textbox as stx
+# import streamlit_scrollable_textbox as stx
 # import pandas as pd
 # import math
 # from pathlib import Path
@@ -60,7 +60,7 @@ pg.run()
 
 
 # Scrlleable textbox
-stx.scrollableTextbox('My very long text.')
+# stx.scrollableTextbox('My very long text.')
 
 
 
