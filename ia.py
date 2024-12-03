@@ -166,6 +166,35 @@ vectorstore_from_docs = PineconeVectorStore.from_documents(
     )
 
 
+# def subir_vectores_con_hash(content_splitted, index_name, namespace, embeddings):
+#     """
+#     Sube vectores añadiendo un hash único como metadata para prevenir duplicados.
+#     """
+#     vectores = []
+#     metadatas = []
+    
+#     for documento in content_splitted:
+#         # Generar hash único
+#         hash_documento = hashlib.md5(documento.page_content.encode()).hexdigest()
+        
+#         # Generar embedding
+#         embedding = embeddings.embed_documents([documento.page_content])[0]
+        
+#         # Preparar metadata
+#         metadata = {
+#             "documento_hash": hash_documento,
+#             "contenido": documento.page_content  # Optional: guardar contenido original
+#         }
+        
+#         vectores.append((hash_documento, embedding, metadata))
+    
+#     # Subir todos los vectores de una vez
+#     index = pinecone.Index(index_name)
+#     index.upsert(vectors=vectores)
+
+
+
+
 ################################
 # LLM (OpenAI)
 ################################
