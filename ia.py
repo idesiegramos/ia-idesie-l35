@@ -151,46 +151,86 @@ else:
     print(f'El índice "{index_name}" ya existe, por lo que no se creará de nuevo.')
 
 
-# Creamos el indexador de LangChain (el generador de embeddings de OpenAI), para transformar texto a su representación vectorial:
+## Creamos el indexador de LangChain (el generador de embeddings de OpenAI), para transformar texto a su representación vectorial:
+#embeddings = OpenAIEmbeddings(openai_api_key=OPENAI_API_KEY, model=embedding_model)
+#
+#
+## Generamos los embeddings y los subimos al vector store de Pinecone
+## Ojo, se suben cada vez que se ejecuta el código
+## Habría que subirlos solo si no están ya en el vector store
+#vectorstore_from_docs = PineconeVectorStore.from_documents(
+#        content_splitted,
+#        index_name=index_name,
+#        namespace=namespace,
+#        embedding=embeddings
+#    )
+
+
 embeddings = OpenAIEmbeddings(openai_api_key=OPENAI_API_KEY, model=embedding_model)
 
 
-# Generamos los embeddings y los subimos al vector store de Pinecone
-# Ojo, se suben cada vez que se ejecuta el código
-# Habría que subirlos solo si no están ya en el vector store
-vectorstore_from_docs = PineconeVectorStore.from_documents(
-        content_splitted,
-        index_name=index_name,
-        namespace=namespace,
-        embedding=embeddings
-    )
-
-
-# def subir_vectores_con_hash(content_splitted, index_name, namespace, embeddings):
-#     """
-#     Sube vectores añadiendo un hash único como metadata para prevenir duplicados.
-#     """
-#     vectores = []
-#     metadatas = []
+def subir_documentos_sin_duplicar(documentos, index_name, namespace, embeddings):
+    """
+    Sube documentos a Pinecone únicamente si su hash no existe previamente.
     
-#     for documento in content_splitted:
-#         # Generar hash único
-#         hash_documento = hashlib.md5(documento.page_content.encode()).hexdigest()
-        
-#         # Generar embedding
-#         embedding = embeddings.embed_documents([documento.page_content])[0]
-        
-#         # Preparar metadata
-#         metadata = {
-#             "documento_hash": hash_documento,
-#             "contenido": documento.page_content  # Optional: guardar contenido original
-#         }
-        
-#         vectores.append((hash_documento, embedding, metadata))
+    Parámetros:
+    - documentos: Lista de documentos a procesar
+    - index_name: Nombre del índice de Pinecone
+    - namespace: Namespace para los vectores
+    - embeddings: Función de embeddings
+    """
+    # Inicializar el índice de Pinecone
+    index = pc.Index(index_name)
     
-#     # Subir todos los vectores de una vez
-#     index = pinecone.Index(index_name)
-#     index.upsert(vectors=vectores)
+    # Vector para almacenar vectores nuevos
+    vectores_nuevos = []
+    
+    for documento in documentos:
+        # Generar hash único del contenido
+        hash_documento = hashlib.md5(documento.page_content.encode()).hexdigest()
+        
+        # Verificar si el hash ya existe en Pinecone
+        try:
+            # Consultar con filtro por hash
+            resultado = index.query(
+                vector=[0]*1536,  # Vector dummy del mismo tamaño de embeddings
+                filter={"documento_hash": {"$eq": hash_documento}},
+                top_k=1,
+                namespace=namespace
+            )
+            
+            # Si no hay coincidencias, el documento es nuevo
+            if len(resultado['matches']) == 0:
+                # Generar embedding
+                embedding = embeddings.embed_documents([documento.page_content])[0]
+                
+                # Preparar vector con metadata
+                vector = (
+                    hash_documento,  # ID único
+                    embedding,       # Vector de embedding
+                    {
+                        "documento_hash": hash_documento,
+                        "contenido": documento.page_content[:500]  # Opcional: extracto de contenido
+                    }
+                )
+                
+                vectores_nuevos.append(vector)
+                print(f"Documento nuevo añadido: {hash_documento}")
+            else:
+                print(f"Documento duplicado omitido: {hash_documento}")
+        
+        except Exception as e:
+            print(f"Error al procesar documento: {e}")
+    
+    # Subir vectores nuevos si hay alguno
+    if vectores_nuevos:
+        index.upsert(vectors=vectores_nuevos, namespace=namespace)
+        print(f"Total de documentos nuevos subidos: {len(vectores_nuevos)}")
+    else:
+        print("No se encontraron documentos nuevos para subir.")
+
+# Llamada con tus documentos
+subir_documentos_sin_duplicar(content_splitted, index_name, namespace, embeddings)
 
 
 
