@@ -283,7 +283,7 @@ def hacer_pregunta(pregunta):
 
 
 # Ejemplo de uso
-pregunta = "¿Qué tipos de tuberías se mencionan?"
+pregunta = "¿Se menciona a Jorge en el documento?"
 respuesta_llm_test = hacer_pregunta(pregunta)
 
 
