@@ -339,6 +339,11 @@ option = st.selectbox(
 #    time.sleep(1)
 
 
+st.video(f"{YOUTUBE_VIDEO_URL}")
+st.write(YOUTUBE_VIDEO_URL)
+
+with st.expander("Transcripción (primeros 1000 caracteres)"):
+     st.write(content[:1000])
 
 
 ################################
@@ -426,11 +431,6 @@ if prompt := st.chat_input("Escribe tu pregunta, majo"):
 
 
 
-st.video(f"{YOUTUBE_VIDEO_URL}")
-st.write(YOUTUBE_VIDEO_URL)
-
-with st.expander("Transcripción (primeros 1000 caracteres)"):
-     st.write(content[:1000])
 
 # with st.expander("encoded_transcription"):
 #      st.write(encoded_transcription[:1000])
