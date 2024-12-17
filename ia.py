@@ -211,7 +211,7 @@ def subir_documentos_sin_duplicar(documentos, index_name, namespace, embeddings)
                     embedding,       # Vector de embedding
                     {
                         "documento_hash": hash_documento,
-                        "contenido": documento.page_content[:500]  # Opcional: extracto de contenido
+                        "text": documento.page_content  # Opcional: extracto de contenido
                     }
                 )
                 
