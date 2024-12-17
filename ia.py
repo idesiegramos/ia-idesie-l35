@@ -438,6 +438,6 @@ with st.expander("Transcripción (primeros 1000 caracteres)"):
 # with st.expander("embeddings"):
 #      st.write(embeddings[:1000])
 
-st.write(comprobacion_splitted)
+#st.write(comprobacion_splitted)
 
-st.write(respuesta_llm_test)
+#st.write(respuesta_llm_test)
