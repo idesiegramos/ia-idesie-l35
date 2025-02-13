@@ -282,11 +282,6 @@ def hacer_pregunta(pregunta):
             print(f"- {doc.page_content[:200]}...")  # Muestra extracto del documento
 
 
-# Ejemplo de uso
-pregunta = "¿Se menciona a Jorge en el documento?"
-respuesta_llm_test = hacer_pregunta(pregunta)
-
-
 
 
 ########################################################################
@@ -304,7 +299,6 @@ st.write(
     "Te será de ayuda."
 )
 
-#st.write(vectorstore.similarity_search("cat"))
 
 option = st.selectbox(
     "Asignatura",
@@ -329,14 +323,6 @@ option = st.selectbox(
     "Revit MEP", 
     "Trabajo colaborativo. CDE"),
 )
-# Status
-#with st.status("Loading video..."):
-#    st.write("Searching for data...")
-#    time.sleep(2)
-#    st.write("Found URL.")
-#    time.sleep(1)
-#    st.write("Downloading data...")
-#    time.sleep(1)
 
 
 st.video(f"{YOUTUBE_VIDEO_URL}")
@@ -349,13 +335,6 @@ with st.expander("Transcripción (primeros 1000 caracteres)"):
 ################################
 # Pruebas sacadas de https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps#build-a-bot-that-mirrors-your-input
 #
-
-# Ventana de texto
-#with st.chat_message("assistant"):
-#    st.write("¡Hola!")
-
-#prompt = st.chat_input("Escribe tu pregunta sobre el máster BIM de IDESIE")
-
 
 # Inicializar el historial de chat
 if "messages" not in st.session_state:
@@ -375,19 +354,6 @@ if prompt := st.chat_input("Escribe tu pregunta"):
     # Mostrar el mensaje del usuario en el contenedor del chat
     with st.chat_message("user"):
         st.markdown(prompt)
-
-    # # Mostrar la respuesta del asistente en el contenedor de chat
-    # with st.chat_message("assistant"):
-    #     stream = client.chat.completions.create(
-    #         model=st.session_state["openai_model"],
-    #         messages=[
-    #             {"role": m["role"], "content": m["content"]}
-    #             for m in st.session_state.messages
-    #         ],
-    #         stream=True,
-    #     )
-    #     response = st.write_stream(stream)
-    # st.session_state.messages.append({"role": "assistant", "content": response})
 
     # Mostrar la respuesta del asistente en el contenedor de chat
     with st.chat_message("assistant"):
@@ -426,18 +392,3 @@ if prompt := st.chat_input("Escribe tu pregunta"):
 #
 #
 ###############################
-
-
-
-
-
-
-# with st.expander("encoded_transcription"):
-#      st.write(encoded_transcription[:1000])
-
-# with st.expander("embeddings"):
-#      st.write(embeddings[:1000])
-
-#st.write(comprobacion_splitted)
-
-#st.write(respuesta_llm_test)
